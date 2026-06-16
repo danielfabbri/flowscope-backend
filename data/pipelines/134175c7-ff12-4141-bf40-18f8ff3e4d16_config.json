@@ -1,0 +1,39 @@
+{
+  "name": "Ice Cream Prediction - Test",
+  "description": "Predição de sorvetes com temperatura fornecida pelo usuário",
+  "steps": [
+    {
+      "name": "User Input",
+      "type": "user_input",
+      "enabled": true,
+      "config": {
+        "temperature_celsius": "30",
+        "use_defaults": true,
+        "default_values": ""
+      }
+    },
+    {
+      "name": "Model Loading",
+      "type": "model_loading",
+      "enabled": true,
+      "config": {
+        "model_name": "Habla",
+        "validate_features": true,
+        "cache_model": true
+      }
+    },
+    {
+      "name": "Model Inference",
+      "type": "model_inference",
+      "enabled": true,
+      "config": {
+        "prediction_column": "predicted_ice_creams",
+        "include_probabilities": false,
+        "include_error": false,
+        "compare_with_actual": false,
+        "actual_column": ""
+      }
+    }
+  ],
+  "solution_id": "4d77a11b-0201-45d8-90f0-8e2c535b593a"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "2533c86e-df60-40a2-a38c-7fc270cc1469",
+  "config": {
+    "name": "Chatbot Inteligente",
+    "description": "Pipeline completa de IA conversacional com contexto",
+    "steps": [
+      {
+        "name": "Entrada de Mensagem",
+        "type": "user_input",
+        "enabled": true,
+        "config": {
+          "input_type": "text",
+          "column_name": "message"
+        }
+      },
+      {
+        "name": "Classificar Inten\u00e7\u00e3o",
+        "type": "intent_classification",
+        "enabled": true,
+        "config": {
+          "text_column": "message",
+          "min_confidence": 0.4,
+          "fallback_intent": "unknown"
+        }
+      },
+      {
+        "name": "Extrair Entidades",
+        "type": "entity_extraction",
+        "enabled": true,
+        "config": {
+          "text_column": "message",
+          "entity_types": [
+            "PERSON",
+            "ORG",
+            "GPE",
+            "DATE",
+            "PRODUCT"
+          ]
+        }
+      },
+      {
+        "name": "Busca Sem\u00e2ntica",
+        "type": "semantic_search",
+        "enabled": true,
+        "config": {
+          "text_column": "message",
+          "knowledge_base_path": "",
+          "top_k": 3,
+          "min_similarity": 0.5
+        }
+      },
+      {
+        "name": "Gerenciar Contexto",
+        "type": "context_manager",
+        "enabled": true,
+        "config": {
+          "conversation_id_column": "conversation_id",
+          "message_column": "message",
+          "max_history": 10,
+          "include_entities": true
+        }
+      },
+      {
+        "name": "Gerar Resposta",
+        "type": "response_generation",
+        "enabled": true,
+        "config": {
+          "mode": "template",
+          "intent_column": "intent",
+          "context_column": "context",
+          "fallback_response": "Desculpe, n\u00e3o entendi. Pode reformular?"
+        }
+      }
+    ]
+  },
+  "status": "failed",
+  "current_step": "Classificar Inten\u00e7\u00e3o",
+  "steps_completed": [
+    "Entrada de Mensagem"
+  ],
+  "created_at": "2026-06-12T17:27:18.410819",
+  "started_at": "2026-06-12T17:27:20.224610",
+  "completed_at": "2026-06-12T17:27:30.744773",
+  "error": "Unknown step type: intent_classification"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "8adc5295-bffc-4fe6-9ad4-7908435c1b0f",
+  "config": {
+    "name": "Astrology Training Pipeline - Full AI",
+    "description": "Pipeline completo de treinamento com steps avançados de IA",
+    "steps": [
+      {
+        "name": "Load Intent Data",
+        "type": "ingestion",
+        "enabled": true,
+        "config": {
+          "ingestion_type": "file_upload",
+          "file_source": "solution",
+          "solution_file": "astrology_intents.csv",
+          "file_format": "csv"
+        }
+      },
+      {
+        "name": "Anomaly Detection",
+        "type": "anomaly_detection",
+        "enabled": true,
+        "config": {
+          "query_column": "text",
+          "model_type": "isolation_forest",
+          "threshold": 0.8,
+          "check_malicious": true,
+          "train_model": true
+        }
+      },
+      {
+        "name": "Query Expansion",
+        "type": "query_expansion",
+        "enabled": true,
+        "config": {
+          "query_column": "text",
+          "expansion_methods": [
+            "synonyms",
+            "related_terms"
+          ],
+          "max_expansions": 3,
+          "output_expanded_column": "text_expanded"
+        }
+      },
+      {
+        "name": "Train Intent Classifier",
+        "type": "intent_training",
+        "enabled": true,
+        "config": {
+          "model_name": "astrology_intent_classifier",
+          "text_column": "text_expanded",
+          "label_column": "intent",
+          "model_type": "logistic_regression",
+          "test_size": 0.2
+        }
+      },
+      {
+        "name": "Load Knowledge Base",
+        "type": "ingestion",
+        "enabled": true,
+        "config": {
+          "ingestion_type": "file_upload",
+          "file_source": "solution",
+          "solution_file": "astrology_knowledge.csv",
+          "file_format": "csv"
+        }
+      },
+      {
+        "name": "Index Knowledge",
+        "type": "knowledge_indexing",
+        "enabled": true,
+        "config": {
+          "text_column": "resposta",
+          "id_column": "pergunta",
+          "metadata_columns": [
+            "categoria"
+          ],
+          "index_name": "astrology_knowledge"
+        }
+      }
+    ]
+  },
+  "status": "failed",
+  "current_step": "Load Intent Data",
+  "steps_completed": [],
+  "created_at": "2026-06-14T07:55:18.122153",
+  "started_at": "2026-06-14T07:55:28.297934",
+  "completed_at": "2026-06-14T07:55:38.299035",
+  "error": "file_path is required for File Upload ingestion"
+}

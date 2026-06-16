@@ -1,0 +1,28 @@
+{
+  "name": "Customer Segmentation",
+  "description": null,
+  "steps": [
+    {
+      "name": "Data Ingestion",
+      "type": "data_ingestion",
+      "enabled": true,
+      "config": {
+        "source_type": "local",
+        "source_config": {
+          "file_path": "C:\\\\dev\\\\flowscope\\\\data\\\\use_cases\\\\clustering\\\\customer_segmentation.json"
+        }
+      }
+    },
+    {
+      "name": "Data Cleaning",
+      "type": "data_cleaning",
+      "enabled": true,
+      "config": {
+        "fill_nulls": true,
+        "remove_nulls": false,
+        "remove_duplicates": true
+      }
+    }
+  ],
+  "solution_id": "193535bc-b149-4f29-94c6-30e61d902286"
+}

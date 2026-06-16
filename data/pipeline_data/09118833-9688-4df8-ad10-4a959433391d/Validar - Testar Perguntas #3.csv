@@ -1,0 +1,6 @@
+question,answer,confidence,contexts_found
+"Oi, tudo bem?","Olá! Tudo ótimo, e você? Como posso ajudar hoje?",1.0,1
+Qual a cor da camisa?,"A camisa básica é vermelha. Também temos camisa polo azul, camisa social branca e camisa estampada floral em verde e rosa.",1.0,3
+Quanto custa a camisa vermelha?,"A camisa básica vermelha custa R$ 45,00. Temos outras opções: polo azul por R$ 79,90, social branca por R$ 120,00 e estampada por R$ 65,00.",0.8111,3
+Vocês fazem entrega?,"Sim! Frete grátis para compras acima de R$ 150,00. Abaixo disso, o frete varia entre R$ 15,00 e R$ 30,00. Entrega em 5 a 10 dias úteis.",1.0,2
+Qual o horário de funcionamento?,"De segunda a sábado funcionamos das 9h às 20h. Aos domingos, das 10h às 18h. O atendimento online funciona 24 horas.",1.0,3

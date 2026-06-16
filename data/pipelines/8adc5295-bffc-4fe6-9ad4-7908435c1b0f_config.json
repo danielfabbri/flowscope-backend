@@ -1,0 +1,81 @@
+{
+  "name": "Astrology Training Pipeline - Full AI",
+  "description": "Pipeline completo de treinamento com steps avançados de IA",
+  "steps": [
+    {
+      "name": "Load Intent Data",
+      "type": "ingestion",
+      "enabled": true,
+      "config": {
+        "ingestion_type": "file_upload",
+        "file_source": "solution",
+        "solution_file": "astrology_intents.csv",
+        "file_format": "csv"
+      }
+    },
+    {
+      "name": "Anomaly Detection",
+      "type": "anomaly_detection",
+      "enabled": true,
+      "config": {
+        "query_column": "text",
+        "model_type": "isolation_forest",
+        "threshold": 0.8,
+        "check_malicious": true,
+        "train_model": true
+      }
+    },
+    {
+      "name": "Query Expansion",
+      "type": "query_expansion",
+      "enabled": true,
+      "config": {
+        "query_column": "text",
+        "expansion_methods": [
+          "synonyms",
+          "related_terms"
+        ],
+        "max_expansions": 3,
+        "output_expanded_column": "text_expanded"
+      }
+    },
+    {
+      "name": "Train Intent Classifier",
+      "type": "intent_training",
+      "enabled": true,
+      "config": {
+        "model_name": "astrology_intent_classifier",
+        "text_column": "text_expanded",
+        "label_column": "intent",
+        "model_type": "logistic_regression",
+        "test_size": 0.2
+      }
+    },
+    {
+      "name": "Load Knowledge Base",
+      "type": "ingestion",
+      "enabled": true,
+      "config": {
+        "ingestion_type": "file_upload",
+        "file_source": "solution",
+        "solution_file": "astrology_knowledge.csv",
+        "file_format": "csv"
+      }
+    },
+    {
+      "name": "Index Knowledge",
+      "type": "knowledge_indexing",
+      "enabled": true,
+      "config": {
+        "text_column": "resposta",
+        "id_column": "pergunta",
+        "metadata_columns": [
+          "categoria"
+        ],
+        "index_name": "astrology_knowledge"
+      }
+    }
+  ],
+  "solution_id": "41c7d8bc-a63b-4beb-a981-7c64c18a1758",
+  "updated_at": "2026-06-14T07:55:20.157159"
+}

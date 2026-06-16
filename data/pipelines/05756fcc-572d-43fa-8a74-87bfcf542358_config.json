@@ -1,0 +1,72 @@
+{
+  "name": "Clustering Problem",
+  "description": "teste csv",
+  "steps": [
+    {
+      "name": "Data Ingestion",
+      "type": "ingestion",
+      "enabled": true,
+      "config": {
+        "ingestion_type": "file_upload",
+        "num_rows": 10000,
+        "start_date": "2024-01-01",
+        "frequency": "1H",
+        "data_template": "sensor",
+        "webhook_token": "",
+        "webhook_validation": false,
+        "http_url": "",
+        "http_method": "GET",
+        "http_auth_type": "none",
+        "http_api_key": "",
+        "http_interval": 60,
+        "file_format": "json",
+        "file_path": "C:\\dev\\flowscope\\data\\use_cases\\clustering\\customer_segmentation.json",
+        "db_type": "postgresql",
+        "db_host": "",
+        "db_port": 5432,
+        "db_name": "",
+        "db_user": "",
+        "db_password": "",
+        "db_query": "",
+        "db_polling_interval": 60,
+        "stream_type": "kafka",
+        "stream_brokers": "",
+        "stream_topic": "",
+        "stream_group_id": ""
+      }
+    },
+    {
+      "name": "Data Cleaning",
+      "type": "cleaning",
+      "enabled": true,
+      "config": {
+        "fill_nulls": true,
+        "remove_nulls": false,
+        "remove_duplicates": true,
+        "outlier_method": "none"
+      }
+    },
+    {
+      "name": "Column Selection",
+      "type": "column_selection",
+      "enabled": true,
+      "config": {
+        "mode": "keep",
+        "columns": [
+          "customer_id",
+          "age",
+          "total_purchases",
+          "total_spend",
+          "avg_order_value",
+          "days_since_last_purchase",
+          "email_clicks",
+          "email_opens",
+          "support_tickets",
+          "returns_count",
+          "referral_count"
+        ]
+      }
+    }
+  ],
+  "solution_id": "843c81b4-c43e-48f7-a7d4-79a921577647"
+}

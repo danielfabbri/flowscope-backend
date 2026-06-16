@@ -1,0 +1,39 @@
+{
+  "name": "Habla - Inference",
+  "description": "Pipeline created via UI",
+  "steps": [
+    {
+      "name": "✏️ User Input",
+      "type": "user_input",
+      "enabled": true,
+      "config": {
+        "temperature_celsius": "25",
+        "use_defaults": true,
+        "default_values": ""
+      }
+    },
+    {
+      "name": "📂 Model Loading",
+      "type": "model_loading",
+      "enabled": true,
+      "config": {
+        "model_name": "Habla",
+        "validate_features": true,
+        "cache_model": true
+      }
+    },
+    {
+      "name": "🔮 Model Inference",
+      "type": "model_inference",
+      "enabled": true,
+      "config": {
+        "prediction_column": "predicted_ice_creams",
+        "include_probabilities": true,
+        "include_error": true,
+        "compare_with_actual": false,
+        "actual_column": ""
+      }
+    }
+  ],
+  "solution_id": "f32e97e3-3b19-465a-a3f5-9d69db1f7abc"
+}

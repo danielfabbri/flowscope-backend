@@ -1,0 +1,16 @@
+id,text,category
+1,"Nosso horário de funcionamento é de segunda a sexta das 9h às 18h, e aos sábados das 9h às 13h. Domingos e feriados não abrimos.",horario
+2,"Estamos localizados na Rua das Flores, 123, Centro, São Paulo - SP. CEP: 01234-567",endereco
+3,"Sim, fazemos entregas para todo o Brasil. O prazo varia de 3 a 10 dias úteis dependendo da região.",entrega
+4,"O frete é calculado automaticamente no carrinho baseado no CEP de entrega. Oferecemos frete grátis para compras acima de R$ 200.",frete
+5,"Aceitamos cartão de crédito (Visa, Mastercard, Elo), débito, PIX, boleto bancário e transferência.",pagamento
+6,"Você pode acompanhar seu pedido através do código de rastreamento enviado por email após o envio.",rastreamento
+7,"Temos política de troca em até 7 dias após o recebimento, desde que o produto esteja lacrado e sem uso.",trocas
+8,"Para trocar ou devolver um produto, entre em contato pelo email trocas@loja.com com o número do pedido.",devolucoes
+9,"Todos os nossos produtos possuem garantia de 90 dias contra defeitos de fabricação.",garantia
+10,"Para contato urgente, ligue para (11) 1234-5678 ou envie email para contato@loja.com",contato
+11,"Oferecemos desconto de 10% para pagamento via PIX e promoções especiais para clientes cadastrados no programa de fidelidade.",descontos
+12,"Enviamos nota fiscal eletrônica para o email cadastrado em até 24h após a confirmação do pagamento.",nota_fiscal
+13,"Para cadastrar ou atualizar seus dados, acesse Minha Conta no site e faça login com seu email e senha.",cadastro
+14,"Novos produtos chegam toda semana. Siga nossas redes sociais para não perder os lançamentos!",novidades
+15,"Trabalhamos com marcas de qualidade como Nike, Adidas, Puma e marcas próprias com excelente custo-benefício.",marcas

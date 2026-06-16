@@ -1,0 +1,55 @@
+{
+  "id": "09118833-9688-4df8-ad10-4a959433391d",
+  "config": {
+    "name": "Train RAG Atendente Loja",
+    "description": "Pipeline para criar modelo RAG de atendimento com FAQ da loja",
+    "steps": [
+      {
+        "name": "Carregar FAQ",
+        "type": "ingestion",
+        "enabled": true,
+        "config": {
+          "ingestion_type": "file_upload",
+          "file_path": "../data/use_cases/rag/faq_loja.csv",
+          "file_format": "csv"
+        }
+      },
+      {
+        "name": "Treinar RAG",
+        "type": "rag_training",
+        "enabled": true,
+        "config": {
+          "model_name": "atendente_loja_rag",
+          "question_column": "pergunta",
+          "answer_column": "resposta"
+        }
+      },
+      {
+        "name": "Validar - Testar Perguntas",
+        "type": "rag_answer",
+        "enabled": true,
+        "config": {
+          "model_name": "atendente_loja_rag",
+          "questions": [
+            "Oi, tudo bem?",
+            "Qual a cor da camisa?",
+            "Quanto custa a camisa vermelha?",
+            "Voc\u00eas fazem entrega?",
+            "Qual o hor\u00e1rio de funcionamento?"
+          ]
+        }
+      }
+    ]
+  },
+  "status": "completed",
+  "current_step": null,
+  "steps_completed": [
+    "Carregar FAQ",
+    "Treinar RAG",
+    "Validar - Testar Perguntas"
+  ],
+  "created_at": "2026-06-12T14:44:00.921857",
+  "started_at": "2026-06-12T14:44:00.958630",
+  "completed_at": "2026-06-12T14:44:20.776960",
+  "error": null
+}

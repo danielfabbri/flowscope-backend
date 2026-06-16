@@ -1,0 +1,30 @@
+{
+  "name": "Astrology Retrain - Expanded Dataset",
+  "description": "Retreinamento com dataset expandido de 2000+ intents",
+  "steps": [
+    {
+      "name": "Load Expanded Intents",
+      "type": "ingestion",
+      "enabled": true,
+      "config": {
+        "ingestion_type": "file_upload",
+        "file_path": "data/solutions/41c7d8bc-a63b-4beb-a981-7c64c18a1758/files/astrology_intents_expanded.csv",
+        "file_format": "csv"
+      }
+    },
+    {
+      "name": "Train Intent Classifier",
+      "type": "intent_training",
+      "enabled": true,
+      "config": {
+        "model_name": "astrology_intent_classifier",
+        "text_column": "text",
+        "label_column": "intent",
+        "model_type": "logistic_regression",
+        "test_size": 0.2
+      }
+    }
+  ],
+  "solution_id": "41c7d8bc-a63b-4beb-a981-7c64c18a1758",
+  "updated_at": "2026-06-14T09:29:50.849513"
+}

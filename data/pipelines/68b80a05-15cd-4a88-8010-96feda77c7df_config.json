@@ -1,0 +1,123 @@
+{
+  "name": "Car Insurance Training",
+  "description": "Modelo com objetivo de prever o preço de seguro de carro.",
+  "steps": [
+    {
+      "name": "Ingestão de Dados",
+      "type": "ingestion",
+      "enabled": true,
+      "config": {
+        "ingestion_type": "file_upload",
+        "num_rows": 10000,
+        "start_date": "2024-01-01",
+        "frequency": "1H",
+        "data_template": "sensor",
+        "webhook_token": "",
+        "webhook_validation": false,
+        "http_url": "",
+        "http_method": "GET",
+        "http_auth_type": "none",
+        "http_api_key": "",
+        "http_interval": 60,
+        "file_format": "csv",
+        "file_path": "C:\\dev\\flowscope\\data\\use_cases\\regression\\car_insurance_prediction.csv",
+        "db_type": "postgresql",
+        "db_host": "",
+        "db_port": 5432,
+        "db_name": "",
+        "db_user": "",
+        "db_password": "",
+        "db_query": "",
+        "db_polling_interval": 60,
+        "stream_type": "kafka",
+        "stream_brokers": "",
+        "stream_topic": "",
+        "stream_group_id": ""
+      }
+    },
+    {
+      "name": "Limpeza de Dados",
+      "type": "cleaning",
+      "enabled": true,
+      "config": {
+        "remove_nulls": true,
+        "remove_duplicates": true,
+        "outlier_method": "none"
+      }
+    },
+    {
+      "name": "Engenharia de Features",
+      "type": "feature_engineering",
+      "enabled": true,
+      "config": {
+        "transformation_type": "onehot_encoding",
+        "scaling_columns": "",
+        "scaling_method": "standard",
+        "onehot_columns": "driver_gender,vehicle_type,usage_type,region,city_size,coverage_type",
+        "label_columns": "",
+        "binning_column": "",
+        "binning_bins": "",
+        "binning_labels": "",
+        "feature_name": "",
+        "feature_formula": "",
+        "selection_method": "variance",
+        "variance_threshold": 0.01,
+        "correlation_threshold": 0.95,
+        "time_column": "",
+        "extract_year": false,
+        "extract_month": false,
+        "extract_day": false,
+        "extract_dayofweek": false,
+        "extract_hour": false,
+        "extract_quarter": false
+      }
+    },
+    {
+      "name": "Engenharia de Features",
+      "type": "feature_engineering",
+      "enabled": true,
+      "config": {
+        "transformation_type": "scaling",
+        "scaling_columns": "driver_age,driving_experience_years,accident_history_count,license_points,vehicle_age_years,vehicle_value_brl,annual_mileage_km",
+        "scaling_method": "standard",
+        "onehot_columns": "",
+        "label_columns": "",
+        "binning_column": "",
+        "binning_bins": "",
+        "binning_labels": "",
+        "feature_name": "",
+        "feature_formula": "",
+        "selection_method": "variance",
+        "variance_threshold": 0.01,
+        "correlation_threshold": 0.95,
+        "time_column": "",
+        "extract_year": false,
+        "extract_month": false,
+        "extract_day": false,
+        "extract_dayofweek": false,
+        "extract_hour": false,
+        "extract_quarter": false
+      }
+    },
+    {
+      "name": "Treinamento de Modelo",
+      "type": "model_training",
+      "enabled": true,
+      "config": {
+        "model_name": "car_insurance_predictor",
+        "model_type": "regression",
+        "algorithm": "random_forest",
+        "target_column": "monthly_insurance_cost",
+        "test_size": 0.3,
+        "random_state": 42,
+        "exclude_features": "",
+        "auto_version": true,
+        "save_predictions": true,
+        "n_estimators": 200,
+        "max_depth": 10,
+        "class_weight": "balanced"
+      }
+    }
+  ],
+  "solution_id": "671aeee7-dcdc-47f7-a76f-e07276ab4c5a"
+}

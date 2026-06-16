@@ -1,0 +1,169 @@
+{
+  "name": "Botalk",
+  "description": "Pipeline created via UI",
+  "steps": [
+    {
+      "name": "Ingestão de Dados",
+      "type": "ingestion",
+      "enabled": true,
+      "config": {
+        "ingestion_type": "file_upload",
+        "num_rows": 10000,
+        "start_date": "2024-01-01",
+        "frequency": "1H",
+        "data_template": "sensor",
+        "webhook_token": "",
+        "webhook_validation": false,
+        "http_url": "",
+        "http_method": "GET",
+        "http_auth_type": "none",
+        "http_api_key": "",
+        "http_interval": 60,
+        "file_format": "csv",
+        "file_path": "C:\\dev\\flowscope\\data\\use_cases\\nlp\\product_reviews_train.csv",
+        "db_type": "postgresql",
+        "db_host": "",
+        "db_port": 5432,
+        "db_name": "",
+        "db_user": "",
+        "db_password": "",
+        "db_query": "",
+        "db_polling_interval": 60,
+        "stream_type": "kafka",
+        "stream_brokers": "",
+        "stream_topic": "",
+        "stream_group_id": ""
+      }
+    },
+    {
+      "name": "Análise de Dados",
+      "type": "profiling",
+      "enabled": true,
+      "config": {
+        "detect_outliers": true,
+        "outlier_method": "iqr"
+      }
+    },
+    {
+      "name": "Seleção de Colunas",
+      "type": "column_selection",
+      "enabled": true,
+      "config": {
+        "mode": "keep",
+        "columns": [
+          "review_text",
+          "rating",
+          "verified_purchase",
+          "helpful_votes",
+          "sentiment"
+        ]
+      }
+    },
+    {
+      "name": "Normalização de Texto",
+      "type": "text_normalization",
+      "enabled": true,
+      "config": {
+        "text_columns": "review_text",
+        "lowercase": true,
+        "remove_html": true,
+        "remove_urls": true,
+        "remove_emails": false,
+        "remove_punctuation": false,
+        "remove_numbers": false,
+        "normalize_whitespace": true,
+        "inplace": false
+      }
+    },
+    {
+      "name": "Tokenização",
+      "type": "tokenization",
+      "enabled": true,
+      "config": {
+        "text_columns": "review_text_normalized",
+        "method": "word",
+        "min_token_length": 2,
+        "output_as_string": false
+      }
+    },
+    {
+      "name": "Remover Stop Words",
+      "type": "stopwords_removal",
+      "enabled": true,
+      "config": {
+        "text_columns": "review_text_normalized_tokens",
+        "language": "english",
+        "input_format": "list"
+      }
+    },
+    {
+      "name": "Stemming/Lemmatização",
+      "type": "stemming_lemmatization",
+      "enabled": true,
+      "config": {
+        "text_columns": "review_text_normalized_tokens_no_stopwords",
+        "method": "lemmatize",
+        "language": "english",
+        "input_format": "list"
+      }
+    },
+    {
+      "name": "Vetorização TF-IDF",
+      "type": "text_vectorization",
+      "enabled": true,
+      "config": {
+        "text_columns": "review_text_normalized_tokens_no_stopwords_lemmatized",
+        "method": "tfidf",
+        "max_features": 200,
+        "min_df": 2,
+        "input_format": "tokens"
+      }
+    },
+    {
+      "name": "Análise de Sentimento",
+      "type": "sentiment_analysis",
+      "enabled": true,
+      "config": {
+        "text_columns": "review_text_normalized",
+        "metrics": "polarity,subjectivity",
+        "input_format": "text"
+      }
+    },
+    {
+      "name": "Transformação de Dados",
+      "type": "transformation",
+      "enabled": true,
+      "config": {
+        "normalize": true,
+        "normalize_columns": [
+          "rating",
+          "helpful_votes"
+        ],
+        "group_by_column": "",
+        "add_rolling_mean": false,
+        "rolling_mean_column": "",
+        "rolling_window": 10
+      }
+    },
+    {
+      "name": "Treinamento de Modelo",
+      "type": "model_training",
+      "enabled": true,
+      "config": {
+        "model_name": "Terapeuta",
+        "model_type": "classification",
+        "algorithm": "random_forest",
+        "target_column": "sentiment",
+        "test_size": 0.3,
+        "random_state": 42,
+        "exclude_features": "review_text,review_text_normalized,review_text_normalized_tokens,review_text_normalized_tokens_no_stopwords,review_text_normalized_tokens_no_stopwords_lemmatized,review_text_normalized_tokens_no_stopwords_lemmatized_vector,review_text_normalized_tokens_no_stopwords_lemmatized_feature_names,rating,verified_purchase,helpful_votes,product_name,category,review_date,review_id,rating_normalized,helpful_votes_normalized",
+        "auto_version": true,
+        "save_predictions": true,
+        "n_estimators": 200,
+        "max_depth": 10,
+        "class_weight": "balanced"
+      }
+    }
+  ],
+  "solution_id": "f32e97e3-3b19-465a-a3f5-9d69db1f7abc"
+}

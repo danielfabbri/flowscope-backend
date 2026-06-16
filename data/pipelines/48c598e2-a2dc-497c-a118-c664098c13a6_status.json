@@ -1,0 +1,201 @@
+{
+  "id": "48c598e2-a2dc-497c-a118-c664098c13a6",
+  "config": {
+    "name": "Regression Problem",
+    "description": "Pipeline to resolve a regression problem.",
+    "steps": [
+      {
+        "name": "Data Ingestion",
+        "type": "ingestion",
+        "enabled": true,
+        "config": {
+          "ingestion_type": "file_upload",
+          "num_rows": 10000,
+          "start_date": "2024-01-01",
+          "frequency": "1H",
+          "data_template": "sensor",
+          "webhook_token": "",
+          "webhook_validation": false,
+          "http_url": "",
+          "http_method": "GET",
+          "http_auth_type": "none",
+          "http_api_key": "",
+          "http_interval": 60,
+          "file_format": "json",
+          "file_path": "C:\\dev\\flowscope\\data\\use_cases\\regression\\property_sales.json",
+          "db_type": "postgresql",
+          "db_host": "",
+          "db_port": 5432,
+          "db_name": "",
+          "db_user": "",
+          "db_password": "",
+          "db_query": "",
+          "db_polling_interval": 60,
+          "stream_type": "kafka",
+          "stream_brokers": "",
+          "stream_topic": "",
+          "stream_group_id": ""
+        }
+      },
+      {
+        "name": "Data Cleaning",
+        "type": "cleaning",
+        "enabled": true,
+        "config": {
+          "remove_nulls": true,
+          "remove_duplicates": true,
+          "outlier_method": "none"
+        }
+      },
+      {
+        "name": "Feature Engineering",
+        "type": "feature_engineering",
+        "enabled": true,
+        "config": {
+          "transformation_type": "label_encoding",
+          "scaling_columns": "",
+          "scaling_method": "standard",
+          "onehot_columns": "",
+          "label_columns": "property_type, neighborhood, condition, heating_type, parking_type, has_pool, has_fireplace, has_ac, has_basement",
+          "binning_column": "",
+          "binning_bins": "",
+          "binning_labels": "",
+          "feature_name": "",
+          "feature_formula": "",
+          "selection_method": "variance",
+          "variance_threshold": 0.01,
+          "correlation_threshold": 0.95,
+          "time_column": "",
+          "extract_year": false,
+          "extract_month": false,
+          "extract_day": false,
+          "extract_dayofweek": false,
+          "extract_hour": false,
+          "extract_quarter": false
+        }
+      },
+      {
+        "name": "ML Modeling",
+        "type": "ml_modeling",
+        "enabled": true,
+        "config": {
+          "model_type": "regression",
+          "algorithm": "linear_regression",
+          "target_column": "sale_price",
+          "exclude_features": "",
+          "test_size": 0.5,
+          "random_state": 42,
+          "class_weight": "balanced",
+          "n_estimators": 100,
+          "max_depth": 10,
+          "min_samples_split": 2,
+          "n_clusters": 3,
+          "contamination": 0.1
+        }
+      },
+      {
+        "name": "Column Selection",
+        "type": "column_selection",
+        "enabled": true,
+        "config": {
+          "mode": "drop",
+          "columns": [
+            "bedrooms",
+            "bathrooms",
+            "square_feet",
+            "lot_size",
+            "year_built",
+            "age",
+            "stories",
+            "condition",
+            "heating_type",
+            "parking_type",
+            "has_ac",
+            "has_pool",
+            "has_fireplace",
+            "has_basement",
+            "neighborhood",
+            "property_type",
+            "school_rating",
+            "distance_downtown",
+            "crime_rate",
+            "days_on_market"
+          ]
+        }
+      },
+      {
+        "name": "Row Filtering",
+        "type": "row_filtering",
+        "enabled": true,
+        "config": {
+          "filter_column": "prediction_error",
+          "filter_operator": "<",
+          "filter_value": "0",
+          "keep_matching": true
+        }
+      },
+      {
+        "name": "Sorting",
+        "type": "sorting",
+        "enabled": true,
+        "config": {
+          "sort_column": "prediction_error",
+          "sort_order": "ascending",
+          "use_absolute": false
+        }
+      },
+      {
+        "name": "Data Enrichment",
+        "type": "data_enrichment",
+        "enabled": true,
+        "config": {
+          "source_type": "file",
+          "source_path": "C:\\dev\\flowscope\\data\\use_cases\\regression\\property_details.csv",
+          "join_key_left": "property_id",
+          "join_key_right": "",
+          "join_type": "left",
+          "columns_to_add": "agent_name,agent_phone,agent_email,listing_url"
+        }
+      },
+      {
+        "name": "Column Selection",
+        "type": "column_selection",
+        "enabled": true,
+        "config": {
+          "mode": "drop",
+          "columns": [
+            "model_mse",
+            "model_mae",
+            "model_r2"
+          ]
+        }
+      },
+      {
+        "name": "Output",
+        "type": "output",
+        "enabled": true,
+        "config": {
+          "include_metadata": true
+        }
+      }
+    ]
+  },
+  "status": "completed",
+  "current_step": null,
+  "steps_completed": [
+    "Data Ingestion",
+    "Data Cleaning",
+    "Feature Engineering",
+    "ML Modeling",
+    "Column Selection",
+    "Row Filtering",
+    "Sorting",
+    "Data Enrichment",
+    "Column Selection",
+    "Output"
+  ],
+  "created_at": "2026-06-10T11:18:59.038084",
+  "started_at": "2026-06-10T16:11:21.363392",
+  "completed_at": "2026-06-10T16:11:39.612176",
+  "error": null
+}

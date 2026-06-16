@@ -1,0 +1,2 @@
+input_type,column_name,day_of_week,day_name,month,is_weekend,is_holiday,peak_hour,weather,has_promotion,store_location,revenue_usd,loaded_model_name,loaded_model_type,loaded_model_algorithm,loaded_model_features
+text,message,3,Wednesday,6,0,0,0,sunny,0,downtown,0,space_explorer,unknown,unknown,0

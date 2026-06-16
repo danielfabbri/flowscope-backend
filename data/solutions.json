@@ -1,0 +1,206 @@
+{
+  "solutions": [
+    {
+      "id": "c01650b1-ff0c-40a4-ac27-3c2433109a09",
+      "name": "Astrobot",
+      "description": "Solução personalizada: Astrobot",
+      "icon": "folder",
+      "color": "#6366f1",
+      "category": "custom",
+      "created_at": "2026-06-13T09:05:19.387176",
+      "updated_at": "2026-06-13T09:07:19.915925",
+      "pipelines": [
+        "1c70ffbd-0103-477d-aeb5-4404df75c6dd",
+        "3c7a6091-4ea6-4c61-bc7e-2666082c6627",
+        "bfc9e19c-2025-4e1c-89ba-d7954ae870a4"
+      ]
+    },
+    {
+      "id": "0861a2c3-e8a2-470a-93f3-a5e40aaa6a7a",
+      "name": "🏪 Atendimento Loja RAG",
+      "description": "Sistemas RAG para atendimento automatizado em lojas com base de conhecimento",
+      "icon": "🏪",
+      "color": "blue",
+      "category": "ai",
+      "created_at": "2026-06-13T09:22:41.580899",
+      "updated_at": "2026-06-13T09:22:41.746239",
+      "pipelines": [
+        "cd54c983-29b4-4403-b1c2-6d47747492b3",
+        "d922f0ac-645b-41e1-a1f8-2e41827b7625",
+        "09118833-9688-4df8-ad10-4a959433391d",
+        "f975a6d2-1caa-4740-90f3-144284c4acc9"
+      ]
+    },
+    {
+      "id": "3d916817-896c-4fbd-b75f-e0752bc29487",
+      "name": "💬 Análise de Sentimentos",
+      "description": "Modelos de análise de sentimento em reviews e comentários",
+      "icon": "💬",
+      "color": "purple",
+      "category": "nlp",
+      "created_at": "2026-06-13T09:22:41.581059",
+      "updated_at": "2026-06-13T09:22:41.757077",
+      "pipelines": [
+        "506d46f1-3423-448c-90f7-1f236539fb6f",
+        "2b474cc4-4e87-4e6e-a825-baa3a8fe4cd9",
+        "6130dd5a-74f2-4b48-a90c-c93d188c2cea"
+      ]
+    },
+    {
+      "id": "d3a7f6d5-9604-444f-b745-b2ad7e28416b",
+      "name": "🤖 Chatbots & Conversação",
+      "description": "Chatbots conversacionais com classificação de intenções e resposta contextual",
+      "icon": "🤖",
+      "color": "green",
+      "category": "ai",
+      "created_at": "2026-06-13T09:22:41.581143",
+      "updated_at": "2026-06-13T09:22:41.934444",
+      "pipelines": [
+        "10d1a4e7-a950-4685-b374-db93ae8423cc",
+        "c15c62ed-0f95-418e-b405-81cc4146c8c7",
+        "2533c86e-df60-40a2-a38c-7fc270cc1469",
+        "ddb47e29-3262-40b2-ba40-768a59deb3a9"
+      ]
+    },
+    {
+      "id": "193535bc-b149-4f29-94c6-30e61d902286",
+      "name": "👥 Segmentação de Clientes",
+      "description": "Análise e segmentação de clientes com Machine Learning",
+      "icon": "👥",
+      "color": "orange",
+      "category": "ml",
+      "created_at": "2026-06-13T09:22:41.581272",
+      "updated_at": "2026-06-13T09:22:41.913244",
+      "pipelines": [
+        "7112125d-0213-4241-ba63-81e3fc1d8895"
+      ]
+    },
+    {
+      "id": "4d77a11b-0201-45d8-90f0-8e2c535b593a",
+      "name": "🍦 Previsão de Vendas",
+      "description": "Modelos preditivos para vendas de sorvetes baseado em temperatura",
+      "icon": "🍦",
+      "color": "pink",
+      "category": "ml",
+      "created_at": "2026-06-13T09:22:41.581371",
+      "updated_at": "2026-06-13T09:22:41.880364",
+      "pipelines": [
+        "134175c7-ff12-4141-bf40-18f8ff3e4d16",
+        "3548cc9f-9ea1-4476-9079-ffaa9479cf1f"
+      ]
+    },
+    {
+      "id": "671aeee7-dcdc-47f7-a76f-e07276ab4c5a",
+      "name": "🚗 Seguros & Predição",
+      "description": "Modelos de Machine Learning para seguros e avaliação de risco",
+      "icon": "🚗",
+      "color": "indigo",
+      "category": "ml",
+      "created_at": "2026-06-13T09:22:41.581457",
+      "updated_at": "2026-06-13T09:22:41.766074",
+      "pipelines": [
+        "68b80a05-15cd-4a88-8010-96feda77c7df"
+      ]
+    },
+    {
+      "id": "843c81b4-c43e-48f7-a7d4-79a921577647",
+      "name": "🧪 Experimentos ML",
+      "description": "Experimentos e testes de modelos de Machine Learning (Classificação, Regressão, Clustering)",
+      "icon": "🧪",
+      "color": "teal",
+      "category": "ml",
+      "created_at": "2026-06-13T09:22:41.581494",
+      "updated_at": "2026-06-13T09:22:41.930493",
+      "pipelines": [
+        "e867274d-a18d-4edf-bcac-1a9a0bf59cd6",
+        "82418d7f-8a4c-474d-bc90-76de7967cb9d",
+        "d6ad84ea-292e-4c90-946e-b3bdbb10796b",
+        "35c68d74-1b43-4938-907d-618b6288e9a7",
+        "ae05456a-d720-4ab5-ba45-f31acd8f8264",
+        "7a53860a-da7a-4b30-bac6-95184a285401",
+        "4cf4d10e-5043-4834-a39d-82cba8229e3b",
+        "c0625900-516b-4eae-9f53-7e350c8acebc",
+        "b6a7473c-d41d-458b-bcda-a0f51e9db292",
+        "6b2cfc43-9ba4-4a6f-8f7b-f198b6e0ec9f",
+        "c2bcd3d5-2f6d-465a-9749-e4e8ddabf410",
+        "66bcf1b5-5752-4a2c-b2ba-be366db5ae16",
+        "4ea872fc-e023-4cc6-a6f0-a2ebbf6fd673",
+        "c4786b60-8536-45e5-ad16-c90264a19c54",
+        "ec0464b4-ce33-4389-962a-702e541a93e9",
+        "e28005aa-472f-4fcc-b665-3845892a4276",
+        "b0c5b0d3-1e1a-477a-bbec-2e69539116f7",
+        "cc25f4ad-69f5-4be1-9b74-aea768d5f89e",
+        "217e857e-006d-4ccd-9828-83f50e78b557",
+        "7cfb4c18-913a-48b8-91df-362c9cb085b9",
+        "21b1230d-a041-4566-8dc1-7f6792e41622",
+        "0a980f60-fa1e-46bb-a8bd-64ac540ec403",
+        "48c598e2-a2dc-497c-a118-c664098c13a6",
+        "768f1a39-8cca-4e71-a461-31f2f687e02c",
+        "05756fcc-572d-43fa-8a74-87bfcf542358",
+        "b5c2d841-924d-413e-9356-cb26ce349713"
+      ]
+    },
+    {
+      "id": "f32e97e3-3b19-465a-a3f5-9d69db1f7abc",
+      "name": "🗣️ Habla Chatbot",
+      "description": "Chatbot Habla com múltiplos testes de temperatura e treinamento",
+      "icon": "🗣️",
+      "color": "yellow",
+      "category": "ai",
+      "created_at": "2026-06-13T09:22:41.581523",
+      "updated_at": "2026-06-13T09:22:41.886650",
+      "pipelines": [
+        "36141010-bdef-493f-a1b7-d3e15b3246bc",
+        "e42add65-e670-4bfa-873f-a14f507aa48c",
+        "bd0ed0cb-ab98-4689-abb4-cf265b05f9a7",
+        "095d01e9-d2ae-4c4c-932d-15815e3bdfa0",
+        "92eab345-0c52-455b-8fee-a594d6c0efb0",
+        "313d5034-6eed-4a47-9fb8-bfe735d89049"
+      ]
+    },
+    {
+      "id": "ac49eb00-14b1-400e-a20f-86c5d6e9f8c3",
+      "name": "⚽ Chatbot Regras de Futebol",
+      "description": "Chatbot especialista em regras de futebol com dataset robusto de 2221 exemplos cobrindo regras básicas, faltas, impedimento, equipamentos e situações especiais",
+      "icon": "folder",
+      "color": "#6366f1",
+      "category": "custom",
+      "created_at": "2026-06-13T10:54:03.919242",
+      "updated_at": "2026-06-13T10:54:03.919242",
+      "pipelines": []
+    },
+    {
+      "id": "411fe3c8-2017-4754-b459-12c97f8990a3",
+      "name": "Astrology Bot - Horóscopo Inteligente",
+      "description": "Chatbot completo de astrologia com IA avançada. Identifica signos por data, explica características, compatibilidade, mapa astral e muito mais! Usa múltiplos steps de IA para compreensão profunda.",
+      "icon": "✨",
+      "color": "purple",
+      "category": "AI Conversacional",
+      "created_at": "2026-06-14T07:54:45.980584",
+      "updated_at": "2026-06-14T07:54:45.980584",
+      "pipelines": []
+    },
+    {
+      "id": "41c7d8bc-a63b-4beb-a981-7c64c18a1758",
+      "name": "Astrology Bot - Horóscopo Inteligente",
+      "description": "Chatbot completo de astrologia com IA avançada. Identifica signos por data, explica características, compatibilidade, mapa astral e muito mais! Usa múltiplos steps de IA para compreensão profunda.",
+      "icon": "✨",
+      "color": "purple",
+      "category": "AI Conversacional",
+      "created_at": "2026-06-14T07:55:02.405377",
+      "updated_at": "2026-06-14T09:45:27.232394",
+      "pipelines": [
+        "8adc5295-bffc-4fe6-9ad4-7908435c1b0f",
+        "1e2c1dbd-1e97-4862-8be8-f1d79699116e",
+        "31433aaf-f2e1-484e-9f70-fdfcf78bcc41",
+        "e0f39a5d-4a28-46a3-b887-0eaeed3e7ae5",
+        "4d56c0c6-f205-40ec-8051-3bae170be139",
+        "43cb8e0d-72f8-4b19-b87b-ad6eafbe0d99",
+        "b8b4e06b-3033-4e83-82a8-62e6dc5979e2",
+        "ff51d8a4-7fa8-4aa0-89a6-9891fa218414"
+      ]
+    }
+  ],
+  "version": "1.0",
+  "last_updated": "2026-06-14T09:45:27.232399"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "92eab345-0c52-455b-8fee-a594d6c0efb0",
+  "config": {
+    "name": "Habla - Inference",
+    "description": "Pipeline created via UI",
+    "steps": [
+      {
+        "name": "\u270f\ufe0f User Input",
+        "type": "user_input",
+        "enabled": true,
+        "config": {
+          "temperature_celsius": "25",
+          "use_defaults": true,
+          "default_values": ""
+        }
+      },
+      {
+        "name": "\ud83d\udcc2 Model Loading",
+        "type": "model_loading",
+        "enabled": true,
+        "config": {
+          "model_name": "Habla",
+          "validate_features": true,
+          "cache_model": true
+        }
+      },
+      {
+        "name": "\ud83d\udd2e Model Inference",
+        "type": "model_inference",
+        "enabled": true,
+        "config": {
+          "prediction_column": "predicted_ice_creams",
+          "include_probabilities": true,
+          "include_error": true,
+          "compare_with_actual": false,
+          "actual_column": ""
+        }
+      }
+    ]
+  },
+  "status": "completed",
+  "current_step": null,
+  "steps_completed": [
+    "\u270f\ufe0f User Input",
+    "\ud83d\udcc2 Model Loading",
+    "\ud83d\udd2e Model Inference"
+  ],
+  "created_at": "2026-06-11T14:12:39.186950",
+  "started_at": "2026-06-11T14:26:52.477379",
+  "completed_at": "2026-06-11T14:26:58.058774",
+  "error": null
+}

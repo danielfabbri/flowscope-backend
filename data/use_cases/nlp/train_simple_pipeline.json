@@ -1,0 +1,26 @@
+{
+    "name": "Treinar Modelo de Reviews - Simples",
+    "description": "Pipeline básico: carrega dados e treina modelo N-gram",
+    "steps": [
+        {
+            "name": "Carregar Reviews",
+            "type": "ingestion",
+            "enabled": true,
+            "config": {
+                "ingestion_type": "csv",
+                "csv_file_path": "data/use_cases/nlp/reviews_for_ngram.csv"
+            }
+        },
+        {
+            "name": "Treinar Modelo",
+            "type": "ngram_training",
+            "enabled": true,
+            "config": {
+                "text_column": "review_text",
+                "model_name": "my_review_model",
+                "n": 3,
+                "min_text_length": 10
+            }
+        }
+    ]
+}

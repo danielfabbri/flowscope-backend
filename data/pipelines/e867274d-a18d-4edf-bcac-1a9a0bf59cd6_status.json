@@ -1,0 +1,48 @@
+{
+  "id": "e867274d-a18d-4edf-bcac-1a9a0bf59cd6",
+  "config": {
+    "name": "Test 25",
+    "description": "Test",
+    "steps": [
+      {
+        "name": "User Input",
+        "type": "user_input",
+        "enabled": true,
+        "config": {
+          "use_defaults": false,
+          "temperature_celsius": "25"
+        }
+      },
+      {
+        "name": "Model Loading",
+        "type": "model_loading",
+        "enabled": true,
+        "config": {
+          "model_name": "Climatempo",
+          "cache_model": true,
+          "validate_features": true
+        }
+      },
+      {
+        "name": "Model Inference",
+        "type": "model_inference",
+        "enabled": true,
+        "config": {
+          "include_error": false,
+          "prediction_column": "ice_creams_sold",
+          "include_probabilities": false
+        }
+      }
+    ]
+  },
+  "status": "failed",
+  "current_step": "Model Inference",
+  "steps_completed": [
+    "User Input",
+    "Model Loading"
+  ],
+  "created_at": "2026-06-11T14:48:24.051955",
+  "started_at": "2026-06-11T14:48:24.076554",
+  "completed_at": "2026-06-11T14:48:28.827828",
+  "error": "'ice_creams_sold_error'"
+}

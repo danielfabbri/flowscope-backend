@@ -1,0 +1,208 @@
+{
+  "total": 50,
+  "no_solution": 47,
+  "groups": {
+    "chatbot": [
+      {
+        "id": "10d1a4e7-a950-4685-b374-db93ae8423cc",
+        "name": "Space Explorer - Training"
+      },
+      {
+        "id": "c15c62ed-0f95-418e-b405-81cc4146c8c7",
+        "name": "Chatbot Inteligente - Treinamento"
+      },
+      {
+        "id": "2533c86e-df60-40a2-a38c-7fc270cc1469",
+        "name": "Chatbot Inteligente"
+      },
+      {
+        "id": "ddb47e29-3262-40b2-ba40-768a59deb3a9",
+        "name": "Space Explorer - Conversation"
+      }
+    ],
+    "rag": [
+      {
+        "id": "cd54c983-29b4-4403-b1c2-6d47747492b3",
+        "name": "Train RAG Atendente Loja"
+      },
+      {
+        "id": "d922f0ac-645b-41e1-a1f8-2e41827b7625",
+        "name": "Train RAG Atendente Loja"
+      },
+      {
+        "id": "09118833-9688-4df8-ad10-4a959433391d",
+        "name": "Train RAG Atendente Loja"
+      },
+      {
+        "id": "f975a6d2-1caa-4740-90f3-144284c4acc9",
+        "name": "Train RAG Atendente Loja"
+      }
+    ],
+    "sentiment": [
+      {
+        "id": "506d46f1-3423-448c-90f7-1f236539fb6f",
+        "name": "Treinar Modelo de Reviews"
+      },
+      {
+        "id": "2b474cc4-4e87-4e6e-a825-baa3a8fe4cd9",
+        "name": "Treinar Modelo de Reviews"
+      },
+      {
+        "id": "6130dd5a-74f2-4b48-a90c-c93d188c2cea",
+        "name": "Treinar Modelo de Reviews"
+      }
+    ],
+    "other": [
+      {
+        "id": "36141010-bdef-493f-a1b7-d3e15b3246bc",
+        "name": "Botalk"
+      },
+      {
+        "id": "e867274d-a18d-4edf-bcac-1a9a0bf59cd6",
+        "name": "Test 25"
+      },
+      {
+        "id": "82418d7f-8a4c-474d-bc90-76de7967cb9d",
+        "name": "Test 20"
+      },
+      {
+        "id": "d6ad84ea-292e-4c90-946e-b3bdbb10796b",
+        "name": "Test 15"
+      },
+      {
+        "id": "e42add65-e670-4bfa-873f-a14f507aa48c",
+        "name": "Habla - Interação"
+      },
+      {
+        "id": "bd0ed0cb-ab98-4689-abb4-cf265b05f9a7",
+        "name": "Habla - Treinamento"
+      },
+      {
+        "id": "35c68d74-1b43-4938-907d-618b6288e9a7",
+        "name": "Test 40C"
+      },
+      {
+        "id": "ae05456a-d720-4ab5-ba45-f31acd8f8264",
+        "name": "Test 35C"
+      },
+      {
+        "id": "7a53860a-da7a-4b30-bac6-95184a285401",
+        "name": "Test 30C"
+      },
+      {
+        "id": "4cf4d10e-5043-4834-a39d-82cba8229e3b",
+        "name": "Test 25C"
+      },
+      {
+        "id": "c0625900-516b-4eae-9f53-7e350c8acebc",
+        "name": "Test 20C"
+      },
+      {
+        "id": "b6a7473c-d41d-458b-bcda-a0f51e9db292",
+        "name": "Test 15C"
+      },
+      {
+        "id": "6b2cfc43-9ba4-4a6f-8f7b-f198b6e0ec9f",
+        "name": "Teste Simples - 25 graus"
+      },
+      {
+        "id": "095d01e9-d2ae-4c4c-932d-15815e3bdfa0",
+        "name": "Habla Simple - Treinamento"
+      },
+      {
+        "id": "c2bcd3d5-2f6d-465a-9749-e4e8ddabf410",
+        "name": "Test 40°C"
+      },
+      {
+        "id": "66bcf1b5-5752-4a2c-b2ba-be366db5ae16",
+        "name": "Test 35°C"
+      },
+      {
+        "id": "4ea872fc-e023-4cc6-a6f0-a2ebbf6fd673",
+        "name": "Test 30°C"
+      },
+      {
+        "id": "c4786b60-8536-45e5-ad16-c90264a19c54",
+        "name": "Test 25°C"
+      },
+      {
+        "id": "ec0464b4-ce33-4389-962a-702e541a93e9",
+        "name": "Test 20°C"
+      },
+      {
+        "id": "e28005aa-472f-4fcc-b665-3845892a4276",
+        "name": "Test 15°C"
+      },
+      {
+        "id": "92eab345-0c52-455b-8fee-a594d6c0efb0",
+        "name": "Habla - Inference"
+      },
+      {
+        "id": "313d5034-6eed-4a47-9fb8-bfe735d89049",
+        "name": "Habla - Treinamento"
+      },
+      {
+        "id": "b0c5b0d3-1e1a-477a-bbec-2e69539116f7",
+        "name": "Test: Model Inference"
+      },
+      {
+        "id": "cc25f4ad-69f5-4be1-9b74-aea768d5f89e",
+        "name": "Test: Model Training"
+      },
+      {
+        "id": "217e857e-006d-4ccd-9828-83f50e78b557",
+        "name": "Test: Model Training"
+      },
+      {
+        "id": "7cfb4c18-913a-48b8-91df-362c9cb085b9",
+        "name": "Test: Model Training"
+      },
+      {
+        "id": "21b1230d-a041-4566-8dc1-7f6792e41622",
+        "name": "Test: Model Training"
+      },
+      {
+        "id": "0a980f60-fa1e-46bb-a8bd-64ac540ec403",
+        "name": "Clustering Problem"
+      },
+      {
+        "id": "48c598e2-a2dc-497c-a118-c664098c13a6",
+        "name": "Regression Problem"
+      },
+      {
+        "id": "768f1a39-8cca-4e71-a461-31f2f687e02c",
+        "name": "Classification Problem"
+      },
+      {
+        "id": "05756fcc-572d-43fa-8a74-87bfcf542358",
+        "name": "Clustering Problem"
+      },
+      {
+        "id": "b5c2d841-924d-413e-9356-cb26ce349713",
+        "name": "Clustering Problem"
+      }
+    ],
+    "insurance": [
+      {
+        "id": "68b80a05-15cd-4a88-8010-96feda77c7df",
+        "name": "Car Insurance Training"
+      }
+    ],
+    "icecream": [
+      {
+        "id": "134175c7-ff12-4141-bf40-18f8ff3e4d16",
+        "name": "Ice Cream Prediction - Test"
+      },
+      {
+        "id": "3548cc9f-9ea1-4476-9079-ffaa9479cf1f",
+        "name": "Ice Cream Prediction - Test"
+      }
+    ],
+    "customer": [
+      {
+        "id": "7112125d-0213-4241-ba63-81e3fc1d8895",
+        "name": "Customer Segmentation"
+      }
+    ]
+  }
+}

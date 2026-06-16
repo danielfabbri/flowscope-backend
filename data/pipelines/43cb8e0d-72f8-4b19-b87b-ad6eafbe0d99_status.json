@@ -1,0 +1,37 @@
+{
+  "id": "43cb8e0d-72f8-4b19-b87b-ad6eafbe0d99",
+  "config": {
+    "name": "Astrology Text Generation Training",
+    "description": "Treina modelo ngram para geração de texto sobre astrologia",
+    "steps": [
+      {
+        "name": "Load Generation Training Data",
+        "type": "ingestion",
+        "enabled": true,
+        "config": {
+          "ingestion_type": "file_upload",
+          "file_path": "data/solutions/41c7d8bc-a63b-4beb-a981-7c64c18a1758/files/astrology_generation_training.csv",
+          "file_format": "csv"
+        }
+      },
+      {
+        "name": "Train Text Generation Model",
+        "type": "text_generation_training",
+        "enabled": true,
+        "config": {
+          "model_name": "astrology_text_generator",
+          "text_column": "text",
+          "ngram_size": 3,
+          "max_vocab_size": 10000
+        }
+      }
+    ]
+  },
+  "status": "failed",
+  "current_step": "Load Generation Training Data",
+  "steps_completed": [],
+  "created_at": "2026-06-14T09:45:04.994678",
+  "started_at": "2026-06-14T09:45:09.060401",
+  "completed_at": "2026-06-14T09:45:10.131362",
+  "error": "File not found: data/solutions/41c7d8bc-a63b-4beb-a981-7c64c18a1758/files/astrology_generation_training.csv (resolved to: data\\solutions\\41c7d8bc-a63b-4beb-a981-7c64c18a1758\\files\\astrology_generation_training.csv)"
+}

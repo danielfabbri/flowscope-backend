@@ -1,0 +1,93 @@
+text,intent
+O que é impedimento?,regra
+Como funciona o impedimento?,regra
+Explique o impedimento,regra
+Quais são as regras do futebol?,regra
+Me fale sobre as regras,regra
+Qual a regra do cartão amarelo?,regra
+O que é um cartão vermelho?,regra
+Quando o árbitro marca falta?,regra
+O que é falta?,regra
+Como funciona o pênalti?,regra
+O que é pênalti?,regra
+Qual a regra do escanteio?,regra
+O que é lateral?,regra
+Como funciona o tiro de meta?,regra
+Qual a regra do VAR?,regra
+O que é mão na bola?,regra
+Quando é marcado pênalti?,regra
+Regras de substituição,regra
+Quantas substituições são permitidas?,regra
+Tempo de jogo no futebol,regra
+Quanto tempo dura uma partida?,regra
+O que é acréscimo?,regra
+Como funciona a prorrogação?,regra
+Regras da cobrança de pênalti,regra
+O que é tiro livre direto?,regra
+Diferença entre falta direta e indireta,regra
+Quantos jogadores tem no time?,posicionamento
+Quantos jogadores em cada time?,posicionamento
+Quais são as posições do futebol?,posicionamento
+O que faz um zagueiro?,posicionamento
+Qual a função do goleiro?,posicionamento
+O que é um atacante?,posicionamento
+Posição do meio-campo,posicionamento
+O que faz um lateral?,posicionamento
+Qual a função do volante?,posicionamento
+Diferença entre zagueiro e lateral,posicionamento
+O que é um meia?,posicionamento
+Posições no campo,posicionamento
+Como se organiza um time?,posicionamento
+O que é formação tática?,posicionamento
+Explique o 4-4-2,posicionamento
+O que é esquema tático?,posicionamento
+Qual o tamanho da bola?,equipamento
+Medidas do campo de futebol,equipamento
+Dimensões da área do gol,equipamento
+Altura do gol,equipamento
+O que é a grande área?,equipamento
+Tamanho do campo,equipamento
+Equipamentos necessários,equipamento
+Uniforme obrigatório,equipamento
+O que o goleiro pode usar?,equipamento
+Tamanho das chuteiras,equipamento
+Qual a marca da bola oficial?,equipamento
+Medidas da pequena área,equipamento
+O que acontece em caso de empate?,situacao_jogo
+Como funciona a disputa de pênaltis?,situacao_jogo
+O que é vantagem do árbitro?,situacao_jogo
+Quando o jogo é interrompido?,situacao_jogo
+O que é tempo de bola parada?,situacao_jogo
+Como o árbitro marca o fim do jogo?,situacao_jogo
+O que acontece se o juiz errar?,situacao_jogo
+Pode usar o VAR quando?,situacao_jogo
+O que é reclamação ao árbitro?,situacao_jogo
+Consequências de agressão em campo,situacao_jogo
+Olá,saudacao
+Oi,saudacao
+Bom dia,saudacao
+Boa tarde,saudacao
+Boa noite,saudacao
+E aí,saudacao
+Opa,saudacao
+Tudo bem?,saudacao
+Como vai?,saudacao
+"Olá, tudo bem?",saudacao
+"Oi, como você está?",saudacao
+Obrigado,agradecimento
+Muito obrigado,agradecimento
+Valeu,agradecimento
+Agradeço,agradecimento
+Obrigada,agradecimento
+Muito obrigada,agradecimento
+Agradeço pela ajuda,agradecimento
+Obrigado pela informação,agradecimento
+Valeu pela explicação,agradecimento
+Tchau,despedida
+Até logo,despedida
+Até mais,despedida
+Adeus,despedida
+Falou,despedida
+Até breve,despedida
+Até a próxima,despedida
+Vou indo,despedida

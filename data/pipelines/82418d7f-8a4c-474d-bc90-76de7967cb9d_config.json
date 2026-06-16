@@ -1,0 +1,36 @@
+{
+  "name": "Test 20",
+  "description": "Test",
+  "steps": [
+    {
+      "name": "User Input",
+      "type": "user_input",
+      "enabled": true,
+      "config": {
+        "use_defaults": false,
+        "temperature_celsius": "20"
+      }
+    },
+    {
+      "name": "Model Loading",
+      "type": "model_loading",
+      "enabled": true,
+      "config": {
+        "model_name": "Climatempo",
+        "cache_model": true,
+        "validate_features": true
+      }
+    },
+    {
+      "name": "Model Inference",
+      "type": "model_inference",
+      "enabled": true,
+      "config": {
+        "include_error": false,
+        "prediction_column": "ice_creams_sold",
+        "include_probabilities": false
+      }
+    }
+  ],
+  "solution_id": "843c81b4-c43e-48f7-a7d4-79a921577647"
+}

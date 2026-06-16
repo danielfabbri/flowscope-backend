@@ -1,0 +1,2 @@
+temperature_celsius,day_of_week,day_name,month,is_weekend,is_holiday,peak_hour,weather,has_promotion,store_location,revenue_usd
+35,3,Wednesday,6,0,0,0,sunny,0,downtown,0

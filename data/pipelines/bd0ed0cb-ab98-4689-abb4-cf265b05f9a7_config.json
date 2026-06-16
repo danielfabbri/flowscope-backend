@@ -1,0 +1,71 @@
+{
+  "name": "Habla - Treinamento",
+  "description": "Pipeline created via UI",
+  "steps": [
+    {
+      "name": "Data Ingestion",
+      "type": "ingestion",
+      "enabled": true,
+      "config": {
+        "ingestion_type": "file_upload",
+        "num_rows": 10000,
+        "start_date": "2024-01-01",
+        "frequency": "1H",
+        "data_template": "sensor",
+        "webhook_token": "wh_kwohcr59alr46wzwll48n6",
+        "webhook_validation": true,
+        "http_url": "",
+        "http_method": "GET",
+        "http_auth_type": "none",
+        "http_api_key": "",
+        "http_interval": 60,
+        "file_format": "json",
+        "file_path": "C:\\dev\\flowscope\\data\\use_cases\\regression\\ice_cream_sales_training.json",
+        "db_type": "postgresql",
+        "db_host": "",
+        "db_port": 5432,
+        "db_name": "",
+        "db_user": "",
+        "db_password": "",
+        "db_query": "",
+        "db_polling_interval": 60,
+        "stream_type": "kafka",
+        "stream_brokers": "",
+        "stream_topic": "",
+        "stream_group_id": ""
+      }
+    },
+    {
+      "name": "Column Selection",
+      "type": "column_selection",
+      "enabled": true,
+      "config": {
+        "mode": "keep",
+        "columns": [
+          "temperature_celsius",
+          "ice_creams_sold"
+        ]
+      }
+    },
+    {
+      "name": "🏋️ Model Training",
+      "type": "model_training",
+      "enabled": true,
+      "config": {
+        "model_name": "Climatempo",
+        "model_type": "regression",
+        "algorithm": "random_forest",
+        "target_column": "ice_creams_sold",
+        "test_size": 0.3,
+        "random_state": 42,
+        "exclude_features": "",
+        "auto_version": true,
+        "save_predictions": true,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "class_weight": "balanced"
+      }
+    }
+  ],
+  "solution_id": "f32e97e3-3b19-465a-a3f5-9d69db1f7abc"
+}

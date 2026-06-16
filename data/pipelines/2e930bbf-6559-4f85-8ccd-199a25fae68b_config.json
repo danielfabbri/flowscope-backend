@@ -1,0 +1,27 @@
+{
+  "name": "Chatbot Futebol - Intent Only",
+  "description": null,
+  "steps": [
+    {
+      "name": "Carregar Dados de Intencoes",
+      "type": "ingestion",
+      "enabled": true,
+      "config": {
+        "ingestion_type": "file_upload",
+        "file_path": "data/solutions/ac49eb00-14b1-400e-a20f-86c5d6e9f8c3/files/football_intent_data.csv"
+      }
+    },
+    {
+      "name": "Treinar Classificador de Intencao",
+      "type": "intent_training",
+      "enabled": true,
+      "config": {
+        "text_column": "text",
+        "intent_column": "intent",
+        "model_name": "football_chatbot_intent",
+        "test_size": 0.2
+      }
+    }
+  ],
+  "solution_id": "ac49eb00-14b1-400e-a20f-86c5d6e9f8c3"
+}

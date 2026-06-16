@@ -1,0 +1,38 @@
+{
+    "model_name": "football_chatbot",
+    "chatbot_name": "football_chatbot",
+    "model_type": "conversational_chatbot",
+    "algorithm": "Intent Classification + Template Responses",
+    "target": "Conversational Response",
+    "features": [
+        "message"
+    ],
+    "n_features": 1,
+    "category": "chatbot",
+    "created_at": "2026-06-13T20:15:00",
+    "description": "Chatbot especialista em regras de futebol com classificação de intenções",
+    "components": {
+        "intent_classifier": {
+            "model_name": "football_chatbot_intent",
+            "min_confidence": 0.3
+        },
+        "knowledge_base": {
+            "kb_name": "none",
+            "top_k": 0,
+            "enabled": false
+        },
+        "text_generation": {
+            "model_name": null,
+            "enabled": false
+        }
+    },
+    "default_responses": {
+        "regra": "Essa é uma ótima pergunta sobre as regras do futebol! No futebol, as regras são definidas pela FIFA e incluem aspectos como impedimento, faltas, cartões, e muito mais. Para informações específicas sobre uma regra, por favor seja mais específico.",
+        "posicionamento": "No futebol, cada posição tem suas responsabilidades específicas. Um time tem 11 jogadores: 1 goleiro, defensores (zagueiros e laterais), meio-campistas e atacantes. Cada posição exige habilidades diferentes!",
+        "equipamento": "Sobre equipamentos e dimensões do campo: o campo oficial tem entre 100-110m de comprimento e 64-75m de largura. A bola oficial tem circunferência de 68-70cm. Os goleiros podem usar luvas e os jogadores devem usar uniformes regulamentares.",
+        "situacao_jogo": "Existem várias situações especiais no futebol que são regulamentadas pelas regras. Isso inclui prorrogação, disputa de pênaltis, vantagem do árbitro, e muito mais. Cada situação tem procedimentos específicos.",
+        "saudacao": "Olá! 👋⚽ Sou um chatbot especialista em regras de futebol. Posso te ajudar com dúvidas sobre regras, posições, equipamentos e situações de jogo. Como posso te ajudar?",
+        "agradecimento": "Por nada! 😊⚽ Fico feliz em ajudar com suas dúvidas sobre futebol. Se tiver mais perguntas, estou à disposição!",
+        "despedida": "Até logo! ⚽ Volte sempre que tiver dúvidas sobre futebol. Bom jogo! 👋"
+    }
+}

@@ -1,0 +1,6 @@
+{
+  "model_name": "all-MiniLM-L6-v2",
+  "num_documents": 50,
+  "embedding_dim": 384,
+  "solution_id": "d3a7f6d5-9604-444f-b745-b2ad7e28416b"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "10d1a4e7-a950-4685-b374-db93ae8423cc",
+  "config": {
+    "name": "Space Explorer - Training",
+    "description": "Treine um chatbot com dados de inten\u00e7\u00f5es e conhecimento",
+    "steps": [
+      {
+        "name": "Carregar Inten\u00e7\u00f5es de Treinamento",
+        "type": "ingestion",
+        "enabled": true,
+        "config": {
+          "ingestion_type": "file_upload",
+          "file_format": "csv",
+          "file_path": "C:\\dev\\flowscope\\data\\use_cases\\space_chatbot_intent_training.csv",
+          "description": "CSV com colunas: text, intent (exemplo: \"Ol\u00e1, tudo bem?\" -> \"greeting\")"
+        }
+      },
+      {
+        "name": "Treinar Classificador de Inten\u00e7\u00e3o",
+        "type": "intent_training",
+        "enabled": true,
+        "config": {
+          "text_column": "text",
+          "intent_column": "intent",
+          "model_name": "space_explorer",
+          "test_size": 0.2
+        }
+      },
+      {
+        "name": "Carregar Base de Conhecimento",
+        "type": "ingestion",
+        "enabled": true,
+        "config": {
+          "ingestion_type": "file_upload",
+          "file_format": "csv",
+          "file_path": "C:\\dev\\flowscope\\data\\use_cases\\space_chatbot_knowledge_base.csv",
+          "description": "CSV com colunas: text (perguntas e respostas, documentos, FAQs)"
+        }
+      },
+      {
+        "name": "Indexar Conhecimento",
+        "type": "knowledge_indexing",
+        "enabled": true,
+        "config": {
+          "text_column": "text",
+          "id_column": "id",
+          "metadata_columns": [],
+          "index_name": "space_explorer_kb"
+        }
+      }
+    ]
+  },
+  "status": "failed",
+  "current_step": "Carregar Inten\u00e7\u00f5es de Treinamento",
+  "steps_completed": [],
+  "created_at": "2026-06-12T17:59:06.123213",
+  "started_at": "2026-06-13T08:42:16.753239",
+  "completed_at": "2026-06-13T08:42:34.036355",
+  "error": "File not found: C:\\dev\\flowscope\\data\\use_cases\\space_chatbot_intent_training.csv (resolved to: C:\\dev\\flowscope\\data\\use_cases\\space_chatbot_intent_training.csv)"
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Test: Model Inference",
+  "description": null,
+  "steps": [
+    {
+      "name": "Load Test Data",
+      "type": "ingestion",
+      "enabled": true,
+      "config": {
+        "ingestion_type": "file_upload",
+        "file_path": "../data/use_cases/classification/customer_churn_dataset.json",
+        "file_format": "json"
+      }
+    },
+    {
+      "name": "Clean Data",
+      "type": "cleaning",
+      "enabled": true,
+      "config": {
+        "remove_nulls": true,
+        "remove_duplicates": true
+      }
+    },
+    {
+      "name": "Load Model",
+      "type": "model_loading",
+      "enabled": true,
+      "config": {
+        "model_name": "test_churn_model",
+        "validate_features": true,
+        "cache_model": true
+      }
+    },
+    {
+      "name": "Make Predictions",
+      "type": "model_inference",
+      "enabled": true,
+      "config": {
+        "prediction_column": "churn_prediction",
+        "include_probabilities": true,
+        "compare_with_actual": true,
+        "actual_column": "churned"
+      }
+    }
+  ],
+  "solution_id": "843c81b4-c43e-48f7-a7d4-79a921577647"
+}

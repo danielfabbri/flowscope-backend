@@ -1,0 +1,2 @@
+temperature_celsius,loaded_model_name,loaded_model_type,loaded_model_algorithm,loaded_model_features,ice_creams_sold,ice_creams_sold_error,ice_creams_sold_abs_error,ice_creams_sold_pct_error,inference_model,inference_count
+22,Climatempo,regression,random_forest,1,47.36488095238096,0.0,0.0,0.0,Climatempo,1

@@ -1,0 +1,39 @@
+{
+  "id": "b8b4e06b-3033-4e83-82a8-62e6dc5979e2",
+  "config": {
+    "name": "Astrology Knowledge Base Indexing",
+    "description": "Indexa base de conhecimento massiva de astrologia",
+    "steps": [
+      {
+        "name": "Load Knowledge Base",
+        "type": "ingestion",
+        "enabled": true,
+        "config": {
+          "ingestion_type": "file_upload",
+          "file_path": "data/solutions/41c7d8bc-a63b-4beb-a981-7c64c18a1758/files/astrology_knowledge_massive.csv",
+          "file_format": "csv"
+        }
+      },
+      {
+        "name": "Build TF-IDF Index",
+        "type": "text_preprocessing",
+        "enabled": true,
+        "config": {
+          "text_column": "resposta",
+          "operations": [
+            "lowercase",
+            "remove_punctuation"
+          ],
+          "output_column": "resposta_processed"
+        }
+      }
+    ]
+  },
+  "status": "failed",
+  "current_step": "Load Knowledge Base",
+  "steps_completed": [],
+  "created_at": "2026-06-14T09:45:16.085336",
+  "started_at": "2026-06-14T09:45:20.154250",
+  "completed_at": "2026-06-14T09:45:21.189893",
+  "error": "File not found: data/solutions/41c7d8bc-a63b-4beb-a981-7c64c18a1758/files/astrology_knowledge_massive.csv (resolved to: data\\solutions\\41c7d8bc-a63b-4beb-a981-7c64c18a1758\\files\\astrology_knowledge_massive.csv)"
+}

@@ -1,0 +1,39 @@
+{
+  "model_name": "Terapeuta",
+  "model_type": "classification",
+  "algorithm": "random_forest",
+  "target_column": "sentiment",
+  "feature_columns": [
+    "review_text_normalized_polarity",
+    "review_text_normalized_subjectivity",
+    "rating_normalized",
+    "helpful_votes_normalized"
+  ],
+  "n_features": 4,
+  "metrics": {
+    "train_accuracy": 1.0,
+    "train_precision": 1.0,
+    "train_recall": 1.0,
+    "train_f1": 1.0,
+    "test_accuracy": 1.0,
+    "test_precision": 1.0,
+    "test_recall": 1.0,
+    "test_f1": 1.0,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "has_feature_importance": true
+  },
+  "hyperparameters": {},
+  "training_info": {
+    "trained_at": "2026-06-12T11:54:15.354707",
+    "train_duration_seconds": 0.225799,
+    "total_rows": 500,
+    "train_rows": 350,
+    "test_rows": 150,
+    "n_features": 4
+  },
+  "sklearn_version": "1.9.0",
+  "model_version": "1.0"
+}

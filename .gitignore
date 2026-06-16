@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.env
+.venv
+*.db
+*.sqlite
+*.sqlite3
+.DS_Store
+.idea/
+.vscode/
+*.log
+data/temp/
+data/output/
+
+# Modelos treinados (grandes)
+*.h5
+*.pkl
+*.joblib
+*.keras
+
+# Logs e cache
+*.txt
+!requirements.txt
+!requirements-ingestion.txt

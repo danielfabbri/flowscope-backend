@@ -1,0 +1,56 @@
+{
+  "model_name": "test_churn_model",
+  "model_type": "classification",
+  "algorithm": "random_forest",
+  "target_column": "churned",
+  "feature_columns": [
+    "age",
+    "gender",
+    "region",
+    "acquisition_channel",
+    "days_as_customer",
+    "loyalty_tier",
+    "total_purchases",
+    "total_spent",
+    "avg_order_value",
+    "days_since_last_purchase",
+    "favorite_category",
+    "has_loyalty_card",
+    "has_app",
+    "accepts_marketing",
+    "num_complaints",
+    "satisfaction_score",
+    "support_contacts",
+    "returns_rate"
+  ],
+  "n_features": 18,
+  "metrics": {
+    "train_accuracy": 1.0,
+    "train_precision": 1.0,
+    "train_recall": 1.0,
+    "train_f1": 1.0,
+    "test_accuracy": 0.4666666666666667,
+    "test_precision": 0.45582137161084535,
+    "test_recall": 0.4666666666666667,
+    "test_f1": 0.4592592592592593,
+    "accuracy": 0.4666666666666667,
+    "precision": 0.45582137161084535,
+    "recall": 0.4666666666666667,
+    "f1_score": 0.4592592592592593,
+    "has_feature_importance": true
+  },
+  "hyperparameters": {
+    "n_estimators": 50,
+    "max_depth": 10
+  },
+  "training_info": {
+    "trained_at": "2026-06-11T13:17:00.902054",
+    "train_duration_seconds": 0.159779,
+    "total_rows": 100,
+    "train_rows": 70,
+    "test_rows": 30,
+    "n_features": 18
+  },
+  "sklearn_version": "1.9.0",
+  "model_version": "1.0"
+}

@@ -1,0 +1,67 @@
+{
+    "model_name": "astrology_bot_lstm",
+    "model_type": "conversational_chatbot",
+    "created_at": "2026-06-15T08:40:00.000000",
+    "description": "Chatbot de astrologia com Level 2 - Geração Neural LSTM Seq2Seq. Usa Encoder-Decoder LSTM treinado para gerar respostas naturais a partir de fatos estruturados da Knowledge Base. Arquitetura: 256 dimensões latentes, 128 embedding, vocabulário de 406/447 tokens.",
+    "components": {
+        "intent_classifier": {
+            "model_name": "astrology_intent_classifier",
+            "min_confidence": 0.25
+        },
+        "knowledge_base": {
+            "kb_name": "astrology_knowledge",
+            "top_k": 5
+        },
+        "text_generation": {
+            "model_name": "seq2seq_lstm",
+            "enabled": true,
+            "generation_type": "lstm_seq2seq",
+            "temperature": 0.0
+        }
+    },
+    "default_responses": {
+        "saudacao": [
+            "Olá! Sou seu astrólogo virtual com IA neural. Como posso ajudar você hoje?",
+            "Oi! Uso redes neurais LSTM para gerar respostas personalizadas sobre astrologia. O que você gostaria de saber?",
+            "Bem-vindo! Sou um chatbot de astrologia com geração neural avançada. Qual sua pergunta?"
+        ],
+        "agradecimento": [
+            "De nada! Fico feliz em ajudar com astrologia usando IA neural.",
+            "Por nada! Se tiver mais dúvidas sobre astrologia, é só perguntar.",
+            "Sempre às ordens! Minha IA neural está aqui para suas questões astrológicas."
+        ],
+        "greeting": [
+            "Hello! I'm your virtual astrologer with neural AI. How can I help you today?",
+            "Hi! I use LSTM neural networks to generate personalized astrology responses. What would you like to know?"
+        ],
+        "thanks": [
+            "You're welcome! Happy to help with astrology using neural AI.",
+            "No problem! If you have more astrology questions, just ask."
+        ],
+        "fallback": [
+            "Hmm, não entendi bem sua pergunta. Pode reformular? Posso ajudar com signos, compatibilidade, características e mais.",
+            "Desculpe, não consegui processar isso com minha rede neural. Tente perguntar de outra forma sobre astrologia.",
+            "Não tenho certeza do que você quer saber. Pode dar mais detalhes sobre sua dúvida astrológica?"
+        ]
+    },
+    "general_knowledge": {
+        "o_que_e_astrologia": [
+            "Astrologia é o estudo da influência dos astros sobre a personalidade e o destino humano. Uso redes neurais LSTM para gerar explicações personalizadas baseadas em conhecimento estruturado.",
+            "Astrologia é uma prática milenar que relaciona os movimentos celestes com eventos terrestres. Minha IA neural me permite criar respostas únicas para cada pergunta."
+        ],
+        "como_funciona": [
+            "Eu uso um modelo LSTM Seq2Seq treinado em milhares de exemplos de astrologia. Quando você pergunta algo, extraio entidades (signo, data, etc), busco na KB e gero uma resposta neural natural.",
+            "Minha arquitetura combina classificação de intenção, extração de entidades, busca semântica e geração neural LSTM para criar respostas personalizadas sobre astrologia."
+        ]
+    },
+    "features": [
+        "message"
+    ],
+    "target": "response",
+    "generation_config": {
+        "use_lstm": true,
+        "fallback_to_templates": true,
+        "temperature": 0.8,
+        "max_length": 100
+    }
+}

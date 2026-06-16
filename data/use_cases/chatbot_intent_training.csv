@@ -1,0 +1,41 @@
+text,intent
+"Olá, tudo bem?",greeting
+"Bom dia!",greeting
+"Oi, como vai?",greeting
+"E aí?",greeting
+"Olá!",greeting
+"Boa tarde",greeting
+"Boa noite",greeting
+"Qual o horário de funcionamento?",faq
+"Vocês abrem no domingo?",faq
+"Até que horas vocês atendem?",faq
+"Onde fica a loja?",faq
+"Qual o endereço?",faq
+"Vocês entregam?",faq
+"Quanto custa o frete?",faq
+"Quais formas de pagamento?",faq
+"Aceita cartão?",faq
+"Posso pagar no PIX?",faq
+"Meu pedido não chegou",complaint
+"Produto com defeito",complaint
+"Quero cancelar minha compra",complaint
+"Não recebi meu produto",complaint
+"Produto veio errado",complaint
+"Quero meu dinheiro de volta",complaint
+"Produto quebrado",complaint
+"Qual o prazo de entrega?",inquiry
+"Quando chega meu pedido?",inquiry
+"Tem esse produto em estoque?",inquiry
+"Vocês têm essa cor?",inquiry
+"Qual o tamanho disponível?",inquiry
+"Quanto custa este produto?",inquiry
+"Tem desconto?",inquiry
+"Posso trocar?",inquiry
+"Obrigado pela ajuda",thanks
+"Muito obrigado!",thanks
+"Valeu!",thanks
+"Agradeço",thanks
+"Até logo",goodbye
+"Tchau",goodbye
+"Até mais",goodbye
+"Falou",goodbye

@@ -1,0 +1,37 @@
+{
+  "name": "Test 40°C",
+  "description": "Teste",
+  "steps": [
+    {
+      "name": "User Input",
+      "type": "user_input",
+      "enabled": true,
+      "config": {
+        "temperature_celsius": "40",
+        "use_defaults": true,
+        "default_values": ""
+      }
+    },
+    {
+      "name": "Model Loading",
+      "type": "model_loading",
+      "enabled": true,
+      "config": {
+        "model_name": "Habla",
+        "validate_features": true,
+        "cache_model": true
+      }
+    },
+    {
+      "name": "Model Inference",
+      "type": "model_inference",
+      "enabled": true,
+      "config": {
+        "prediction_column": "predicted_ice_creams",
+        "include_probabilities": false,
+        "include_error": false
+      }
+    }
+  ],
+  "solution_id": "843c81b4-c43e-48f7-a7d4-79a921577647"
+}

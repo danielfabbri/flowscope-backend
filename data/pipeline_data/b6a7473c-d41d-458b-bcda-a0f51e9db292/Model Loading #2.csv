@@ -1,0 +1,2 @@
+temperature_celsius,loaded_model_name,loaded_model_type,loaded_model_algorithm,loaded_model_features
+15,Habla_Simple,regression,random_forest,1

@@ -1,0 +1,29 @@
+{
+  "name": "Astrology Text Generation Training",
+  "description": "Treina modelo ngram para geração de texto sobre astrologia",
+  "steps": [
+    {
+      "name": "Load Generation Training Data",
+      "type": "ingestion",
+      "enabled": true,
+      "config": {
+        "ingestion_type": "file_upload",
+        "file_path": "data/solutions/41c7d8bc-a63b-4beb-a981-7c64c18a1758/files/astrology_generation_training.csv",
+        "file_format": "csv"
+      }
+    },
+    {
+      "name": "Train Text Generation Model",
+      "type": "text_generation_training",
+      "enabled": true,
+      "config": {
+        "model_name": "astrology_text_generator",
+        "text_column": "text",
+        "ngram_size": 3,
+        "max_vocab_size": 10000
+      }
+    }
+  ],
+  "solution_id": "41c7d8bc-a63b-4beb-a981-7c64c18a1758",
+  "updated_at": "2026-06-14T09:45:07.030404"
+}

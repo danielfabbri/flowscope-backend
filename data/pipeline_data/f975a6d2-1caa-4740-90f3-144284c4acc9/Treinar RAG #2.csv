@@ -1,0 +1,2 @@
+model_name,model_path,mode,entries,vocabulary_size
+atendente_loja_rag,data\models\atendente_loja_rag_rag.pkl,qa,20,101

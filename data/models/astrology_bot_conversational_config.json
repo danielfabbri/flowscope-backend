@@ -1,0 +1,81 @@
+{
+  "model_name": "astrology_bot_conversational",
+  "model_type": "conversational_chatbot",
+  "created_at": "2026-06-14T10:46:26.221586",
+  "description": "Chatbot conversacional avançado de astrologia com 15 AI steps + geração de texto 5-gram condicionada por intent. Base de conhecimento com 2162 entradas. Responde naturalmente sobre signos, compatibilidade, elementos, planetas, casas astrológicas e muito mais!",
+  "components": {
+    "intent_classifier": {
+      "model_name": "astrology_intent_classifier",
+      "min_confidence": 0.25
+    },
+    "knowledge_base": {
+      "kb_name": "astrology_knowledge",
+      "top_k": 5
+    },
+    "text_generation": {
+      "model_name": "astrology_text_generator",
+      "enabled": true
+    }
+  },
+  "default_responses": {
+    "saudacao": [
+      "Olá! Sou seu astrólogo virtual. Como posso ajudar você hoje?",
+      "Oi! Estou aqui para responder suas dúvidas sobre astrologia. O que você gostaria de saber?",
+      "Bem-vindo! Posso te ajudar com signos, compatibilidade, mapas astrais e muito mais. Qual sua pergunta?"
+    ],
+    "agradecimento": [
+      "De nada! Fico feliz em ajudar com astrologia.",
+      "Por nada! Se tiver mais dúvidas sobre astrologia, é só perguntar.",
+      "Sempre às ordens! Estou aqui para suas questões astrológicas."
+    ],
+    "greeting": [
+      "Olá! Sou seu astrólogo virtual. Como posso ajudar você hoje?",
+      "Oi! Estou aqui para responder suas dúvidas sobre astrologia. O que você gostaria de saber?",
+      "Bem-vindo! Posso te ajudar com signos, compatibilidade, mapas astrais e muito mais. Qual sua pergunta?"
+    ],
+    "thanks": [
+      "De nada! Fico feliz em ajudar com astrologia.",
+      "Por nada! Se tiver mais dúvidas sobre astrologia, é só perguntar.",
+      "Sempre às ordens! Estou aqui para suas questões astrológicas."
+    ],
+    "fallback": [
+      "Hmm, não entendi bem sua pergunta. Pode reformular? Posso ajudar com signos, compatibilidade, características e mais.",
+      "Desculpe, não consegui entender. Tente perguntar de outra forma sobre astrologia.",
+      "Não tenho certeza do que você quer saber. Pode dar mais detalhes sobre sua dúvida astrológica?"
+    ]
+  },
+  "general_knowledge": {
+    "o_que_e_astrologia": [
+      "Astrologia é o estudo da influência dos astros sobre a personalidade e o destino humano. Ela analisa as posições dos planetas, signos e casas astrológicas no momento do nascimento para compreender características e tendências de cada pessoa.",
+      "Astrologia é uma prática milenar que relaciona os movimentos celestes com eventos terrestres e características humanas. Ela busca entender como a posição dos astros no momento do nascimento influencia a personalidade, relacionamentos e caminho de vida.",
+      "A astrologia estuda a conexão entre os corpos celestes e a vida na Terra. Através da análise do mapa astral - que mostra a posição dos planetas no momento do nascimento - podemos compreender melhor nossa personalidade, desafios e potenciais."
+    ],
+    "quantos_signos": [
+      "Existem 12 signos no zodíaco: Áries, Touro, Gêmeos, Câncer, Leão, Virgem, Libra, Escorpião, Sagitário, Capricórnio, Aquário e Peixes.",
+      "O zodíaco é composto por 12 signos, cada um regendo aproximadamente um mês do ano: Áries, Touro, Gêmeos, Câncer, Leão, Virgem, Libra, Escorpião, Sagitário, Capricórnio, Aquário e Peixes.",
+      "São 12 os signos do zodíaco, divididos em 4 elementos (Fogo, Terra, Ar e Água): Áries, Touro, Gêmeos, Câncer, Leão, Virgem, Libra, Escorpião, Sagitário, Capricórnio, Aquário e Peixes."
+    ],
+    "o_que_e_ascendente": [
+      "O ascendente é o signo que estava nascendo no horizonte leste no momento exato do seu nascimento. Ele representa a 'máscara' que você usa ao interagir com o mundo, sua aparência física e a primeira impressão que causa nas pessoas.",
+      "Ascendente é o signo que estava surgindo no horizonte no momento do nascimento. Enquanto o signo solar mostra sua essência, o ascendente revela como você se apresenta ao mundo e como os outros te veem inicialmente.",
+      "O signo ascendente é determinado pela hora exata do nascimento e representa sua personalidade externa, como você age socialmente e a imagem que projeta. É diferente do signo solar (determinado pela data de nascimento)."
+    ],
+    "o_que_sao_signos": [
+      "Os signos do zodíaco são 12 constelações que o Sol atravessa durante o ano. Cada signo representa um arquétipo de personalidade com características, qualidades e desafios específicos. Seu signo solar é determinado pela posição do Sol no momento do nascimento.",
+      "Signos são divisões do zodíaco - a faixa do céu por onde o Sol, a Lua e os planetas transitam. Cada um dos 12 signos tem características únicas e influencia diferentes aspectos da personalidade humana.",
+      "Os signos do zodíaco são 12 arquétipos astrológicos, cada um com suas características, elementos e planetas regentes. Eles representam diferentes formas de expressão da energia humana e são determinados pela posição do Sol no momento do nascimento.",
+      "São 12 signos que dividem o ano em períodos de aproximadamente 30 dias cada. Cada signo tem uma energia única, representando diferentes facetas da personalidade e da experiência humana.",
+      "Os signos são padrões astrológicos baseados na posição do Sol em relação às constelações. Cada um dos 12 signos tem características próprias que influenciam a personalidade de quem nasce sob sua regência.",
+      "Signos do zodíaco são 12 porções do céu, cada uma com cerca de 30 graus, através das quais o Sol passa ao longo do ano. Cada signo carrega energias e características específicas que marcam as pessoas nascidas em seu período."
+    ],
+    "o_que_e_mapa_astral": [
+      "O mapa astral (ou carta natal) é um diagrama que mostra a posição exata de todos os planetas, signos e casas astrológicas no momento do seu nascimento. É como uma fotografia do céu naquele instante específico, revelando seu potencial, desafios e propósito de vida.",
+      "Mapa astral é a representação gráfica da posição dos astros no momento exato do nascimento. Ele inclui não só o signo solar, mas também a Lua, os planetas, o ascendente e as 12 casas astrológicas, oferecendo uma análise completa da personalidade.",
+      "A carta natal ou mapa astral é um mapa personalizado do céu no momento do nascimento. Ele mostra onde cada planeta estava posicionado e revela informações sobre personalidade, vocação, relacionamentos, desafios e potenciais de cada pessoa."
+    ]
+  },
+  "features": [
+    "message"
+  ],
+  "target": "response"
+}

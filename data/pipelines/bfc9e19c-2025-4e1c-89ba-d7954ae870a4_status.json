@@ -1,0 +1,57 @@
+{
+  "pipeline_id": "bfc9e19c-2025-4e1c-89ba-d7954ae870a4",
+  "status": "pending",
+  "created_at": "2026-06-13T09:07:19.911856",
+  "updated_at": "2026-06-13T09:07:19.911866",
+  "config": {
+    "name": "✨ Treinar Gerador de Respostas - Astronomia (5-grams)",
+    "description": "Treina modelo de linguagem 5-gram com Kneser-Ney smoothing e pós-processamento de gramática portuguesa para gerar respostas naturais condicionadas por intenção",
+    "steps": [
+      {
+        "name": "Ingestão de Respostas Exemplo",
+        "type": "ingestion",
+        "enabled": true,
+        "config": {
+          "ingestion_type": "generated",
+          "data_template": "custom",
+          "description": "Corpus de respostas exemplo para cada intenção (blackhole, cosmos, planet, star, galaxy)"
+        }
+      },
+      {
+        "name": "Treinamento N-gram - 5-grams",
+        "type": "ngram_training",
+        "enabled": true,
+        "config": {
+          "text_column": "response_text",
+          "intent_column": "intent",
+          "n": 5,
+          "enable_kneser_ney": true,
+          "smoothing_discount": 0.75,
+          "min_frequency": 1
+        }
+      },
+      {
+        "name": "Geração de Respostas",
+        "type": "ngram_generation",
+        "enabled": true,
+        "config": {
+          "max_length": 150,
+          "temperature": 0.8,
+          "enable_grammar_postprocessing": true,
+          "language": "portuguese"
+        }
+      },
+      {
+        "name": "Salvar Modelo - astronomy_response_generator",
+        "type": "model_persistence",
+        "enabled": true,
+        "config": {
+          "operation": "save",
+          "model_name": "astronomy_bot_chatbot",
+          "format": "pickle"
+        }
+      }
+    ]
+  },
+  "execution_history": []
+}

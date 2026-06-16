@@ -1,0 +1,41 @@
+review_id,customer_id,product_id,review_text,rating,verified_purchase
+REV0001,CUST5234,PROD742,This product is absolutely amazing! I love it so much. Best purchase ever!,2,False
+REV0002,CUST8275,PROD959,Terrible quality. Broke after 2 days. Complete waste of money.,4,False
+REV0003,CUST5846,PROD156,"It's okay, nothing special. Does what it's supposed to do.",5,True
+REV0004,CUST8099,PROD148,Great value for money. Works perfectly and the delivery was fast!,5,False
+REV0005,CUST4876,PROD738,Disappointed with this purchase. Not as described in the listing.,4,False
+REV0006,CUST6774,PROD118,<p>Excellent customer service.</p> Visit www.example.com for more info!,3,False
+REV0007,CUST1943,PROD126,Average product. The price is a bit high for what you get.,3,True
+REV0008,CUST7885,PROD946,I'm very happy with this. Good quality and looks great!,3,False
+REV0009,CUST6349,PROD995,Don't buy this! It's a scam. Save your money.,2,False
+REV0010,CUST2508,PROD573,Perfect! Exactly what I needed. Will buy again.,4,True
+REV0011,CUST1924,PROD805,Contact support@company.com if you have issues. Great product btw.,4,False
+REV0012,CUST2972,PROD303,Not satisfied. The color is different from the pictures.,3,True
+REV0013,CUST2788,PROD888,Amazing features! Easy to use and very functional.,4,False
+REV0014,CUST7889,PROD712,Worst product I've ever bought. Total disappointment.,2,False
+REV0015,CUST8797,PROD269,Nice design. Comfortable to use. Worth the price.,2,True
+REV0016,CUST9794,PROD702,I REALLY LIKE THIS!!! 😊 #BestPurchase #Recommended,3,True
+REV0017,CUST8104,PROD222,I really like this! It exceeded my expectations.,4,False
+REV0018,CUST5214,PROD679,Mediocre at best. Expected more for this price point.,5,True
+REV0019,CUST6703,PROD629,Fantastic purchase! Very pleased with the results.,5,True
+REV0020,CUST3354,PROD473,Poor quality materials. Started falling apart quickly.,1,False
+REV0021,CUST1321,PROD796,Works as advertised. No complaints here.,1,False
+REV0022,CUST9857,PROD744,Love it! Great addition to my collection.,3,False
+REV0023,CUST4821,PROD836,Too expensive for what it is. Not worth it.,1,False
+REV0024,CUST6115,PROD808,Good product overall. Minor issues but nothing major.,3,True
+REV0025,CUST5958,PROD626,This is garbage. Do not waste your time or money!,4,False
+REV0026,CUST4759,PROD991,Impressive quality and finish. Very satisfied!,4,True
+REV0027,CUST9174,PROD908,It's fine. Nothing to write home about.,5,True
+REV0028,CUST9855,PROD701,Superb craftsmanship! Highly recommended to everyone.,3,False
+REV0029,CUST7422,PROD936,Broke within a week. Very disappointed with the durability.,2,False
+REV0030,CUST9629,PROD636,Decent product. Gets the job done.,4,False
+REV0031,CUST1774,PROD557,Best in its category! Cannot recommend enough!,2,False
+REV0032,CUST3383,PROD231,The description was misleading. Not what I expected.,3,False
+REV0033,CUST6515,PROD944,Pretty good for the price. Happy with my purchase.,4,False
+REV0034,CUST9952,PROD550,Absolutely terrible experience from start to finish.,1,False
+REV0035,CUST4707,PROD177,Love the design and functionality. Perfect!,4,True
+REV0036,CUST2861,PROD799,It's okay but I've seen better. Average at most.,3,True
+REV0037,CUST4136,PROD780,Wonderful product! Exceeded all my expectations.,1,False
+REV0038,CUST9075,PROD663,Cheap quality. You get what you pay for I guess.,3,True
+REV0039,CUST5575,PROD385,Really impressed with this. Works like a charm!,2,False
+REV0040,CUST5345,PROD634,Not bad but could be better. Room for improvement.,4,False

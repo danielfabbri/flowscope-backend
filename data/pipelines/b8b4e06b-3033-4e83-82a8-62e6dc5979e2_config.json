@@ -1,0 +1,31 @@
+{
+  "name": "Astrology Knowledge Base Indexing",
+  "description": "Indexa base de conhecimento massiva de astrologia",
+  "steps": [
+    {
+      "name": "Load Knowledge Base",
+      "type": "ingestion",
+      "enabled": true,
+      "config": {
+        "ingestion_type": "file_upload",
+        "file_path": "data/solutions/41c7d8bc-a63b-4beb-a981-7c64c18a1758/files/astrology_knowledge_massive.csv",
+        "file_format": "csv"
+      }
+    },
+    {
+      "name": "Build TF-IDF Index",
+      "type": "text_preprocessing",
+      "enabled": true,
+      "config": {
+        "text_column": "resposta",
+        "operations": [
+          "lowercase",
+          "remove_punctuation"
+        ],
+        "output_column": "resposta_processed"
+      }
+    }
+  ],
+  "solution_id": "41c7d8bc-a63b-4beb-a981-7c64c18a1758",
+  "updated_at": "2026-06-14T09:45:18.122565"
+}

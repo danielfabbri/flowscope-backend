@@ -1,0 +1,53 @@
+{
+    "name": "Gerar Textos com Modelo Treinado",
+    "description": "Pipeline para gerar novos textos usando um modelo já treinado",
+    "steps": [
+        {
+            "name": "Gerar Reviews Positivas",
+            "type": "ngram_generation",
+            "enabled": true,
+            "config": {
+                "model_name": "my_review_model",
+                "prompt": "This product is excellent",
+                "max_length": 40,
+                "temperature": 1.0,
+                "top_k": 40,
+                "num_samples": 5
+            }
+        },
+        {
+            "name": "Gerar Reviews Negativas",
+            "type": "ngram_generation",
+            "enabled": true,
+            "config": {
+                "model_name": "my_review_model",
+                "prompt": "This product is terrible",
+                "max_length": 40,
+                "temperature": 1.0,
+                "top_k": 40,
+                "num_samples": 5
+            }
+        },
+        {
+            "name": "Gerar Reviews Aleatórias",
+            "type": "ngram_generation",
+            "enabled": true,
+            "config": {
+                "model_name": "my_review_model",
+                "prompt": "",
+                "max_length": 50,
+                "temperature": 1.2,
+                "top_k": 40,
+                "num_samples": 10
+            }
+        },
+        {
+            "name": "Salvar Textos Gerados",
+            "type": "output",
+            "enabled": true,
+            "config": {
+                "output_name": "generated_texts"
+            }
+        }
+    ]
+}

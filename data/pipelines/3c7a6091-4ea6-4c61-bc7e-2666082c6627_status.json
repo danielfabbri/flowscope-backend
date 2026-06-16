@@ -1,0 +1,62 @@
+{
+  "pipeline_id": "3c7a6091-4ea6-4c61-bc7e-2666082c6627",
+  "status": "pending",
+  "created_at": "2026-06-13T09:07:19.907788",
+  "updated_at": "2026-06-13T09:07:19.907794",
+  "config": {
+    "name": "📖 Indexar Base de Conhecimento - Astronomia",
+    "description": "Processa documentos sobre astronomia, cria chunks semânticos e indexa para busca RAG (Retrieval Augmented Generation) usando TF-IDF embeddings",
+    "steps": [
+      {
+        "name": "Ingestão de Documentos",
+        "type": "ingestion",
+        "enabled": true,
+        "config": {
+          "ingestion_type": "file_upload",
+          "file_format": "txt",
+          "description": "Arquivos de texto sobre astronomia, física espacial, cosmologia"
+        }
+      },
+      {
+        "name": "Pré-processamento de Texto",
+        "type": "text_preprocessing",
+        "enabled": true,
+        "config": {
+          "lowercase": true,
+          "remove_punctuation": false,
+          "remove_stopwords": true,
+          "language": "portuguese"
+        }
+      },
+      {
+        "name": "Chunking de Texto",
+        "type": "text_chunking",
+        "enabled": true,
+        "config": {
+          "chunk_size": 500,
+          "chunk_overlap": 50,
+          "method": "recursive"
+        }
+      },
+      {
+        "name": "Gerar Embeddings",
+        "type": "generate_embeddings",
+        "enabled": true,
+        "config": {
+          "embedding_model": "tfidf",
+          "max_features": 1000
+        }
+      },
+      {
+        "name": "Criar Índice RAG",
+        "type": "rag_index",
+        "enabled": true,
+        "config": {
+          "index_name": "astronomy_knowledge_base",
+          "similarity_metric": "cosine"
+        }
+      }
+    ]
+  },
+  "execution_history": []
+}

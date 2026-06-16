@@ -1,0 +1,34 @@
+{
+  "name": "Test 35C",
+  "description": "Simple test",
+  "steps": [
+    {
+      "name": "User Input",
+      "type": "user_input",
+      "enabled": true,
+      "config": {
+        "temperature_celsius": "35",
+        "use_defaults": false
+      }
+    },
+    {
+      "name": "Model Loading",
+      "type": "model_loading",
+      "enabled": true,
+      "config": {
+        "model_name": "Habla_Simple",
+        "validate_features": true,
+        "cache_model": true
+      }
+    },
+    {
+      "name": "Model Inference",
+      "type": "model_inference",
+      "enabled": true,
+      "config": {
+        "prediction_column": "predicted_ice_creams"
+      }
+    }
+  ],
+  "solution_id": "843c81b4-c43e-48f7-a7d4-79a921577647"
+}

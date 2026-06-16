@@ -1,0 +1,201 @@
+customer_id,name,email,age,gender,country,registration_date,last_purchase_date,total_purchases,total_spend,avg_order_value,days_since_last_purchase,favorite_category,email_clicks,email_opens,support_tickets,returns_count,has_premium,referral_count
+C0001,John Smith,noemail,-1,F,Australia,9999-99-99,2025-03-17,0,0.0,0.0,290,Electronics,71,343,11,5,False,0
+C0002,Elizabeth Thomas,elizabeth.thomas@example.com,-1,F,Mexico,2022-12-26,2024-12-05,8,4421135.65,552641.96,392,N/A,469,68,8,12,Yes,9
+C0003,,noemail,61,N/A,Spain,2022-05-30,2025-06-22,0,0.0,0.0,193,Other,124,433,0,6,yes,1
+C0004,James Johnson,user4@test.com,-1,m,Australia,2021-08-02,2024-12-17,9797,0.0,0.0,380,Sports,0,514,0,14257,No,13
+C0005,Robert Jones,invalid.email,52,female,???,2022-05-30,2025-10-18,0,0.0,0.0,75,N/A,271,535,0,6,Yes,0
+C0006,UNKNOWN,@example.com,-1,f,Canada,9999-99-99,2025-02-02,28,-563.44,-20.12,333,N/A,468,0,13,25,no,0
+C0007,Elizabeth Thomas,,0,female,UNKNOWN,2022-09-28,,23,0.0,0.0,-1,Electronics,0,0,8,21,1,9
+C0008,Jennifer Davis,noemail,0,N/A,Mexico,2023-05-23,2025-02-07,94,4142.42,89.31,328,,431,117,0,140,Yes,-2
+C0009,Susan White,N/A,202,Female,France,2023-02-11,2025-10-24,-3,0.0,0.0,69,Books,0,0,8,7,0,16
+C0010,,N/A,37,Other,Mexico,2023-01-14,2025-01-10,33,-2924.48,269.34,356,N/A,277,72,0,39,False,8
+C0011,Robert Jones,robert.jones@example.com,-1,Female,UNKNOWN,2021-07-09,2025-01-17,-8,0.0,0.0,580,Toys,0,0,15,2,False,-2
+C0012,Linda Wilson,,0,Female,Italy,2023-03-21,2025-03-15,0,0.0,0.0,292,Home,493,106,20,5,no,13
+C0013,Charles Robinson,charles.robinson@example.com,-1,X,,2022-10-16,,85,0.0,0.0,-1,Other,55,675,0,39,N/A,9
+C0014,John Smith,noemail,0,Female,Mexico,2023-07-11,2025-07-08,-1,0.0,0.0,177,Beauty,13,481,47,1,1,17
+C0015,UNKNOWN,,43,N/A,???,2023-07-04,2024-12-09,66,0.0,0.0,388,Food,358,0,33,52,False,12
+C0016,N/A,@example.com,67,Other,France,2023-10-10,,29,0.0,0.0,-1,Toys,0,707,46,31,no,8
+C0017,Richard Jackson,noemail,-1,f,USA,2021-12-20,2025-04-05,0,0.0,0.0,271,Fashion,59,0,14,6,yes,7
+C0018,Richard Jackson,noemail,-1,M,Spain,2023-11-20,2025-07-27,0,0.0,0.0,158,Beauty,121,166,45,1,False,0
+C0019,John Smith,noemail,-1,Female,Canada,2022-01-17,2024-12-15,0,0.0,0.0,598,Electronics,0,0,21,10,1,10
+C0020,Thomas Thompson,noemail,0,,France,2023-03-21,2025-07-29,0,0.0,0.0,156,Beauty,122,896,15,8,True,3
+C0014,Jessica Martin,noemail,62,F,France,2022-05-15,2025-02-20,0,0.0,0.0,315,Food,118,733,5,8,False,20
+C0022,   ,N/A,175,Female,Spain,9999-99-99,2025-07-13,-10,0.0,0.0,172,Fashion,0,475,19,2,True,12
+C0023,James Johnson,user23@test.com,-1,male,Canada,2022-04-20,2025-01-18,0,0.0,0.0,348,Toys,307,978,46,3,Yes,-1
+C0024,Jennifer Davis,invalid.email,-1,male,USA,2022-09-23,,-6,0.0,0.0,-1,Sports,0,164,36,9,No,11
+C0025,UNKNOWN,@example.com,50,m,,2021-04-21,2025-02-09,-10,0.0,0.0,326,Sports,289,828,3,7,yes,7
+C0026,Jennifer Davis,,36,female,France,2022-07-23,2025-11-30,-2,0.0,0.0,32,Food,379,268,16,7,1,17
+C0027,Linda Wilson,@example.com,-5,F,Brazil,2021-05-20,2025-03-15,0,0.0,0.0,292,Toys,296,895,2,4,no,13
+C0028,John Smith,@example.com,-1,female,Spain,2023-02-05,2024-12-08,0,0.0,0.0,389,Other,0,674,39,2,1,0
+C0029,Charles Robinson,user29@test.com,-1,M,,2023-10-16,2025-07-18,7512,0.0,0.0,167,Electronics,110,938,12,1475,no,0
+C0030,UNKNOWN,,28,male,Spain,2022-05-31,2025-08-30,0,0.0,0.0,124,,226,465,-2,7,No,2
+C0012,Charles Robinson,noemail,3,m,???,2022-05-22,2024-12-07,37,0.0,0.0,390,Beauty,170,189,41,43,False,17
+C0032,Barbara Taylor,barbara.taylor@example.com,183,female,,2021-07-17,2025-03-04,0,0.0,0.0,303,Books,0,72,12,10,no,0
+C0033,Elizabeth Thomas,noemail,287,X,,2021-05-13,2024-12-20,1410,1568953.31,125.51,-24,Sports,0,235,0,550,no,18
+C0034,UNKNOWN,noemail,-1,,Italy,2023-05-23,2025-08-02,7018,0.0,0.0,152,Fashion,318,989,48,5459,Yes,0
+C0035,Michael Miller,N/A,1,N/A,Australia,2026-07-28,2025-09-25,69,5745.32,83.27,762,N/A,22,791,35,8,1,16
+C0034,Barbara Taylor,barbara.taylor@example.com,21,f,,2022-04-18,,0,0.0,0.0,-1,N/A,248,96,5,10,0,3
+C0037,Linda Wilson,,174,X,France,2023-10-24,,8075,6278185.16,416.7,-1,N/A,0,932,16,9832,No,15
+C0038,Robert Jones,noemail,239,F,UNKNOWN,2022-06-05,2025-01-16,1430,0.0,0.0,350,Home,0,405,45,120,False,3
+C0039,Joseph Harris,user@,37,Male,UK,9999-99-99,,0,0.0,0.0,-1,N/A,210,689,29,8,No,9
+C0040,Maria Garcia,@example.com,185,female,Canada,2026-06-01,2025-09-25,4770,260424.06,580.0,98,Other,138,16,0,1402,N/A,19
+C0041,James Johnson,user41@test.com,33,m,???,2023-07-12,,9693,1827400.67,188.53,-1,Beauty,68,666,47,10283,1,15
+C0042,Joseph Harris,user@,-1,f,UNKNOWN,2022-07-30,,1616,0.0,0.0,-1,Toys,273,0,0,1837,N/A,7
+C0043,Thomas Thompson,thomas.thompson@example.com,-1,F,Mexico,9999-99-99,2025-04-20,3600,7110078.81,1975.02,691,Sports,426,923,7,2725,False,1
+C0044,Barbara Taylor,noemail,62,male,Mexico,2022-02-13,2024-12-15,67,0.0,0.0,382,Beauty,0,297,4,59,0,13
+C0022,N/A,noemail,-1,N/A,UK,9999-99-99,2025-08-01,0,0.0,0.0,153,Food,0,689,0,7,1,9
+C0046,Susan White,noemail,-1,M,UNKNOWN,2022-01-02,2025-09-28,-9,0.0,0.0,354,Food,0,0,23,8,yes,-1
+C0047,John Smith,user47@test.com,187,f,,2022-04-10,,-10,0.0,0.0,-1,Other,206,290,5,0,Yes,16
+C0048,Patricia Brown,,0,Male,France,2022-10-31,2024-12-23,10,0.0,0.0,374,Electronics,24,745,4,13,yes,8
+C0049,,,80,Other,UNKNOWN,9999-99-99,2025-08-20,0,0.0,0.0,134,Beauty,431,881,15,1,yes,9
+C0050,Richard Jackson,invalid.email,-1,N/A,France,2022-04-24,2025-08-30,6262,0.0,0.0,124,Electronics,456,440,48,934,False,9
+C0051,   ,user51@example.com,9,N/A,UNKNOWN,2022-04-21,2025-04-14,-5,0.0,0.0,262,N/A,481,748,31,6,0,5
+C0052,Michael Miller,noemail,36,f,UK,2022-02-01,2025-06-20,2063,0.0,0.0,195,Books,52,0,13,2018,True,15
+C0053,Sarah Garcia,user53@test.com,-1,Other,Brazil,2023-10-17,,8372,-937.64,-0.11,-1,Electronics,0,306,18,11616,Yes,13
+C0054,James Johnson,N/A,35,N/A,UNKNOWN,2022-02-25,2025-01-25,43,-352.12,422.42,341,Food,0,652,0,56,Yes,18
+C0055,Joseph Harris,joseph.harris@example.com,9,female,Australia,2021-08-02,2025-05-10,9437,1283754.49,136.03,236,,482,0,18,9459,yes,2
+C0056,Thomas Thompson,@example.com,-1,N/A,Brazil,2023-11-10,2025-01-29,83,7547571.84,90934.6,298,Books,27,456,15,25,False,0
+C0057,David Anderson,user@,-1,N/A,USA,2025-07-24,2025-04-02,-3,0.0,0.0,274,Home,305,301,30,8,0,15
+C0058,John Smith,user58@test.com,0,Other,UNKNOWN,2026-01-12,2024-12-30,0,0.0,0.0,367,,184,692,34,1,Yes,7
+C0059,Susan White,noemail,-1,Female,Mexico,2023-02-13,2025-04-09,9950,-4057.91,982.44,267,Other,350,486,48,11818,No,15
+C0060,Richard Jackson,noemail,187,Other,Canada,2022-08-28,2025-02-28,-2,0.0,0.0,307,N/A,109,418,28,1,False,14
+C0061,Jennifer Davis,,0,M,UNKNOWN,2026-03-04,2025-11-11,0,0.0,0.0,51,Food,373,0,0,0,True,16
+C0062,David Anderson,N/A,-1,f,France,2022-09-18,2025-08-27,-5,0.0,0.0,127,Toys,0,83,4,2,False,4
+C0025,Linda Wilson,@example.com,-1,M,France,2023-09-01,2025-09-10,6095,0.0,0.0,113,,349,477,49,3573,Yes,16
+C0064,James Johnson,N/A,-1,F,USA,2022-06-30,,-2,0.0,0.0,-1,Food,251,51,30,6,1,14
+C0065,Barbara Taylor,noemail,34,m,Spain,2021-06-29,,-10,0.0,0.0,-1,Other,205,907,22,6,False,18
+C0066,Robert Jones,user@,0,Other,Germany,2022-09-13,2025-02-25,-2,0.0,0.0,310,Beauty,0,110,40,6,N/A,-3
+C0067,James Johnson,james.johnson@example.com,-1,f,Germany,2023-08-10,2025-07-05,6224,0.0,0.0,180,Electronics,292,0,0,6994,0,8
+C0068,UNKNOWN,N/A,-1,Male,UNKNOWN,2021-08-05,2025-04-07,0,0.0,0.0,269,Beauty,159,939,21,1,0,3
+C0049,UNKNOWN,user69@example.com,-1,Other,UNKNOWN,2023-01-25,2025-11-23,0,0.0,0.0,39,Other,458,324,22,7,0,6
+C0070,Thomas Thompson,,-1,female,Spain,2023-08-04,,-1,0.0,0.0,-1,Toys,115,665,0,5,No,12
+C0071,,,-1,f,UK,2023-11-01,2025-10-23,-10,0.0,0.0,70,Beauty,181,648,37,7,1,14
+C0072,John Smith,@example.com,0,X,Italy,2023-09-24,2025-07-30,9625,0.0,0.0,155,Other,340,0,39,12440,True,9
+C0073,Jessica Martin,jessica.martin@example.com,-1,X,UNKNOWN,2021-06-28,2025-11-09,29,-3626.17,321.34,53,,410,402,0,14,False,15
+C0074,Richard Jackson,N/A,0,Other,Canada,2022-10-10,2025-10-23,0,0.0,0.0,70,Food,172,379,41,9,no,16
+C0075,Linda Wilson,user75@test.com,0,Male,,2021-05-10,2025-05-30,-6,0.0,0.0,216,N/A,3,562,36,5,no,10
+C0076,James Johnson,N/A,0,m,UK,2023-10-28,2025-07-12,8933,-3791.71,-0.42,173,Electronics,0,630,19,7207,yes,17
+C0077,Robert Jones,noemail,-1,female,France,2021-10-22,2025-05-22,-4,0.0,0.0,224,N/A,3,0,43,3,1,19
+C0053,UNKNOWN,@example.com,-1,F,Brazil,2022-07-31,2024-12-11,1602,0.0,0.0,386,Beauty,171,622,39,1631,yes,0
+C0079,John Smith,noemail,-1,N/A,UNKNOWN,2023-12-06,2025-07-02,-9,0.0,0.0,183,Beauty,168,443,26,5,False,19
+C0080,David Anderson,invalid.email,2,female,Mexico,2022-03-27,2025-01-07,-4,0.0,0.0,359,Electronics,95,715,2,9,False,14
+C0081,David Anderson,user81@test.com,-1,female,Australia,2023-01-05,2025-01-18,2388,0.0,0.0,348,,186,493,42,2637,False,12
+C0082,Jennifer Davis,,-1,f,UK,2022-03-03,2024-12-15,62,-1100.18,-17.74,382,Food,385,557,34,9,No,8
+C0083,N/A,,0,N/A,Germany,2023-01-09,2025-10-17,4882,-2009.72,807.39,76,N/A,265,997,16,4686,No,0
+C0084,UNKNOWN,invalid.email,-1,X,UK,2023-02-05,2024-12-19,3329,1069774.66,321.35,378,Other,0,968,35,15,False,11
+C0085,UNKNOWN,user85@test.com,-1,Female,Brazil,2022-05-19,,0,0.0,0.0,-1,Home,-10,0,42,2,No,5
+C0047,William Moore,invalid.email,7,m,UNKNOWN,2025-07-02,,0,0.0,0.0,-1,Other,51,0,6,7,False,-1
+C0087,Patricia Brown,user@,4,X,UNKNOWN,9999-99-99,2025-04-19,0,0.0,0.0,257,Beauty,41,121,22,5,no,1
+C0088,,N/A,0,male,Germany,2023-03-04,2025-07-31,63,0.0,0.0,154,,269,776,47,4,True,-3
+C0089,Maria Garcia,noemail,0,N/A,UNKNOWN,2022-06-30,2025-09-13,-9,0.0,0.0,110,Books,314,660,2,4,no,4
+C0012,Susan White,susan.white@example.com,0,Other,USA,2021-10-21,2025-07-21,3079,0.0,0.0,164,Fashion,489,73,30,2945,True,15
+C0091,Jennifer Davis,user91@test.com,75,M,???,2022-12-04,2025-08-31,-2,0.0,0.0,123,Sports,0,117,1,2,Yes,-2
+C0092,James Johnson,@example.com,-1,M,Spain,2022-04-03,2025-05-26,-3,0.0,0.0,220,Electronics,167,705,0,5,True,9
+C0093,   ,noemail,51,Male,,9999-99-99,2025-03-09,0,0.0,0.0,173,N/A,0,576,40,2,Yes,7
+C0094,Richard Jackson,user@,9,Male,UNKNOWN,2022-09-27,2025-05-06,0,0.0,0.0,240,Sports,0,821,50,9,True,7
+C0095,UNKNOWN,user@,-4,M,Italy,2023-09-26,2025-09-20,-10,0.0,0.0,103,Books,470,591,50,1,True,0
+C0096,,invalid.email,-1,M,UK,2022-08-10,,-4,0.0,0.0,-1,Food,0,629,39,4,1,14
+C0097,James Johnson,invalid.email,-1,N/A,USA,2022-06-22,2025-06-07,-2,0.0,0.0,208,Electronics,0,54,28,8,yes,4
+C0098,Patricia Brown,noemail,-1,female,???,2023-02-09,2024-12-08,1462,0.0,0.0,389,Home,36,611,31,1952,True,16
+C0099,Robert Jones,invalid.email,-1,Other,UK,2021-04-22,,2655,0.0,0.0,-1,N/A,352,0,37,3218,yes,15
+C0100,Richard Jackson,@example.com,-1,,Italy,2023-06-28,2025-01-21,0,0.0,0.0,345,Beauty,153,901,0,10,yes,5
+C0101,UNKNOWN,@example.com,-1,Other,Italy,2022-12-09,2025-05-22,12,4843.36,403.61,224,Toys,28,914,0,5,N/A,0
+C0102,UNKNOWN,invalid.email,190,Female,Germany,2022-06-26,2025-07-09,0,0.0,0.0,176,Toys,411,609,4,0,Yes,6
+C0103,Jessica Martin,@example.com,0,male,Canada,2022-12-06,2025-04-16,-6,0.0,0.0,260,Home,331,679,32,6,N/A,-2
+C0104,Thomas Thompson,N/A,-1,f,France,2026-08-20,2025-11-13,-1,0.0,0.0,49,Home,0,211,6,0,no,18
+C0105,,@example.com,-1,N/A,Spain,2023-12-19,2025-01-15,-2,0.0,0.0,351,Fashion,0,98,32,5,no,17
+C0106,Karen Clark,invalid.email,0,Other,Italy,2026-08-13,2024-12-12,0,0.0,0.0,520,Sports,241,0,12,2,No,0
+C0107,David Anderson,noemail,-1,Other,Brazil,2022-07-22,2025-10-28,39,4032.36,103.39,65,Other,178,0,38,10,True,12
+C0108,Jennifer Davis,noemail,238,Other,???,2023-07-18,2025-08-13,0,0.0,0.0,141,N/A,456,172,-2,3,No,6
+C0109,UNKNOWN,noemail,7,f,France,2023-09-18,,84,3488348.97,41527.96,-1,Other,0,187,46,56,True,16
+C0110,David Anderson,david.anderson@example.com,-1,m,Italy,2021-09-17,2025-08-09,0,0.0,0.0,145,Home,0,0,4,7,False,20
+C0111,N/A,noemail,5,Other,???,2023-04-09,2025-04-07,15,0.0,0.0,269,Electronics,0,200,34,9,False,19
+C0112,James Johnson,invalid.email,-4,N/A,UNKNOWN,2021-11-10,2025-09-25,0,0.0,0.0,308,Other,-3,0,31,3,True,17
+C0113,Linda Wilson,user@,-1,male,UK,2025-06-07,2025-07-05,-2,0.0,0.0,180,Books,74,0,0,6,True,20
+C0114,Michael Miller,N/A,28,m,UNKNOWN,9999-99-99,2024-12-27,0,0.0,0.0,370,Sports,68,697,17,6,False,5
+C0115,UNKNOWN,user115@test.com,50,f,Germany,2021-04-09,2024-12-05,0,0.0,0.0,392,Food,-9,86,0,9,1,-1
+C0116,James Johnson,user116@test.com,209,male,Brazil,2026-07-05,2025-11-10,37,0.0,0.0,52,Home,447,631,44,0,yes,2
+C0117,Richard Jackson,noemail,0,N/A,UK,2021-05-10,2025-10-08,0,0.0,0.0,85,Books,431,853,6,7,1,10
+C0118,James Johnson,user@,0,Other,Australia,2026-04-18,2025-03-29,44,0.0,0.0,278,Fashion,154,988,30,23,0,9
+C0119,James Johnson,,-1,Other,UNKNOWN,2025-12-07,2025-02-18,2489,6891363.2,2768.73,356,Food,382,479,21,2927,1,18
+C0120,David Anderson,@example.com,6,f,UK,2023-04-15,2025-08-26,-4,0.0,0.0,128,Toys,314,0,47,7,1,13
+C0121,Jessica Martin,jessica.martin@example.com,-1,N/A,UK,2023-09-16,2025-01-27,0,0.0,0.0,339,Beauty,483,296,6,2,no,20
+C0122,UNKNOWN,user@,0,male,UNKNOWN,2022-03-06,2025-08-31,6281,0.0,0.0,123,Toys,0,20,1,922,Yes,2
+C0123,UNKNOWN,user123@example.com,62,female,???,2022-06-04,2025-01-03,4892,4434243.27,63.26,363,Beauty,389,0,12,5186,yes,14
+C0124,Michael Miller,noemail,-1,F,UK,2023-11-20,2025-02-19,3636,9437449.12,2595.56,316,N/A,328,803,20,592,yes,2
+C0125,Thomas Thompson,N/A,7,X,Spain,2022-04-07,2025-02-16,0,0.0,0.0,319,,10,323,48,1,no,20
+C0126,Thomas Thompson,user@,0,Female,Spain,2021-04-26,2025-03-02,-9,0.0,0.0,305,Fashion,414,994,25,10,False,1
+C0092,David Anderson,user127@test.com,-1,Female,France,2023-02-11,,86,0.0,0.0,-1,Fashion,341,83,26,92,no,-3
+C0128,Sarah Garcia,noemail,0,X,Spain,9999-99-99,2025-09-19,0,0.0,0.0,104,Sports,369,0,24,10,0,2
+C0129,William Moore,invalid.email,-1,F,France,2022-05-16,2025-06-14,45,5055813.35,160.87,201,Books,0,315,12,50,No,1
+C0130,David Anderson,,46,Male,UNKNOWN,2023-08-10,2025-08-22,33,13532.26,410.07,132,N/A,386,396,47,32,No,13
+C0131,Richard Jackson,richard.jackson@example.com,2,f,UK,2021-04-15,,0,0.0,0.0,-1,Sports,11,525,0,5,no,11
+C0132,Maria Garcia,noemail,283,Other,France,2022-12-09,2024-12-31,-2,0.0,0.0,366,Books,236,0,6,7,False,13
+C0133,Michael Miller,invalid.email,208,Other,Canada,2023-07-19,2025-05-04,-7,0.0,0.0,242,,75,179,23,9,N/A,20
+C0134,Barbara Taylor,noemail,-1,Male,Germany,2021-09-12,2025-01-15,5333,-2076.99,-0.39,351,N/A,413,93,37,4908,True,0
+C0135,N/A,,0,X,Italy,9999-99-99,2025-08-05,61,0.0,0.0,736,Sports,353,2,5,61,True,3
+C0136,David Anderson,user136@test.com,-1,m,Australia,2021-11-18,2025-02-21,0,0.0,0.0,314,Books,193,870,0,1,Yes,19
+C0137,Patricia Brown,noemail,0,Other,USA,9999-99-99,,8133,0.0,0.0,-1,,136,606,47,2866,1,3
+C0138,Thomas Thompson,thomas.thompson@example.com,193,Female,UNKNOWN,2025-08-03,,0,0.0,0.0,-1,N/A,350,87,44,8,N/A,5
+C0139,Michael Miller,noemail,-1,F,Mexico,2025-10-12,2025-10-02,9813,6068516.87,464.26,91,,0,259,38,12916,Yes,4
+C0140,Susan White,noemail,51,m,UNKNOWN,2023-07-02,2025-06-02,-1,0.0,0.0,213,Other,125,202,37,5,False,0
+C0141,UNKNOWN,noemail,-1,f,Spain,2021-06-26,2025-07-13,-8,0.0,0.0,172,N/A,234,0,20,6,False,0
+C0142,Joseph Harris,joseph.harris@example.com,247,female,Australia,2023-03-31,2025-01-21,-5,0.0,0.0,345,Books,0,179,34,10,Yes,20
+C0143,Linda Wilson,noemail,30,Male,Italy,2022-07-20,2025-06-22,100,0.0,0.0,193,Fashion,161,363,49,60,yes,0
+C0144,UNKNOWN,noemail,0,N/A,Brazil,2022-04-12,2025-01-11,0,0.0,0.0,231,Books,152,722,39,6,No,0
+C0145,Elizabeth Thomas,N/A,79,Male,,2021-11-24,,0,0.0,0.0,-1,Electronics,258,80,37,2,False,9
+C0146,Linda Wilson,,-1,M,USA,2022-08-31,2025-02-27,-2,0.0,0.0,308,Other,278,650,17,5,1,-1
+C0147,Elizabeth Thomas,invalid.email,-5,female,France,9999-99-99,2025-03-31,-10,0.0,0.0,276,Beauty,277,250,45,10,no,4
+C0148,Susan White,N/A,-1,N/A,France,2023-03-10,,0,0.0,0.0,-1,Electronics,486,185,0,4,No,11
+C0149,Linda Wilson,linda.wilson@example.com,-1,female,Brazil,9999-99-99,,0,0.0,0.0,-1,Food,448,0,-2,1,Yes,11
+C0150,Maria Garcia,user150@test.com,271,female,UK,9999-99-99,2025-03-09,-6,0.0,0.0,346,Fashion,212,166,35,1,no,-3
+C0151,Charles Robinson,,-1,Male,Brazil,2026-03-27,2025-01-14,7,9835080.42,444.33,352,Other,360,915,43,9,0,19
+C0152,Charles Robinson,user@,-1,,???,2023-03-04,2025-02-26,0,0.0,0.0,309,,0,239,2,10,0,3
+C0153,Jessica Martin,invalid.email,232,F,Canada,2023-08-21,2025-11-14,25,0.0,0.0,48,Books,357,947,0,36,1,0
+C0154,Joseph Harris,joseph.harris@example.com,41,,France,2023-10-13,2025-03-10,-9,0.0,0.0,297,,81,566,4,10,N/A,11
+C0155,Susan White,invalid.email,290,X,UK,2021-06-20,2025-06-17,8054,2925353.01,363.22,198,Toys,7,0,31,2208,No,4
+C0156,David Anderson,@example.com,174,Male,UK,2023-04-13,2025-10-14,4562,0.0,0.0,79,Fashion,143,822,3,6385,True,0
+C0157,Susan White,user157@test.com,0,m,USA,9999-99-99,2025-09-15,0,0.0,0.0,108,,103,800,6,5,False,20
+C0103,William Moore,N/A,-1,f,Italy,2021-12-08,2025-07-29,9,4287408.43,476378.71,524,Home,0,817,7,9,True,0
+C0159,UNKNOWN,user159@test.com,-1,Male,???,2021-09-29,,-3,0.0,0.0,-1,N/A,270,742,0,10,True,18
+C0160,William Moore,@example.com,30,F,Italy,2022-12-28,2025-11-21,0,0.0,0.0,41,Books,295,185,27,8,True,13
+C0161,Jessica Martin,invalid.email,240,Female,Mexico,2022-11-30,2025-11-15,0,0.0,0.0,682,N/A,0,635,24,3,N/A,6
+C0162,David Anderson,invalid.email,-1,Male,France,2022-10-17,2025-09-17,83,2309705.33,419.9,106,Food,410,0,0,65,False,0
+C0163,John Smith,@example.com,56,female,Canada,2022-04-21,2025-01-02,-8,0.0,0.0,364,Toys,-3,0,0,3,Yes,-1
+C0164,Joseph Harris,,-1,m,Italy,2021-12-24,2025-01-21,95,-2787.11,-29.34,345,Other,188,640,0,43,No,6
+C0165,Barbara Taylor,noemail,-1,f,???,2023-06-30,2024-12-09,0,0.0,0.0,388,Other,0,0,18,10,False,0
+C0116,,N/A,7,m,Mexico,2022-05-31,2025-09-15,20,-3483.36,-174.17,108,Beauty,381,464,29,29,True,12
+C0167,Charles Robinson,,44,Female,Mexico,2023-06-02,,18,0.0,0.0,-1,Electronics,498,683,40,6,1,8
+C0168,James Johnson,user@,-1,F,France,2023-01-28,2025-03-07,26,0.0,0.0,300,,0,583,0,17,False,12
+C0169,,invalid.email,-1,M,Canada,2026-03-31,2025-08-16,7783,1101675.4,141.55,514,N/A,382,697,23,9316,N/A,0
+C0170,Michael Miller,user@,0,Male,Brazil,2021-06-27,2025-05-03,9537,6196578.2,649.74,243,Electronics,182,857,36,6377,False,6
+C0171,David Anderson,@example.com,-1,female,Brazil,2023-07-05,,0,0.0,0.0,-1,Electronics,453,189,28,8,No,1
+C0172,Patricia Brown,N/A,-1,m,,2023-11-16,2025-01-30,11,3812326.89,217.75,336,Sports,153,682,7,0,No,16
+C0173,Patricia Brown,user@,0,N/A,France,2021-07-01,2025-04-17,6,0.0,0.0,259,N/A,0,626,19,8,Yes,18
+C0174,James Johnson,noemail,0,f,Canada,2022-09-11,2025-08-08,0,0.0,0.0,146,N/A,430,0,-1,1,1,12
+C0175,Jennifer Davis,user@,0,N/A,Canada,2022-07-04,2025-02-01,0,0.0,0.0,334,Other,391,0,19,8,Yes,18
+C0147,Jessica Martin,,-1,F,Australia,2022-12-08,2025-01-04,-10,0.0,0.0,362,N/A,0,671,32,4,no,11
+C0177,UNKNOWN,@example.com,261,F,Australia,2026-01-31,2025-09-26,0,0.0,0.0,635,Fashion,0,0,42,9,no,19
+C0178,Richard Jackson,noemail,-1,m,???,2021-07-21,2025-09-23,0,0.0,0.0,100,Home,318,0,0,9,no,11
+C0179,Sarah Garcia,noemail,40,,Brazil,2022-11-06,2025-02-08,1620,0.0,0.0,327,Sports,30,619,28,314,0,6
+C0180,David Anderson,david.anderson@example.com,-1,,,2023-03-05,2025-11-12,5981,2521713.0,628.07,50,Fashion,29,0,6,4598,No,0
+C0029,Karen Clark,invalid.email,244,N/A,,2023-11-28,2025-10-18,0,0.0,0.0,75,Food,75,746,1,10,No,0
+C0119,Richard Jackson,,-1,f,France,9999-99-99,2025-04-15,48,0.0,0.0,261,Sports,126,0,35,45,1,20
+C0183,UNKNOWN,noemail,51,X,USA,9999-99-99,,6759,0.0,0.0,-1,N/A,0,608,43,1960,False,0
+C0184,UNKNOWN,invalid.email,-1,X,Canada,2022-10-20,2024-12-24,98,0.0,0.0,373,Sports,25,945,23,40,1,14
+C0185,Michael Miller,user185@test.com,76,F,Australia,9999-99-99,2024-12-31,1619,0.0,0.0,366,Toys,0,799,12,8,no,0
+C0186,Jessica Martin,N/A,-1,M,UNKNOWN,2021-08-10,2025-10-20,58,28095.56,365.67,796,Other,8,732,0,25,1,14
+C0187,Jessica Martin,,159,N/A,,2025-07-14,2024-12-31,0,0.0,0.0,366,Other,463,748,39,0,1,0
+C0188,Linda Wilson,invalid.email,-1,N/A,Canada,2021-09-15,2025-10-03,-1,0.0,0.0,90,Other,156,695,6,5,Yes,15
+C0189,James Johnson,invalid.email,-1,Male,Brazil,2021-10-12,2025-01-21,48,1802271.07,37547.31,345,Food,95,272,24,25,False,-2
+C0190,UNKNOWN,user190@test.com,-1,Female,Germany,2022-12-26,2025-02-27,-7,0.0,0.0,308,Home,485,0,8,10,True,8
+C0191,Susan White,,-1,Male,UK,2021-06-28,2025-04-17,6340,0.0,0.0,259,Toys,0,594,25,2369,Yes,0
+C0192,Richard Jackson,,-1,Female,Spain,2023-08-14,,7852,0.0,0.0,-1,Home,273,0,31,8010,Yes,11
+C0193,   ,noemail,-1,Male,Australia,9999-99-99,2025-03-17,4,0.0,0.0,290,Home,112,87,40,-1,False,15
+C0194,John Smith,noemail,253,X,Brazil,9999-99-99,2025-05-17,0,0.0,0.0,229,,396,696,19,0,0,0
+C0195,Maria Garcia,user@,0,N/A,,2026-05-13,2025-09-21,0,0.0,0.0,102,Other,371,323,15,8,no,-1
+C0196,Joseph Harris,N/A,0,N/A,France,2022-01-21,2025-10-28,-3,0.0,0.0,65,Fashion,47,503,11,8,True,18
+C0197,Robert Jones,noemail,46,N/A,Germany,2022-05-18,2025-01-04,0,0.0,0.0,362,Sports,123,375,0,0,False,11
+C0198,Karen Clark,noemail,-1,Other,,2023-09-03,,3072,1312201.76,427.15,-1,Food,73,119,0,3309,1,11
+C0199,Robert Jones,N/A,225,N/A,Australia,2021-05-31,2024-12-13,14,2350.31,167.88,384,Beauty,103,780,-1,-3,0,18
+C0200,James Johnson,noemail,-1,N/A,USA,2021-08-09,2025-05-17,5663,0.0,0.0,229,Toys,0,820,25,6781,False,16

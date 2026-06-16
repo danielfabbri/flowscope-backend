@@ -1,0 +1,52 @@
+{
+  "name": "Habla - Interação",
+  "description": "Pipeline created via UI",
+  "steps": [
+    {
+      "name": "✏️ User Input",
+      "type": "user_input",
+      "enabled": true,
+      "config": {
+        "temperature_celsius": "22",
+        "use_defaults": false,
+        "default_values": "",
+        "prompt_on_run": true
+      }
+    },
+    {
+      "name": "📂 Model Loading",
+      "type": "model_loading",
+      "enabled": true,
+      "config": {
+        "model_name": "Climatempo",
+        "validate_features": true,
+        "cache_model": true
+      }
+    },
+    {
+      "name": "🔮 Model Inference",
+      "type": "model_inference",
+      "enabled": true,
+      "config": {
+        "prediction_column": "ice_creams_sold",
+        "include_probabilities": true,
+        "include_error": true,
+        "compare_with_actual": false,
+        "actual_column": ""
+      }
+    },
+    {
+      "name": "Column Selection",
+      "type": "column_selection",
+      "enabled": true,
+      "config": {
+        "mode": "keep",
+        "columns": [
+          "temperature_celsius",
+          "ice_creams_sold"
+        ]
+      }
+    }
+  ],
+  "solution_id": "f32e97e3-3b19-465a-a3f5-9d69db1f7abc"
+}

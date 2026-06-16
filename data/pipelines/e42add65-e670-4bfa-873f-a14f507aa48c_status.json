@@ -1,0 +1,66 @@
+{
+  "id": "e42add65-e670-4bfa-873f-a14f507aa48c",
+  "config": {
+    "name": "Habla - Intera\u00e7\u00e3o",
+    "description": "Pipeline created via UI",
+    "steps": [
+      {
+        "name": "\u270f\ufe0f User Input",
+        "type": "user_input",
+        "enabled": true,
+        "config": {
+          "temperature_celsius": "22",
+          "use_defaults": false,
+          "default_values": "",
+          "prompt_on_run": true
+        }
+      },
+      {
+        "name": "\ud83d\udcc2 Model Loading",
+        "type": "model_loading",
+        "enabled": true,
+        "config": {
+          "model_name": "Climatempo",
+          "validate_features": true,
+          "cache_model": true
+        }
+      },
+      {
+        "name": "\ud83d\udd2e Model Inference",
+        "type": "model_inference",
+        "enabled": true,
+        "config": {
+          "prediction_column": "ice_creams_sold",
+          "include_probabilities": true,
+          "include_error": true,
+          "compare_with_actual": false,
+          "actual_column": ""
+        }
+      },
+      {
+        "name": "Column Selection",
+        "type": "column_selection",
+        "enabled": true,
+        "config": {
+          "mode": "keep",
+          "columns": [
+            "temperature_celsius",
+            "ice_creams_sold"
+          ]
+        }
+      }
+    ]
+  },
+  "status": "completed",
+  "current_step": null,
+  "steps_completed": [
+    "\u270f\ufe0f User Input",
+    "\ud83d\udcc2 Model Loading",
+    "\ud83d\udd2e Model Inference",
+    "Column Selection"
+  ],
+  "created_at": "2026-06-11T14:41:36.754891",
+  "started_at": "2026-06-11T15:13:01.485695",
+  "completed_at": "2026-06-11T15:13:09.155292",
+  "error": null
+}

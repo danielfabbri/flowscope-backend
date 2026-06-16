@@ -1,0 +1,2 @@
+temperature_celsius,loaded_model_name,loaded_model_type,loaded_model_algorithm,loaded_model_features,predicted_ice_creams,inference_model,inference_count
+25,Habla_Simple,regression,random_forest,1,74.22583333333334,Habla_Simple,1

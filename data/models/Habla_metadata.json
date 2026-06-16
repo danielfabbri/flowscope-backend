@@ -1,0 +1,45 @@
+{
+  "model_name": "Habla",
+  "model_type": "regression",
+  "algorithm": "random_forest",
+  "target_column": "ice_creams_sold",
+  "feature_columns": [
+    "day_of_week",
+    "day_name",
+    "month",
+    "is_weekend",
+    "is_holiday",
+    "temperature_celsius",
+    "weather",
+    "has_promotion",
+    "store_location",
+    "peak_hour",
+    "revenue_usd"
+  ],
+  "n_features": 11,
+  "metrics": {
+    "train_mse": 4.674496428571426,
+    "train_mae": 0.7766071428571427,
+    "train_r2": 0.9978957582310137,
+    "test_mse": 31.41358749999999,
+    "test_mae": 1.477916666666667,
+    "test_r2": 0.981560583105888,
+    "mse": 31.41358749999999,
+    "rmse": 5.604782555996262,
+    "mae": 1.477916666666667,
+    "r2_score": 0.981560583105888,
+    "has_feature_importance": true
+  },
+  "hyperparameters": {},
+  "training_info": {
+    "trained_at": "2026-06-11T14:09:49.988999",
+    "train_duration_seconds": 0.192797,
+    "total_rows": 160,
+    "train_rows": 112,
+    "test_rows": 48,
+    "n_features": 11
+  },
+  "sklearn_version": "1.9.0",
+  "model_version": "1.0",
+  "solution_id": "f32e97e3-3b19-465a-a3f5-9d69db1f7abc"
+}

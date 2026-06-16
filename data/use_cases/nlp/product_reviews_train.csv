@@ -1,0 +1,501 @@
+review_id,product_name,category,rating,review_text,review_date,verified_purchase,helpful_votes,sentiment
+REV00001,Denim Jeans,clothing,5,"EDIT: After more use, Perfect fit! Very comfortable to wear all day. True to size, the measurements were accurate. Five stars from me!",2025-12-31,True,24,positive
+REV00002,Denim Jeans,clothing,4,"Just received it and Great value for money, highly recommend! Disappointed overall.",2026-01-01,True,17,positive
+REV00003,Vacuum Cleaner,home,1,"Just received it and Way too loud, sounds like a jet engine. Missing basic features, very disappointed. Disappointed overall.",2026-03-11,False,17,negative
+REV00004,Vacuum Cleaner,home,5,"In my opinion, Powerful and efficient, cleans thoroughly. Disappointed overall.",2026-02-06,True,44,positive
+REV00005,Laptop Pro 15,electronics,5,My experience: Amazing battery life! Lasts all day without charging. Worth every penny! Check my blog: www.reviews.com/mypost,2026-06-04,True,50,positive
+REV00006,Tablet Ultra,electronics,3,"EDIT: After more use, Average product for the price point. Highly recommend!",2026-04-15,True,8,neutral
+REV00007,Cotton T-Shirt,clothing,3,"Honestly, As expected from this brand. Would buy again!",2026-05-23,False,3,neutral
+REV00008,Leather Belt,clothing,2,"Poor quality material, started falling apart after one wash. You get what you pay for.",2026-02-05,True,6,negative
+REV00009,Denim Jeans,clothing,3,"Just received it and Standard quality, nothing remarkable. Five stars from me!",2026-05-23,True,8,neutral
+REV00010,Cotton T-Shirt,clothing,3,"In my opinion, As expected from this brand. Worth every penny!",2026-04-27,False,10,neutral
+REV00011,Winter Jacket,clothing,5,"<p>To be honest, Beautiful color, exactly as shown in pictures. Disappointed overall.</p>",2026-01-07,False,31,positive
+REV00012,Denim Jeans,clothing,3,"I must say, Standard quality, nothing remarkable. Worth every penny!",2026-02-21,False,1,neutral
+REV00013,Smartphone X1,electronics,3,"Just received it and Decent performance, not amazing but okay. Total waste of money.",2026-04-17,True,3,neutral
+REV00014,Smartphone X1,electronics,2,"My experience: Sound quality is awful, tinny and distorted. Battery drains too quickly, barely lasts 3 hours. One star is too generous.",2026-05-10,True,5,negative
+REV00015,Running Shoes,clothing,1,"Overall, Overpriced for such low quality. Runs very small, order 2 sizes up! Would buy again! Check my blog: www.reviews.com/mypost",2026-04-13,True,10,negative
+REV00016,Wireless Headphones,electronics,5,"To be honest, Great build quality, feels premium and solid. The display is absolutely stunning. Colors are vibrant and sharp. Save your money.",2026-01-31,True,47,positive
+REV00017,Denim Jeans,clothing,4,"Overall, Looks stylish and modern, gets compliments. Great value for money, highly recommend! Save your money.",2026-04-03,True,18,positive
+REV00018,Air Purifier,home,5,My experience: Easy to clean and maintain. Save your money.,2026-03-20,True,24,positive
+REV00019,Desk Lamp,home,1,"After using it for a month, Broke after just 2 weeks of use! Consumes too much power. One star is too generous.",2026-05-05,True,12,negative
+REV00020,Wireless Headphones,electronics,3,"EDIT: After more use, It works as expected, nothing special. You get what you pay for. Check my blog: www.reviews.com/mypost",2026-03-28,True,8,neutral
+REV00021,Smart Watch,electronics,5,"Overall, Great build quality, feels premium and solid. One star is too generous.",2026-01-25,True,14,positive
+REV00022,Air Purifier,home,3,"EDIT: After more use, Okay for occasional use. Highly recommend!",2025-12-31,True,1,neutral
+REV00023,Air Purifier,home,1,"In my opinion, Difficult to clean, parts don't come apart easily. You get what you pay for.",2025-12-22,True,11,negative
+REV00024,Tablet Ultra,electronics,1,"My experience: Poor build quality, feels cheap and plastic. Worth every penny!",2026-03-03,True,16,negative
+REV00025,Laptop Pro 15,electronics,3,"Honestly, Standard features, what you would expect. Disappointed overall.",2026-05-28,True,4,neutral
+REV00026,Vacuum Cleaner,home,5,"EDIT: After more use, Great features for the price. Easy to clean and maintain. Total waste of money.",2025-12-18,True,25,positive
+REV00027,Laptop Pro 15,electronics,5,"My experience: The display is absolutely stunning. Colors are vibrant and sharp. Sound quality is excellent, crystal clear audio. Would buy again!",2026-06-12,True,29,positive
+REV00028,Tablet Ultra,electronics,2,"In my opinion, Screen is too small and hard to read. Poor build quality, feels cheap and plastic. You get what you pay for.",2025-12-31,False,25,negative
+REV00029,Laptop Pro 15,electronics,5,"My experience: Great build quality, feels premium and solid. Camera quality exceeded my expectations, photos are crisp. Highly recommend! Check my blog: www.reviews.com/mypost",2026-01-23,True,25,positive
+REV00030,Blender Pro,home,3,<p>Just received it and Standard features and performance. Not recommended.</p> Check my blog: www.reviews.com/mypost Contact me: reviewer@email.com,2026-04-28,True,3,neutral
+REV00031,Leather Belt,clothing,2,UPDATE: Faded badly after first wash.,2026-04-24,False,19,negative
+REV00032,Blender Pro,home,5,"I must say, Easy to clean and maintain. You get what you pay for. Check my blog: www.reviews.com/mypost",2025-12-27,True,41,positive
+REV00033,Tablet Ultra,electronics,3,"Standard features, what you would expect. Highly recommend!",2026-05-06,True,5,neutral
+REV00034,Winter Jacket,clothing,5,"In my opinion, Washes well, no fading or shrinking. Beautiful color, exactly as shown in pictures. Total waste of money. Check my blog: www.reviews.com/mypost",2026-05-08,True,20,positive
+REV00035,Smart Watch,electronics,5,"After using it for a month, Great build quality, feels premium and solid. Perfect for my needs.",2026-02-13,False,29,positive
+REV00036,Air Purifier,home,3,"Honestly, Average product, meets basic needs. Save your money.",2026-06-02,True,8,neutral
+REV00037,Coffee Maker,home,1,"UPDATE: Difficult to clean, parts don't come apart easily. Missing basic features, very disappointed. You get what you pay for. Check my blog: www.reviews.com/mypost",2025-12-31,False,5,negative
+REV00038,Denim Jeans,clothing,5,"Overall, Great value for money, highly recommend! Excellent quality fabric, feels soft and durable. Not recommended.",2026-03-22,True,41,positive
+REV00039,Denim Jeans,clothing,3,"Just received it and Fits okay, material is average. Five stars from me!",2026-05-19,True,6,neutral
+REV00040,Leather Belt,clothing,1,"UPDATE: Poor quality material, started falling apart after one wash. Disappointed overall. Check my blog: www.reviews.com/mypost",2026-02-02,True,5,negative
+REV00041,Coffee Maker,home,5,"In my opinion, Sturdy design, built to last. You get what you pay for.",2026-01-08,True,33,positive
+REV00042,Tablet Ultra,electronics,3,UPDATE: Average product for the price point. Highly recommend!,2026-06-03,False,8,neutral
+REV00043,Desk Lamp,home,5,"Honestly, Great features for the price. Easy to clean and maintain. Save your money.",2026-03-16,False,38,positive
+REV00044,Smart Watch,electronics,3,"Overall, It works as expected, nothing special. One star is too generous.",2026-03-30,True,10,neutral
+REV00045,Running Shoes,clothing,3,"Honestly, Fits okay, material is average. One star is too generous. Contact me: reviewer@email.com",2026-01-07,True,7,neutral
+REV00046,Smartphone X1,electronics,5,"<p>I must say, Super fast performance, handles multitasking effortlessly. You get what you pay for.</p>",2026-04-11,True,33,positive
+REV00047,Wireless Headphones,electronics,2,"After using it for a month, Overheats after just 10 minutes of use. One star is too generous.",2026-03-10,False,8,negative
+REV00048,Blender Pro,home,5,"In my opinion, Easy to clean and maintain. Easy to clean and maintain. Total waste of money. Check my blog: www.reviews.com/mypost",2026-01-13,True,26,positive
+REV00049,Vacuum Cleaner,home,2,"<p>To be honest, Consumes too much power. One star is too generous.</p>",2026-02-03,True,1,negative
+REV00050,Wireless Headphones,electronics,4,"Honestly, Super fast performance, handles multitasking effortlessly. Camera quality exceeded my expectations, photos are crisp. Would buy again! Check my blog: www.reviews.com/mypost",2026-04-03,False,11,positive
+REV00051,Smart Watch,electronics,3,"Honestly, Standard features, what you would expect. One star is too generous. Contact me: reviewer@email.com",2026-02-03,True,6,neutral
+REV00052,Running Shoes,clothing,5,"I must say, Great value for money, highly recommend! Great value for money, highly recommend! Disappointed overall. Contact me: reviewer@email.com",2026-05-19,True,12,positive
+REV00053,Tablet Ultra,electronics,1,My experience: Screen is too small and hard to read. Worth every penny!,2026-03-29,True,26,negative
+REV00054,Running Shoes,clothing,4,"Overall, Great value for money, highly recommend! Worth every penny!",2026-02-25,True,15,positive
+REV00055,Desk Lamp,home,4,"After using it for a month, Great features for the price. Easy to clean and maintain. Save your money.",2025-12-21,True,44,positive
+REV00056,Smartphone X1,electronics,5,"I must say, Great build quality, feels premium and solid. Worth every penny!",2026-05-19,True,20,positive
+REV00057,Winter Jacket,clothing,2,"Color is completely different from the photos. Terrible fit, way too small even though I ordered my size. Five stars from me!",2026-03-20,False,27,negative
+REV00058,Denim Jeans,clothing,3,"Honestly, As expected from this brand. Five stars from me! Check my blog: www.reviews.com/mypost",2026-04-14,True,5,neutral
+REV00059,Winter Jacket,clothing,4,"After using it for a month, Great value for money, highly recommend! Great value for money, highly recommend! Total waste of money.",2025-12-16,False,7,positive
+REV00060,Tablet Ultra,electronics,5,"Honestly, Sound quality is excellent, crystal clear audio. Worth every penny!",2025-12-16,True,43,positive
+REV00061,Vacuum Cleaner,home,2,"Honestly, Missing basic features, very disappointed. Flimsy construction, feels like it will break. Five stars from me!",2026-03-16,True,27,negative
+REV00062,Cotton T-Shirt,clothing,2,"Terrible fit, way too small even though I ordered my size. Runs very small, order 2 sizes up! Five stars from me!",2026-03-03,True,9,negative
+REV00063,Winter Jacket,clothing,4,"<p>Overall, True to size, the measurements were accurate. Beautiful color, exactly as shown in pictures. Not recommended.</p>",2026-01-01,True,29,positive
+REV00064,Air Purifier,home,4,"UPDATE: Sturdy design, built to last. Would buy again! Contact me: reviewer@email.com",2025-12-25,True,34,positive
+REV00065,Smartphone X1,electronics,2,"<p>My experience: Sound quality is awful, tinny and distorted. Very slow, freezes constantly during use. Total waste of money.</p> Contact me: reviewer@email.com",2025-12-30,True,12,negative
+REV00066,Leather Belt,clothing,1,"<p>After using it for a month, Color is completely different from the photos. Runs very small, order 2 sizes up! Disappointed overall.</p>",2026-04-07,True,12,negative
+REV00067,Smart Watch,electronics,4,"Super fast performance, handles multitasking effortlessly. Total waste of money. Contact me: reviewer@email.com",2026-05-08,True,25,positive
+REV00068,Smartphone X1,electronics,2,"My experience: Screen is too small and hard to read. Battery drains too quickly, barely lasts 3 hours. Contact me: reviewer@email.com",2026-06-11,True,30,negative
+REV00069,Coffee Maker,home,1,"My experience: Difficult to clean, parts don't come apart easily. Broke after just 2 weeks of use! Save your money.",2026-04-17,False,19,negative
+REV00070,Desk Lamp,home,5,"In my opinion, Sturdy design, built to last. Sturdy design, built to last.",2026-04-07,True,33,positive
+REV00071,Blender Pro,home,5,"<p>UPDATE: Powerful and efficient, cleans thoroughly. Great features for the price. You get what you pay for.</p>",2026-04-14,True,32,positive
+REV00072,Blender Pro,home,1,"To be honest, Missing basic features, very disappointed. Not recommended.",2026-06-03,True,15,negative
+REV00073,Denim Jeans,clothing,5,"Just received it and Looks stylish and modern, gets compliments. True to size, the measurements were accurate.",2026-01-06,False,16,positive
+REV00074,Winter Jacket,clothing,4,"After using it for a month, True to size, the measurements were accurate. Five stars from me!",2026-01-02,True,8,positive
+REV00075,Coffee Maker,home,5,"EDIT: After more use, Great features for the price. Sturdy design, built to last. Would buy again! Contact me: reviewer@email.com",2026-04-14,False,2,positive
+REV00076,Air Purifier,home,5,"Overall, Sturdy design, built to last. Powerful and efficient, cleans thoroughly. Five stars from me!",2026-01-20,True,39,positive
+REV00077,Desk Lamp,home,3,"UPDATE: Does the job, nothing more nothing less. Not recommended.",2026-02-16,True,10,neutral
+REV00078,Leather Belt,clothing,5,"<p>In my opinion, Washes well, no fading or shrinking. You get what you pay for.</p>",2026-05-04,True,44,positive
+REV00079,Running Shoes,clothing,3,"Just received it and Fits okay, material is average. Not recommended.",2026-04-17,False,9,neutral
+REV00080,Winter Jacket,clothing,1,"Honestly, Poor quality material, started falling apart after one wash. Not recommended.",2026-02-20,True,4,negative
+REV00081,Winter Jacket,clothing,1,"UPDATE: Runs very small, order 2 sizes up! Worth every penny!",2026-02-19,True,20,negative
+REV00082,Smart Watch,electronics,5,"EDIT: After more use, Camera quality exceeded my expectations, photos are crisp. Save your money. Check my blog: www.reviews.com/mypost",2026-02-20,True,16,positive
+REV00083,Desk Lamp,home,2,"Missing basic features, very disappointed. Flimsy construction, feels like it will break. Would buy again!",2025-12-19,False,0,negative
+REV00084,Desk Lamp,home,3,"I must say, Does the job, nothing more nothing less. Total waste of money.",2026-03-05,True,3,neutral
+REV00085,Denim Jeans,clothing,5,"EDIT: After more use, True to size, the measurements were accurate. One star is too generous. Contact me: reviewer@email.com",2026-02-15,True,24,positive
+REV00086,Air Purifier,home,2,"In my opinion, Takes up too much space, too bulky. Flimsy construction, feels like it will break. Would buy again!",2026-03-31,True,20,negative
+REV00087,Tablet Ultra,electronics,5,"<p>Honestly, Great build quality, feels premium and solid. The screen resolution is perfect for watching movies. Worth every penny!</p>",2026-05-16,False,40,positive
+REV00088,Leather Belt,clothing,4,"Just received it and Excellent quality fabric, feels soft and durable. Would buy again!",2026-04-30,True,9,positive
+REV00089,Blender Pro,home,5,"After using it for a month, Quiet operation, barely makes any noise. Worth every penny!",2026-04-30,True,19,positive
+REV00090,Wireless Headphones,electronics,3,"It works as expected, nothing special. Total waste of money.",2025-12-24,True,10,neutral
+REV00091,Laptop Pro 15,electronics,5,"To be honest, The screen resolution is perfect for watching movies. Amazing battery life! Lasts all day without charging. Worth every penny!",2026-04-19,False,11,positive
+REV00092,Cotton T-Shirt,clothing,5,Perfect fit! Very comfortable to wear all day. You get what you pay for.,2026-04-24,True,2,positive
+REV00093,Wireless Headphones,electronics,5,"Just received it and Setup was incredibly easy, connected right away. Amazing battery life! Lasts all day without charging. Would buy again! Check my blog: www.reviews.com/mypost",2026-02-08,True,30,positive
+REV00094,Air Purifier,home,3,"<p>UPDATE: Average product, meets basic needs. Highly recommend!</p>",2026-02-28,False,9,neutral
+REV00095,Desk Lamp,home,3,"<p>To be honest, Average product, meets basic needs. Worth every penny!</p>",2026-05-30,True,9,neutral
+REV00096,Wireless Headphones,electronics,3,"EDIT: After more use, Standard features, what you would expect. One star is too generous. Check my blog: www.reviews.com/mypost",2026-05-02,True,2,neutral
+REV00097,Winter Jacket,clothing,1,Overpriced for such low quality. Save your money.,2026-03-18,True,25,negative
+REV00098,Leather Belt,clothing,3,"<p>EDIT: After more use, Decent for the price, but not great. Worth every penny!</p>",2026-06-04,True,8,neutral
+REV00099,Air Purifier,home,1,"Honestly, Broke after just 2 weeks of use! Takes up too much space, too bulky. Total waste of money.",2026-04-10,False,4,negative
+REV00100,Smartphone X1,electronics,1,"UPDATE: Sound quality is awful, tinny and distorted. Worth every penny! Check my blog: www.reviews.com/mypost",2026-03-05,False,25,negative
+REV00101,Tablet Ultra,electronics,3,"Honestly, Standard features, what you would expect. You get what you pay for. Check my blog: www.reviews.com/mypost",2026-05-18,True,3,neutral
+REV00102,Smartphone X1,electronics,5,"<p>EDIT: After more use, Super fast performance, handles multitasking effortlessly. Disappointed overall.</p>",2026-03-15,True,14,positive
+REV00103,Coffee Maker,home,5,"I must say, Quiet operation, barely makes any noise. Disappointed overall.",2026-03-09,True,39,positive
+REV00104,Leather Belt,clothing,5,"In my opinion, True to size, the measurements were accurate. Great value for money, highly recommend! Perfect for my needs.",2026-05-30,True,26,positive
+REV00105,Coffee Maker,home,4,"EDIT: After more use, Great features for the price. Easy to clean and maintain. Five stars from me!",2026-01-31,True,3,positive
+REV00106,Tablet Ultra,electronics,3,"In my opinion, Standard features, what you would expect. Five stars from me!",2026-03-10,True,9,neutral
+REV00107,Smartphone X1,electronics,2,"Overall, Screen is too small and hard to read. One star is too generous.",2026-02-26,True,9,negative
+REV00108,Running Shoes,clothing,4,"<p>To be honest, Excellent quality fabric, feels soft and durable. Beautiful color, exactly as shown in pictures. One star is too generous.</p>",2026-04-02,True,6,positive
+REV00109,Blender Pro,home,5,"To be honest, Compact size, fits perfectly in my space. Perfect for my needs.",2026-02-14,False,18,positive
+REV00110,Smartphone X1,electronics,3,"To be honest, Standard features, what you would expect. Would buy again!",2026-01-15,False,7,neutral
+REV00111,Running Shoes,clothing,3,"Honestly, Fits okay, material is average. One star is too generous.",2026-05-27,True,0,neutral
+REV00112,Laptop Pro 15,electronics,3,"Overall, Decent performance, not amazing but okay. Save your money.",2026-04-15,True,5,neutral
+REV00113,Smartphone X1,electronics,3,"Honestly, Average product for the price point. Not recommended.",2025-12-30,True,9,neutral
+REV00114,Running Shoes,clothing,4,"In my opinion, Looks stylish and modern, gets compliments. Perfect fit! Very comfortable to wear all day. Five stars from me!",2026-05-12,True,45,positive
+REV00115,Vacuum Cleaner,home,5,"<p>UPDATE: Quiet operation, barely makes any noise. Easy to clean and maintain. Perfect for my needs.</p>",2026-04-10,True,13,positive
+REV00116,Vacuum Cleaner,home,3,"My experience: Does the job, nothing more nothing less. You get what you pay for.",2026-05-30,True,7,neutral
+REV00117,Cotton T-Shirt,clothing,5,"My experience: Washes well, no fading or shrinking. Five stars from me!",2026-03-27,False,46,positive
+REV00118,Running Shoes,clothing,5,"UPDATE: Beautiful color, exactly as shown in pictures. Total waste of money.",2026-03-15,True,5,positive
+REV00119,Smart Watch,electronics,1,"<p>EDIT: After more use, Sound quality is awful, tinny and distorted. Perfect for my needs.</p>",2026-02-03,True,0,negative
+REV00120,Smart Watch,electronics,1,"After using it for a month, Very slow, freezes constantly during use. Battery drains too quickly, barely lasts 3 hours. Worth every penny!",2026-05-21,False,24,negative
+REV00121,Running Shoes,clothing,1,"<p>After using it for a month, Color is completely different from the photos. Overpriced for such low quality. One star is too generous.</p>",2026-01-12,True,3,negative
+REV00122,Wireless Headphones,electronics,3,"My experience: Decent performance, not amazing but okay. Save your money. Contact me: reviewer@email.com",2026-01-01,True,4,neutral
+REV00123,Tablet Ultra,electronics,5,"<p>In my opinion, Amazing battery life! Lasts all day without charging. You get what you pay for.</p> Contact me: reviewer@email.com",2026-05-28,True,34,positive
+REV00124,Winter Jacket,clothing,3,"EDIT: After more use, Standard quality, nothing remarkable. Save your money.",2026-06-10,True,8,neutral
+REV00125,Running Shoes,clothing,5,"<p>After using it for a month, Great value for money, highly recommend! Great value for money, highly recommend!</p>",2026-02-28,True,11,positive
+REV00126,Smart Watch,electronics,3,"To be honest, It works as expected, nothing special. Highly recommend!",2026-01-29,True,3,neutral
+REV00127,Laptop Pro 15,electronics,4,"Setup was incredibly easy, connected right away. One star is too generous.",2026-02-05,True,43,positive
+REV00128,Winter Jacket,clothing,2,"UPDATE: Poor quality material, started falling apart after one wash. Looks cheap and poorly made. Would buy again!",2026-05-22,True,10,negative
+REV00129,Wireless Headphones,electronics,5,"<p>In my opinion, Great build quality, feels premium and solid. The screen resolution is perfect for watching movies.</p>",2026-06-12,False,27,positive
+REV00130,Air Purifier,home,3,"After using it for a month, Standard features and performance. Disappointed overall.",2026-05-13,True,1,neutral
+REV00131,Cotton T-Shirt,clothing,3,"After using it for a month, Decent for the price, but not great. Save your money.",2026-05-14,True,10,neutral
+REV00132,Smart Watch,electronics,1,"After using it for a month, Screen is too small and hard to read. Five stars from me!",2026-04-27,True,11,negative
+REV00133,Wireless Headphones,electronics,2,"Just received it and Camera is terrible, blurry photos even in daylight. Screen is too small and hard to read. Save your money. Check my blog: www.reviews.com/mypost",2026-01-24,True,23,negative
+REV00134,Winter Jacket,clothing,5,"After using it for a month, Great value for money, highly recommend! Total waste of money.",2026-02-04,True,30,positive
+REV00135,Cotton T-Shirt,clothing,5,<p>Perfect fit! Very comfortable to wear all day.</p>,2026-04-12,True,48,positive
+REV00136,Winter Jacket,clothing,1,"To be honest, Runs very small, order 2 sizes up! Terrible fit, way too small even though I ordered my size. You get what you pay for.",2026-03-10,True,10,negative
+REV00137,Leather Belt,clothing,3,My experience: As expected from this brand. Five stars from me! Check my blog: www.reviews.com/mypost,2026-02-15,True,9,neutral
+REV00138,Cotton T-Shirt,clothing,3,"EDIT: After more use, Decent for the price, but not great. Save your money.",2026-03-14,True,3,neutral
+REV00139,Winter Jacket,clothing,2,"<p>Just received it and Runs very small, order 2 sizes up! Faded badly after first wash. Total waste of money.</p>",2026-04-16,True,15,negative
+REV00140,Wireless Headphones,electronics,3,UPDATE: Average product for the price point. Five stars from me! Check my blog: www.reviews.com/mypost,2026-06-06,True,8,neutral
+REV00141,Wireless Headphones,electronics,3,"UPDATE: Standard features, what you would expect. Highly recommend!",2026-03-17,True,2,neutral
+REV00142,Leather Belt,clothing,3,"Honestly, Fits okay, material is average.",2026-05-10,True,6,neutral
+REV00143,Wireless Headphones,electronics,1,"EDIT: After more use, Screen is too small and hard to read. Poor build quality, feels cheap and plastic. One star is too generous.",2026-04-15,False,22,negative
+REV00144,Wireless Headphones,electronics,1,"In my opinion, Difficult to setup, confusing instructions. Battery drains too quickly, barely lasts 3 hours. Save your money.",2025-12-29,False,19,negative
+REV00145,Denim Jeans,clothing,4,"EDIT: After more use, True to size, the measurements were accurate. Highly recommend!",2026-02-22,False,26,positive
+REV00146,Desk Lamp,home,3,"After using it for a month, Okay for occasional use. Disappointed overall.",2026-06-06,True,1,neutral
+REV00147,Smartphone X1,electronics,2,"Just received it and Sound quality is awful, tinny and distorted. Five stars from me!",2026-06-01,True,30,negative
+REV00148,Desk Lamp,home,3,"After using it for a month, Okay for occasional use. Save your money.",2025-12-15,True,5,neutral
+REV00149,Desk Lamp,home,4,"EDIT: After more use, Quiet operation, barely makes any noise. Worth every penny!",2026-01-02,True,26,positive
+REV00150,Smart Watch,electronics,5,"In my opinion, The display is absolutely stunning. Colors are vibrant and sharp. Amazing battery life! Lasts all day without charging. Not recommended. Check my blog: www.reviews.com/mypost",2026-01-29,True,48,positive
+REV00151,Denim Jeans,clothing,5,"I must say, Looks stylish and modern, gets compliments. Beautiful color, exactly as shown in pictures. Save your money.",2026-05-31,False,43,positive
+REV00152,Desk Lamp,home,5,"<p>After using it for a month, Quiet operation, barely makes any noise. Powerful and efficient, cleans thoroughly. Would buy again!</p>",2025-12-28,True,24,positive
+REV00153,Smartphone X1,electronics,2,"After using it for a month, Very slow, freezes constantly during use. Camera is terrible, blurry photos even in daylight. Disappointed overall. Check my blog: www.reviews.com/mypost",2026-01-11,True,7,negative
+REV00154,Cotton T-Shirt,clothing,2,My experience: Looks cheap and poorly made. Faded badly after first wash. Would buy again!,2026-02-01,True,2,negative
+REV00155,Air Purifier,home,1,"Overall, Broke after just 2 weeks of use! Save your money. Check my blog: www.reviews.com/mypost",2026-03-14,True,12,negative
+REV00156,Wireless Headphones,electronics,5,"<p>Just received it and Camera quality exceeded my expectations, photos are crisp. Total waste of money.</p>",2026-01-27,True,30,positive
+REV00157,Wireless Headphones,electronics,5,"To be honest, Camera quality exceeded my expectations, photos are crisp. Setup was incredibly easy, connected right away. Would buy again!",2026-01-03,True,17,positive
+REV00158,Wireless Headphones,electronics,3,"To be honest, Average product for the price point. Five stars from me!",2026-05-02,True,0,neutral
+REV00159,Leather Belt,clothing,3,"Honestly, Decent for the price, but not great. Five stars from me!",2026-01-30,True,1,neutral
+REV00160,Smartphone X1,electronics,3,"I must say, Average product for the price point. Five stars from me!",2026-02-18,True,2,neutral
+REV00161,Running Shoes,clothing,5,"Great value for money, highly recommend! Washes well, no fading or shrinking. One star is too generous.",2026-02-23,True,25,positive
+REV00162,Denim Jeans,clothing,3,"To be honest, Decent for the price, but not great. One star is too generous.",2026-05-10,True,3,neutral
+REV00163,Running Shoes,clothing,5,"<p>My experience: Excellent quality fabric, feels soft and durable. Five stars from me!</p>",2026-04-16,True,11,positive
+REV00164,Cotton T-Shirt,clothing,2,"Honestly, Color is completely different from the photos. One star is too generous.",2026-02-08,True,15,negative
+REV00165,Desk Lamp,home,5,"After using it for a month, Easy to clean and maintain. Perfect for my needs.",2025-12-29,False,40,positive
+REV00166,Smartphone X1,electronics,5,Just received it and Amazing battery life! Lasts all day without charging. Perfect for my needs.,2026-03-22,True,17,positive
+REV00167,Air Purifier,home,2,"I must say, Broke after just 2 weeks of use! Not recommended.",2026-05-13,True,27,negative
+REV00168,Vacuum Cleaner,home,2,<p>Just received it and Broke after just 2 weeks of use! You get what you pay for.</p>,2026-03-04,True,14,negative
+REV00169,Air Purifier,home,5,UPDATE: Great features for the price. Perfect for my needs. Check my blog: www.reviews.com/mypost,2025-12-24,True,6,positive
+REV00170,Laptop Pro 15,electronics,5,<p>The screen resolution is perfect for watching movies. You get what you pay for.</p>,2026-02-13,True,31,positive
+REV00171,Smart Watch,electronics,1,"UPDATE: Poor build quality, feels cheap and plastic. Would buy again!",2026-04-22,True,12,negative
+REV00172,Leather Belt,clothing,3,"Just received it and Fits okay, material is average. Perfect for my needs. Contact me: reviewer@email.com",2026-01-28,True,9,neutral
+REV00173,Blender Pro,home,3,"My experience: Average product, meets basic needs. Total waste of money.",2026-01-14,True,2,neutral
+REV00174,Coffee Maker,home,5,"EDIT: After more use, Compact size, fits perfectly in my space. Compact size, fits perfectly in my space. Not recommended.",2026-03-04,True,2,positive
+REV00175,Running Shoes,clothing,3,"<p>UPDATE: Fits okay, material is average. You get what you pay for.</p>",2025-12-18,True,3,neutral
+REV00176,Coffee Maker,home,5,Great features for the price. One star is too generous. Contact me: reviewer@email.com,2026-01-01,True,28,positive
+REV00177,Smart Watch,electronics,5,"Super fast performance, handles multitasking effortlessly. Great build quality, feels premium and solid.",2026-03-15,False,43,positive
+REV00178,Cotton T-Shirt,clothing,5,"In my opinion, Perfect fit! Very comfortable to wear all day. Disappointed overall.",2026-06-02,True,26,positive
+REV00179,Denim Jeans,clothing,5,"<p>Honestly, Perfect fit! Very comfortable to wear all day. Beautiful color, exactly as shown in pictures. Five stars from me!</p>",2026-01-08,True,48,positive
+REV00180,Denim Jeans,clothing,3,"To be honest, As expected from this brand. Total waste of money. Check my blog: www.reviews.com/mypost",2026-01-30,True,7,neutral
+REV00181,Smart Watch,electronics,1,"Honestly, Camera is terrible, blurry photos even in daylight. Very slow, freezes constantly during use. Would buy again! Check my blog: www.reviews.com/mypost",2026-01-16,True,12,negative
+REV00182,Cotton T-Shirt,clothing,5,"After using it for a month, Beautiful color, exactly as shown in pictures. Great value for money, highly recommend! Would buy again!",2026-02-28,True,10,positive
+REV00183,Air Purifier,home,3,UPDATE: Okay for occasional use. Not recommended.,2026-05-13,False,7,neutral
+REV00184,Smart Watch,electronics,5,"After using it for a month, Setup was incredibly easy, connected right away. Great build quality, feels premium and solid. Highly recommend! Check my blog: www.reviews.com/mypost",2026-04-11,False,32,positive
+REV00185,Smartphone X1,electronics,2,"Honestly, Overheats after just 10 minutes of use. Five stars from me!",2026-01-21,False,13,negative
+REV00186,Leather Belt,clothing,1,"In my opinion, Color is completely different from the photos. You get what you pay for.",2026-04-24,True,11,negative
+REV00187,Running Shoes,clothing,5,"Honestly, True to size, the measurements were accurate. True to size, the measurements were accurate. Perfect for my needs.",2026-03-28,True,25,positive
+REV00188,Cotton T-Shirt,clothing,2,"<p>Overall, Poor quality material, started falling apart after one wash. Would buy again!</p>",2026-03-22,False,1,negative
+REV00189,Denim Jeans,clothing,2,"Just received it and Runs very small, order 2 sizes up! Highly recommend!",2026-01-15,True,6,negative
+REV00190,Air Purifier,home,3,"Average product, meets basic needs. Highly recommend!",2026-05-11,True,7,neutral
+REV00191,Denim Jeans,clothing,1,"Poor quality material, started falling apart after one wash.",2026-02-10,True,18,negative
+REV00192,Winter Jacket,clothing,5,"After using it for a month, Great value for money, highly recommend! Washes well, no fading or shrinking. Perfect for my needs.",2026-01-01,True,23,positive
+REV00193,Desk Lamp,home,5,"To be honest, Works like a charm! Makes perfect coffee every morning. Easy to clean and maintain. Perfect for my needs.",2026-05-30,True,47,positive
+REV00194,Denim Jeans,clothing,5,"My experience: True to size, the measurements were accurate. Beautiful color, exactly as shown in pictures. Worth every penny!",2026-05-31,True,30,positive
+REV00195,Air Purifier,home,1,"<p>To be honest, Broke after just 2 weeks of use! Flimsy construction, feels like it will break. Perfect for my needs.</p>",2026-05-26,False,4,negative
+REV00196,Cotton T-Shirt,clothing,3,"Standard quality, nothing remarkable. Worth every penny!",2026-02-06,True,7,neutral
+REV00197,Denim Jeans,clothing,5,"Great value for money, highly recommend! Would buy again!",2026-01-28,True,22,positive
+REV00198,Air Purifier,home,5,<p>Just received it and Great features for the price. Highly recommend!</p>,2025-12-20,True,37,positive
+REV00199,Leather Belt,clothing,5,"UPDATE: Great value for money, highly recommend! Excellent quality fabric, feels soft and durable. Disappointed overall.",2025-12-16,False,38,positive
+REV00200,Leather Belt,clothing,1,"Honestly, Runs very small, order 2 sizes up! Terrible fit, way too small even though I ordered my size. Disappointed overall.",2026-05-24,True,26,negative
+REV00201,Vacuum Cleaner,home,3,"To be honest, Standard features and performance. Not recommended. Contact me: reviewer@email.com",2026-01-31,True,10,neutral
+REV00202,Vacuum Cleaner,home,5,"In my opinion, Energy efficient, saves on electricity. Five stars from me!",2026-04-13,True,23,positive
+REV00203,Wireless Headphones,electronics,1,"<p>I must say, Battery drains too quickly, barely lasts 3 hours. Poor build quality, feels cheap and plastic. Five stars from me!</p>",2026-01-29,True,1,negative
+REV00204,Leather Belt,clothing,2,"<p>EDIT: After more use, Runs very small, order 2 sizes up! Disappointed overall.</p>",2026-04-06,True,12,negative
+REV00205,Leather Belt,clothing,1,"<p>In my opinion, Poor quality material, started falling apart after one wash. Highly recommend!</p>",2026-01-29,False,19,negative
+REV00206,Vacuum Cleaner,home,4,"<p>My experience: Energy efficient, saves on electricity. Highly recommend!</p>",2026-03-25,False,21,positive
+REV00207,Laptop Pro 15,electronics,2,"I must say, Very slow, freezes constantly during use. Overheats after just 10 minutes of use. Total waste of money.",2026-03-14,True,4,negative
+REV00208,Desk Lamp,home,3,"I must say, Standard features and performance. Would buy again!",2025-12-18,True,10,neutral
+REV00209,Air Purifier,home,4,"After using it for a month, Quiet operation, barely makes any noise. You get what you pay for. Contact me: reviewer@email.com",2026-05-18,False,42,positive
+REV00210,Blender Pro,home,1,"<p>UPDATE: Difficult to clean, parts don't come apart easily. Save your money.</p>",2026-03-11,True,18,negative
+REV00211,Blender Pro,home,5,"I must say, Works like a charm! Makes perfect coffee every morning. Save your money.",2026-01-17,True,22,positive
+REV00212,Wireless Headphones,electronics,1,"Just received it and Sound quality is awful, tinny and distorted. Very slow, freezes constantly during use. One star is too generous.",2026-02-17,True,27,negative
+REV00213,Smartphone X1,electronics,3,"I must say, Standard features, what you would expect. Five stars from me! Check my blog: www.reviews.com/mypost",2026-03-12,True,2,neutral
+REV00214,Smartphone X1,electronics,2,"<p>In my opinion, Sound quality is awful, tinny and distorted. Poor build quality, feels cheap and plastic. Save your money.</p>",2026-02-25,False,23,negative
+REV00215,Smart Watch,electronics,3,"<p>I must say, Standard features, what you would expect. Not recommended.</p>",2026-05-01,True,3,neutral
+REV00216,Blender Pro,home,5,"EDIT: After more use, Quiet operation, barely makes any noise. Great features for the price. Total waste of money.",2026-02-01,True,30,positive
+REV00217,Running Shoes,clothing,5,"<p>UPDATE: Great value for money, highly recommend! Disappointed overall.</p>",2026-06-04,True,44,positive
+REV00218,Winter Jacket,clothing,2,"Overall, Faded badly after first wash. Perfect for my needs.",2026-06-06,False,26,negative
+REV00219,Coffee Maker,home,5,"To be honest, Works like a charm! Makes perfect coffee every morning.",2026-02-06,True,40,positive
+REV00220,Tablet Ultra,electronics,2,"To be honest, Poor build quality, feels cheap and plastic. Poor build quality, feels cheap and plastic. Disappointed overall.",2026-01-07,False,4,negative
+REV00221,Blender Pro,home,1,"Consumes too much power. Takes up too much space, too bulky. Worth every penny!",2026-04-05,True,10,negative
+REV00222,Leather Belt,clothing,1,"<p>To be honest, Faded badly after first wash. Highly recommend!</p> Contact me: reviewer@email.com",2026-05-15,True,27,negative
+REV00223,Cotton T-Shirt,clothing,5,"To be honest, Looks stylish and modern, gets compliments. Beautiful color, exactly as shown in pictures. Save your money.",2026-01-12,False,46,positive
+REV00224,Air Purifier,home,4,"In my opinion, Works like a charm! Makes perfect coffee every morning. Easy to clean and maintain. Perfect for my needs.",2026-01-04,True,16,positive
+REV00225,Laptop Pro 15,electronics,3,"EDIT: After more use, Standard features, what you would expect. Total waste of money. Check my blog: www.reviews.com/mypost",2026-01-09,False,4,neutral
+REV00226,Desk Lamp,home,3,"In my opinion, Does the job, nothing more nothing less. Perfect for my needs. Check my blog: www.reviews.com/mypost",2026-04-21,True,6,neutral
+REV00227,Denim Jeans,clothing,5,My experience: Perfect fit! Very comfortable to wear all day. Worth every penny!,2026-03-26,True,28,positive
+REV00228,Blender Pro,home,3,"UPDATE: Average product, meets basic needs. One star is too generous.",2026-02-02,True,2,neutral
+REV00229,Wireless Headphones,electronics,3,"<p>My experience: Decent performance, not amazing but okay. You get what you pay for.</p>",2026-02-15,False,3,neutral
+REV00230,Desk Lamp,home,5,"<p>In my opinion, Easy to clean and maintain. Energy efficient, saves on electricity. One star is too generous.</p>",2026-05-26,True,48,positive
+REV00231,Coffee Maker,home,4,"<p>After using it for a month, Compact size, fits perfectly in my space. Compact size, fits perfectly in my space. Worth every penny!</p> Check my blog: www.reviews.com/mypost",2026-01-27,True,4,positive
+REV00232,Smartphone X1,electronics,5,"<p>EDIT: After more use, Super fast performance, handles multitasking effortlessly. Highly recommend!</p>",2026-02-06,True,47,positive
+REV00233,Air Purifier,home,3,Standard features and performance. Worth every penny!,2026-02-19,True,6,neutral
+REV00234,Desk Lamp,home,5,"Overall, Energy efficient, saves on electricity. Compact size, fits perfectly in my space. Highly recommend!",2026-02-21,True,39,positive
+REV00235,Smartphone X1,electronics,3,"My experience: Standard features, what you would expect. Save your money. Check my blog: www.reviews.com/mypost",2026-01-16,True,1,neutral
+REV00236,Air Purifier,home,1,"<p>EDIT: After more use, Flimsy construction, feels like it will break. Takes up too much space, too bulky. Perfect for my needs.</p>",2026-01-27,True,23,negative
+REV00237,Laptop Pro 15,electronics,3,"Overall, Standard features, what you would expect. Not recommended.",2026-04-24,True,4,neutral
+REV00238,Desk Lamp,home,4,"To be honest, Sturdy design, built to last. Not recommended.",2026-03-07,True,28,positive
+REV00239,Laptop Pro 15,electronics,2,"Overall, Screen is too small and hard to read. Difficult to setup, confusing instructions. Disappointed overall.",2026-06-07,True,26,negative
+REV00240,Denim Jeans,clothing,3,"<p>Just received it and Fits okay, material is average. Would buy again!</p>",2026-06-09,False,4,neutral
+REV00241,Winter Jacket,clothing,4,"In my opinion, True to size, the measurements were accurate. Beautiful color, exactly as shown in pictures. Would buy again!",2026-06-08,True,3,positive
+REV00242,Running Shoes,clothing,5,"In my opinion, Great value for money, highly recommend! Beautiful color, exactly as shown in pictures. Worth every penny! Contact me: reviewer@email.com",2026-03-11,True,31,positive
+REV00243,Smart Watch,electronics,3,"Just received it and Standard features, what you would expect.",2026-04-10,True,2,neutral
+REV00244,Running Shoes,clothing,3,"Overall, Standard quality, nothing remarkable. You get what you pay for. Check my blog: www.reviews.com/mypost",2026-04-18,True,2,neutral
+REV00245,Smart Watch,electronics,5,"Sound quality is excellent, crystal clear audio. Check my blog: www.reviews.com/mypost Contact me: reviewer@email.com",2026-01-11,False,28,positive
+REV00246,Laptop Pro 15,electronics,2,"After using it for a month, Sound quality is awful, tinny and distorted. Overheats after just 10 minutes of use. Disappointed overall.",2026-04-16,True,4,negative
+REV00247,Desk Lamp,home,1,"After using it for a month, Broke after just 2 weeks of use! Total waste of money.",2026-05-20,False,14,negative
+REV00248,Coffee Maker,home,1,"<p>EDIT: After more use, Takes up too much space, too bulky. Save your money.</p>",2026-04-20,True,4,negative
+REV00249,Smart Watch,electronics,3,"Honestly, It works as expected, nothing special.",2026-05-29,True,2,neutral
+REV00250,Laptop Pro 15,electronics,4,"Setup was incredibly easy, connected right away. Perfect for my needs.",2026-02-22,True,26,positive
+REV00251,Desk Lamp,home,5,"In my opinion, Easy to clean and maintain. Easy to clean and maintain. One star is too generous.",2026-04-01,True,37,positive
+REV00252,Smartphone X1,electronics,5,"Super fast performance, handles multitasking effortlessly. The screen resolution is perfect for watching movies. Total waste of money. Check my blog: www.reviews.com/mypost",2025-12-23,True,1,positive
+REV00253,Cotton T-Shirt,clothing,5,"EDIT: After more use, Looks stylish and modern, gets compliments. Washes well, no fading or shrinking.",2026-03-19,True,46,positive
+REV00254,Desk Lamp,home,2,"EDIT: After more use, Flimsy construction, feels like it will break. Perfect for my needs. Contact me: reviewer@email.com",2026-04-23,True,2,negative
+REV00255,Denim Jeans,clothing,2,UPDATE: Looks cheap and poorly made. Would buy again!,2026-02-14,True,23,negative
+REV00256,Vacuum Cleaner,home,3,"I must say, Standard features and performance. Highly recommend!",2026-05-12,True,6,neutral
+REV00257,Air Purifier,home,4,"UPDATE: Energy efficient, saves on electricity. You get what you pay for.",2026-02-25,True,45,positive
+REV00258,Wireless Headphones,electronics,5,"<p>Honestly, Amazing battery life! Lasts all day without charging. Great build quality, feels premium and solid. One star is too generous.</p>",2025-12-19,False,22,positive
+REV00259,Smartphone X1,electronics,5,"After using it for a month, The display is absolutely stunning. Colors are vibrant and sharp. Highly recommend!",2026-03-11,False,49,positive
+REV00260,Cotton T-Shirt,clothing,4,"UPDATE: True to size, the measurements were accurate. True to size, the measurements were accurate. Perfect for my needs. Check my blog: www.reviews.com/mypost",2025-12-16,True,2,positive
+REV00261,Tablet Ultra,electronics,3,"I must say, Standard features, what you would expect. Disappointed overall. Check my blog: www.reviews.com/mypost",2026-03-07,True,10,neutral
+REV00262,Air Purifier,home,5,"I must say, Sturdy design, built to last. Five stars from me!",2025-12-29,True,34,positive
+REV00263,Running Shoes,clothing,3,"Just received it and Standard quality, nothing remarkable. Perfect for my needs.",2026-01-24,True,10,neutral
+REV00264,Coffee Maker,home,3,<p>UPDATE: Okay for occasional use. Would buy again!</p>,2025-12-15,True,3,neutral
+REV00265,Winter Jacket,clothing,3,"UPDATE: Fits okay, material is average. One star is too generous.",2026-01-26,False,0,neutral
+REV00266,Desk Lamp,home,5,"Overall, Energy efficient, saves on electricity. Not recommended.",2026-05-13,True,31,positive
+REV00267,Smart Watch,electronics,2,"UPDATE: Screen is too small and hard to read. Poor build quality, feels cheap and plastic. Highly recommend!",2026-02-23,True,11,negative
+REV00268,Running Shoes,clothing,3,"<p>My experience: Standard quality, nothing remarkable. Not recommended.</p>",2026-01-22,True,0,neutral
+REV00269,Laptop Pro 15,electronics,4,The display is absolutely stunning. Colors are vibrant and sharp. Total waste of money.,2026-04-09,True,31,positive
+REV00270,Running Shoes,clothing,3,"EDIT: After more use, Fits okay, material is average.",2026-03-23,True,6,neutral
+REV00271,Coffee Maker,home,2,"I must say, Missing basic features, very disappointed. Missing basic features, very disappointed. Disappointed overall.",2026-01-24,True,23,negative
+REV00272,Desk Lamp,home,1,"EDIT: After more use, Takes up too much space, too bulky. Worth every penny!",2026-06-11,False,27,negative
+REV00273,Laptop Pro 15,electronics,2,"Honestly, Screen is too small and hard to read. Not recommended.",2026-02-13,False,19,negative
+REV00274,Desk Lamp,home,3,"My experience: Does the job, nothing more nothing less. One star is too generous.",2026-01-22,True,5,neutral
+REV00275,Coffee Maker,home,1,"<p>Just received it and Takes up too much space, too bulky. You get what you pay for.</p>",2026-05-18,True,8,negative
+REV00276,Leather Belt,clothing,2,"Honestly, Poor quality material, started falling apart after one wash. Color is completely different from the photos.",2026-03-08,True,15,negative
+REV00277,Coffee Maker,home,2,"To be honest, Broke after just 2 weeks of use! Takes up too much space, too bulky. Five stars from me! Check my blog: www.reviews.com/mypost",2026-05-01,True,4,negative
+REV00278,Coffee Maker,home,2,"Overall, Way too loud, sounds like a jet engine. Disappointed overall.",2026-04-03,True,13,negative
+REV00279,Smartphone X1,electronics,2,"To be honest, Battery drains too quickly, barely lasts 3 hours. Camera is terrible, blurry photos even in daylight.",2025-12-28,True,0,negative
+REV00280,Tablet Ultra,electronics,5,"<p>I must say, Amazing battery life! Lasts all day without charging. Five stars from me!</p>",2026-05-02,True,36,positive
+REV00281,Leather Belt,clothing,5,"Just received it and Washes well, no fading or shrinking. Perfect fit! Very comfortable to wear all day. One star is too generous. Check my blog: www.reviews.com/mypost",2026-03-18,True,7,positive
+REV00282,Running Shoes,clothing,1,UPDATE: Color is completely different from the photos. One star is too generous.,2026-05-09,True,26,negative
+REV00283,Winter Jacket,clothing,3,"EDIT: After more use, Fits okay, material is average. Would buy again!",2026-06-11,True,8,neutral
+REV00284,Smartphone X1,electronics,3,"EDIT: After more use, Decent performance, not amazing but okay. Worth every penny!",2026-05-29,False,9,neutral
+REV00285,Laptop Pro 15,electronics,4,"In my opinion, The display is absolutely stunning. Colors are vibrant and sharp. Super fast performance, handles multitasking effortlessly. Would buy again! Check my blog: www.reviews.com/mypost",2026-03-23,True,9,positive
+REV00286,Coffee Maker,home,3,Just received it and Okay for occasional use. Disappointed overall.,2026-02-27,True,3,neutral
+REV00287,Laptop Pro 15,electronics,5,"EDIT: After more use, The screen resolution is perfect for watching movies. Total waste of money.",2026-05-09,True,43,positive
+REV00288,Cotton T-Shirt,clothing,1,"Overall, Color is completely different from the photos. Runs very small, order 2 sizes up!",2026-05-27,True,26,negative
+REV00289,Tablet Ultra,electronics,4,"In my opinion, Setup was incredibly easy, connected right away. Super fast performance, handles multitasking effortlessly. Worth every penny!",2026-02-15,True,7,positive
+REV00290,Coffee Maker,home,5,"UPDATE: Quiet operation, barely makes any noise. Sturdy design, built to last. Total waste of money.",2026-03-04,True,48,positive
+REV00291,Cotton T-Shirt,clothing,3,"I must say, As expected from this brand. One star is too generous.",2026-04-21,True,7,neutral
+REV00292,Cotton T-Shirt,clothing,2,"Overall, Color is completely different from the photos. One star is too generous.",2026-04-30,False,27,negative
+REV00293,Smart Watch,electronics,1,"<p>Honestly, Sound quality is awful, tinny and distorted. Worth every penny!</p>",2026-01-05,True,29,negative
+REV00294,Winter Jacket,clothing,5,"After using it for a month, Washes well, no fading or shrinking. Looks stylish and modern, gets compliments. Five stars from me!",2026-05-09,False,31,positive
+REV00295,Winter Jacket,clothing,3,"<p>My experience: Standard quality, nothing remarkable.</p>",2026-05-17,True,8,neutral
+REV00296,Vacuum Cleaner,home,1,"UPDATE: Flimsy construction, feels like it will break. Difficult to clean, parts don't come apart easily. Five stars from me!",2026-05-06,False,27,negative
+REV00297,Cotton T-Shirt,clothing,1,"Just received it and Terrible fit, way too small even though I ordered my size. Faded badly after first wash. Perfect for my needs.",2026-03-12,False,10,negative
+REV00298,Blender Pro,home,5,My experience: Easy to clean and maintain. Not recommended.,2026-04-01,True,19,positive
+REV00299,Desk Lamp,home,3,"To be honest, Okay for occasional use. Five stars from me!",2026-01-01,True,0,neutral
+REV00300,Wireless Headphones,electronics,3,"<p>Decent performance, not amazing but okay. Not recommended.</p>",2026-03-26,True,6,neutral
+REV00301,Coffee Maker,home,2,"I must say, Way too loud, sounds like a jet engine. Total waste of money.",2026-03-23,True,21,negative
+REV00302,Leather Belt,clothing,1,UPDATE: Looks cheap and poorly made. One star is too generous. Check my blog: www.reviews.com/mypost,2026-06-02,True,13,negative
+REV00303,Running Shoes,clothing,3,"After using it for a month, Standard quality, nothing remarkable.",2026-02-15,True,10,neutral
+REV00304,Air Purifier,home,1,"<p>UPDATE: Flimsy construction, feels like it will break. Missing basic features, very disappointed. Total waste of money.</p>",2025-12-30,False,15,negative
+REV00305,Cotton T-Shirt,clothing,2,"In my opinion, Overpriced for such low quality. Overpriced for such low quality. Not recommended.",2026-01-21,True,30,negative
+REV00306,Blender Pro,home,2,"In my opinion, Difficult to clean, parts don't come apart easily. Takes up too much space, too bulky. Save your money.",2026-05-25,True,27,negative
+REV00307,Smartphone X1,electronics,5,UPDATE: The display is absolutely stunning. Colors are vibrant and sharp. Not recommended.,2026-05-22,True,50,positive
+REV00308,Air Purifier,home,4,"<p>In my opinion, Compact size, fits perfectly in my space. Great features for the price. Save your money.</p> Contact me: reviewer@email.com",2026-05-05,True,20,positive
+REV00309,Running Shoes,clothing,3,"In my opinion, As expected from this brand. You get what you pay for.",2026-04-12,True,10,neutral
+REV00310,Wireless Headphones,electronics,3,"EDIT: After more use, Decent performance, not amazing but okay. You get what you pay for.",2026-01-13,True,1,neutral
+REV00311,Blender Pro,home,5,"To be honest, Powerful and efficient, cleans thoroughly. Compact size, fits perfectly in my space. Total waste of money. Check my blog: www.reviews.com/mypost",2025-12-21,True,24,positive
+REV00312,Tablet Ultra,electronics,1,"<p>To be honest, Overheats after just 10 minutes of use. Battery drains too quickly, barely lasts 3 hours. You get what you pay for.</p>",2026-04-09,True,7,negative
+REV00313,Desk Lamp,home,5,"<p>In my opinion, Works like a charm! Makes perfect coffee every morning. Powerful and efficient, cleans thoroughly. You get what you pay for.</p> Contact me: reviewer@email.com",2026-04-04,True,15,positive
+REV00314,Winter Jacket,clothing,3,"Overall, Standard quality, nothing remarkable. Disappointed overall.",2025-12-28,False,0,neutral
+REV00315,Desk Lamp,home,5,"<p>After using it for a month, Powerful and efficient, cleans thoroughly. Compact size, fits perfectly in my space. Disappointed overall.</p>",2026-04-30,True,42,positive
+REV00316,Blender Pro,home,1,"<p>Takes up too much space, too bulky. Five stars from me!</p> Check my blog: www.reviews.com/mypost",2026-05-19,True,27,negative
+REV00317,Tablet Ultra,electronics,4,"To be honest, Great build quality, feels premium and solid. The screen resolution is perfect for watching movies. Not recommended.",2026-01-09,True,11,positive
+REV00318,Air Purifier,home,2,"<p>Just received it and Consumes too much power. Way too loud, sounds like a jet engine. Worth every penny!</p>",2026-03-24,True,10,negative
+REV00319,Smart Watch,electronics,1,My experience: Overheats after just 10 minutes of use. Worth every penny!,2026-05-02,True,12,negative
+REV00320,Winter Jacket,clothing,5,"<p>Honestly, Excellent quality fabric, feels soft and durable. Not recommended.</p>",2026-03-17,True,7,positive
+REV00321,Blender Pro,home,3,"Does the job, nothing more nothing less. You get what you pay for. Check my blog: www.reviews.com/mypost",2026-05-28,True,9,neutral
+REV00322,Tablet Ultra,electronics,3,"<p>My experience: Decent performance, not amazing but okay. Disappointed overall.</p>",2026-01-15,True,6,neutral
+REV00323,Laptop Pro 15,electronics,3,"<p>To be honest, It works as expected, nothing special. Highly recommend!</p> Check my blog: www.reviews.com/mypost",2026-03-16,True,3,neutral
+REV00324,Wireless Headphones,electronics,3,"EDIT: After more use, Standard features, what you would expect. Five stars from me!",2025-12-29,True,0,neutral
+REV00325,Air Purifier,home,1,"UPDATE: Flimsy construction, feels like it will break. Difficult to clean, parts don't come apart easily. Worth every penny!",2025-12-23,True,26,negative
+REV00326,Denim Jeans,clothing,5,"True to size, the measurements were accurate. Save your money.",2026-06-06,True,33,positive
+REV00327,Tablet Ultra,electronics,2,"I must say, Poor build quality, feels cheap and plastic. You get what you pay for.",2026-03-26,True,13,negative
+REV00328,Denim Jeans,clothing,1,"After using it for a month, Faded badly after first wash. Color is completely different from the photos. Worth every penny!",2026-02-17,True,11,negative
+REV00329,Smart Watch,electronics,4,"I must say, Super fast performance, handles multitasking effortlessly. Disappointed overall. Check my blog: www.reviews.com/mypost",2025-12-21,True,12,positive
+REV00330,Vacuum Cleaner,home,2,"<p>Honestly, Way too loud, sounds like a jet engine. Missing basic features, very disappointed. Disappointed overall.</p> Contact me: reviewer@email.com",2026-01-16,True,9,negative
+REV00331,Blender Pro,home,3,"Just received it and Does the job, nothing more nothing less. Not recommended.",2026-03-17,False,10,neutral
+REV00332,Air Purifier,home,1,"Just received it and Difficult to clean, parts don't come apart easily. One star is too generous.",2026-05-19,True,26,negative
+REV00333,Cotton T-Shirt,clothing,4,"Just received it and Perfect fit! Very comfortable to wear all day. Beautiful color, exactly as shown in pictures. Highly recommend! Contact me: reviewer@email.com",2026-05-11,True,40,positive
+REV00334,Winter Jacket,clothing,5,"Just received it and True to size, the measurements were accurate. Five stars from me!",2026-04-18,False,19,positive
+REV00335,Cotton T-Shirt,clothing,2,"EDIT: After more use, Color is completely different from the photos. Total waste of money. Check my blog: www.reviews.com/mypost",2026-04-04,True,10,negative
+REV00336,Tablet Ultra,electronics,1,"<p>EDIT: After more use, Screen is too small and hard to read. One star is too generous.</p>",2026-05-04,True,24,negative
+REV00337,Coffee Maker,home,5,"After using it for a month, Great features for the price. Five stars from me!",2026-04-11,True,36,positive
+REV00338,Denim Jeans,clothing,1,"In my opinion, Faded badly after first wash. Color is completely different from the photos. Would buy again! Contact me: reviewer@email.com",2026-05-01,True,7,negative
+REV00339,Smartphone X1,electronics,5,"<p>UPDATE: Amazing battery life! Lasts all day without charging. Setup was incredibly easy, connected right away. Worth every penny!</p>",2026-04-13,False,45,positive
+REV00340,Wireless Headphones,electronics,4,<p>UPDATE: The display is absolutely stunning. Colors are vibrant and sharp. Disappointed overall.</p>,2026-02-08,True,9,positive
+REV00341,Tablet Ultra,electronics,5,"Honestly, Great build quality, feels premium and solid. One star is too generous.",2026-05-02,False,36,positive
+REV00342,Vacuum Cleaner,home,2,"EDIT: After more use, Takes up too much space, too bulky. Takes up too much space, too bulky.",2026-04-04,True,1,negative
+REV00343,Desk Lamp,home,2,"<p>EDIT: After more use, Broke after just 2 weeks of use! Total waste of money.</p>",2026-05-06,False,11,negative
+REV00344,Running Shoes,clothing,5,"I must say, Beautiful color, exactly as shown in pictures. Perfect for my needs.",2026-05-01,True,46,positive
+REV00345,Tablet Ultra,electronics,1,"After using it for a month, Poor build quality, feels cheap and plastic. Save your money. Check my blog: www.reviews.com/mypost",2026-06-09,True,1,negative
+REV00346,Leather Belt,clothing,2,"EDIT: After more use, Faded badly after first wash. Looks cheap and poorly made. Perfect for my needs.",2026-02-06,True,21,negative
+REV00347,Leather Belt,clothing,5,"To be honest, Looks stylish and modern, gets compliments. Excellent quality fabric, feels soft and durable. Highly recommend!",2026-02-12,True,10,positive
+REV00348,Air Purifier,home,2,"<p>UPDATE: Flimsy construction, feels like it will break. Way too loud, sounds like a jet engine.</p>",2026-04-29,True,9,negative
+REV00349,Laptop Pro 15,electronics,3,"My experience: Standard features, what you would expect. Total waste of money.",2025-12-19,True,5,neutral
+REV00350,Coffee Maker,home,2,"<p>I must say, Difficult to clean, parts don't come apart easily. Five stars from me!</p>",2026-03-26,True,24,negative
+REV00351,Air Purifier,home,1,"My experience: Missing basic features, very disappointed. Difficult to clean, parts don't come apart easily.",2026-05-03,False,13,negative
+REV00352,Vacuum Cleaner,home,5,"EDIT: After more use, Works like a charm! Makes perfect coffee every morning. Easy to clean and maintain. Highly recommend! Check my blog: www.reviews.com/mypost",2026-01-01,True,33,positive
+REV00353,Running Shoes,clothing,1,"To be honest, Overpriced for such low quality. Five stars from me!",2026-01-24,False,13,negative
+REV00354,Leather Belt,clothing,2,"EDIT: After more use, Faded badly after first wash. Not recommended.",2026-02-03,False,6,negative
+REV00355,Winter Jacket,clothing,3,"UPDATE: Decent for the price, but not great.",2026-05-30,False,3,neutral
+REV00356,Tablet Ultra,electronics,3,"I must say, It works as expected, nothing special. Not recommended.",2026-02-08,True,9,neutral
+REV00357,Winter Jacket,clothing,5,"I must say, Excellent quality fabric, feels soft and durable. Great value for money, highly recommend! Worth every penny!",2026-04-24,True,43,positive
+REV00358,Tablet Ultra,electronics,5,"<p>To be honest, Setup was incredibly easy, connected right away. One star is too generous.</p>",2026-03-19,False,16,positive
+REV00359,Smart Watch,electronics,3,"UPDATE: Decent performance, not amazing but okay. Not recommended.",2026-05-19,True,0,neutral
+REV00360,Air Purifier,home,3,"EDIT: After more use, Standard features and performance. Highly recommend!",2026-05-20,True,5,neutral
+REV00361,Winter Jacket,clothing,2,"After using it for a month, Faded badly after first wash. Poor quality material, started falling apart after one wash. Worth every penny!",2026-03-09,False,23,negative
+REV00362,Smartphone X1,electronics,1,"<p>Just received it and Camera is terrible, blurry photos even in daylight. Battery drains too quickly, barely lasts 3 hours. Five stars from me!</p>",2026-06-02,True,25,negative
+REV00363,Denim Jeans,clothing,5,"<p>Excellent quality fabric, feels soft and durable. Washes well, no fading or shrinking. Perfect for my needs.</p>",2026-03-28,True,48,positive
+REV00364,Denim Jeans,clothing,4,"Just received it and Great value for money, highly recommend! Great value for money, highly recommend! Not recommended.",2026-01-07,False,29,positive
+REV00365,Desk Lamp,home,1,"EDIT: After more use, Takes up too much space, too bulky. One star is too generous.",2026-04-05,True,8,negative
+REV00366,Denim Jeans,clothing,5,"Overall, Great value for money, highly recommend!",2025-12-29,True,40,positive
+REV00367,Running Shoes,clothing,5,"I must say, Excellent quality fabric, feels soft and durable. Washes well, no fading or shrinking. Perfect for my needs.",2026-03-10,False,8,positive
+REV00368,Smart Watch,electronics,5,"EDIT: After more use, Great build quality, feels premium and solid. The screen resolution is perfect for watching movies. Five stars from me!",2026-02-13,True,13,positive
+REV00369,Desk Lamp,home,1,"After using it for a month, Takes up too much space, too bulky. You get what you pay for.",2026-03-24,True,2,negative
+REV00370,Cotton T-Shirt,clothing,5,"<p>EDIT: After more use, Excellent quality fabric, feels soft and durable. Disappointed overall.</p>",2026-04-26,True,27,positive
+REV00371,Running Shoes,clothing,3,"Just received it and Standard quality, nothing remarkable. Five stars from me! Contact me: reviewer@email.com",2026-04-20,True,8,neutral
+REV00372,Desk Lamp,home,2,"Just received it and Difficult to clean, parts don't come apart easily. Consumes too much power. Would buy again!",2026-05-27,True,19,negative
+REV00373,Laptop Pro 15,electronics,5,"To be honest, Amazing battery life! Lasts all day without charging. Setup was incredibly easy, connected right away. Save your money.",2026-02-27,True,42,positive
+REV00374,Leather Belt,clothing,5,"<p>Just received it and Great value for money, highly recommend! Beautiful color, exactly as shown in pictures. You get what you pay for.</p>",2026-05-17,False,22,positive
+REV00375,Smart Watch,electronics,3,"My experience: It works as expected, nothing special. You get what you pay for. Check my blog: www.reviews.com/mypost",2026-01-30,True,7,neutral
+REV00376,Air Purifier,home,5,"Honestly, Energy efficient, saves on electricity. Powerful and efficient, cleans thoroughly. Perfect for my needs. Check my blog: www.reviews.com/mypost",2026-04-26,False,31,positive
+REV00377,Blender Pro,home,3,"After using it for a month, Okay for occasional use. Five stars from me!",2026-05-24,False,1,neutral
+REV00378,Winter Jacket,clothing,5,"<p>Honestly, Beautiful color, exactly as shown in pictures. You get what you pay for.</p>",2026-02-13,False,29,positive
+REV00379,Cotton T-Shirt,clothing,3,"In my opinion, As expected from this brand. Total waste of money.",2026-05-20,True,2,neutral
+REV00380,Laptop Pro 15,electronics,5,"<p>In my opinion, Camera quality exceeded my expectations, photos are crisp. Worth every penny!</p>",2026-03-22,False,36,positive
+REV00381,Winter Jacket,clothing,2,"<p>In my opinion, Runs very small, order 2 sizes up! Highly recommend!</p> Check my blog: www.reviews.com/mypost Contact me: reviewer@email.com",2026-04-12,True,1,negative
+REV00382,Smartphone X1,electronics,3,"Honestly, It works as expected, nothing special. Highly recommend!",2026-03-10,True,8,neutral
+REV00383,Running Shoes,clothing,4,"Just received it and Washes well, no fading or shrinking. Great value for money, highly recommend! Disappointed overall.",2026-03-15,True,3,positive
+REV00384,Smartphone X1,electronics,5,"EDIT: After more use, Setup was incredibly easy, connected right away. Setup was incredibly easy, connected right away. Not recommended.",2026-05-24,True,33,positive
+REV00385,Tablet Ultra,electronics,5,"<p>In my opinion, Camera quality exceeded my expectations, photos are crisp. Five stars from me!</p>",2026-05-16,False,28,positive
+REV00386,Smartphone X1,electronics,2,"In my opinion, Poor build quality, feels cheap and plastic. Disappointed overall.",2026-04-03,True,5,negative
+REV00387,Tablet Ultra,electronics,2,"After using it for a month, Difficult to setup, confusing instructions. Save your money.",2026-04-25,True,12,negative
+REV00388,Blender Pro,home,5,"After using it for a month, Quiet operation, barely makes any noise. Highly recommend! Contact me: reviewer@email.com",2026-04-27,False,31,positive
+REV00389,Air Purifier,home,1,"<p>UPDATE: Way too loud, sounds like a jet engine. You get what you pay for.</p>",2026-01-30,True,16,negative
+REV00390,Blender Pro,home,1,UPDATE: Consumes too much power. Total waste of money.,2026-03-26,True,5,negative
+REV00391,Coffee Maker,home,1,"<p>I must say, Way too loud, sounds like a jet engine. Consumes too much power. You get what you pay for.</p>",2026-03-07,True,29,negative
+REV00392,Wireless Headphones,electronics,3,"EDIT: After more use, It works as expected, nothing special. Total waste of money.",2025-12-16,True,3,neutral
+REV00393,Tablet Ultra,electronics,5,"EDIT: After more use, Amazing battery life! Lasts all day without charging. Setup was incredibly easy, connected right away. Total waste of money.",2026-01-13,True,47,positive
+REV00394,Denim Jeans,clothing,5,"EDIT: After more use, Great value for money, highly recommend! Perfect for my needs.",2026-05-18,False,4,positive
+REV00395,Cotton T-Shirt,clothing,1,"In my opinion, Terrible fit, way too small even though I ordered my size. Five stars from me! Contact me: reviewer@email.com",2026-05-15,True,28,negative
+REV00396,Smartphone X1,electronics,5,"<p>Sound quality is excellent, crystal clear audio. Sound quality is excellent, crystal clear audio. Not recommended.</p>",2025-12-22,False,38,positive
+REV00397,Coffee Maker,home,2,"<p>In my opinion, Takes up too much space, too bulky. Consumes too much power. Not recommended.</p>",2026-03-26,True,14,negative
+REV00398,Wireless Headphones,electronics,1,"Honestly, Battery drains too quickly, barely lasts 3 hours. Worth every penny!",2026-04-09,False,8,negative
+REV00399,Air Purifier,home,3,"In my opinion, Standard features and performance. Save your money.",2026-05-09,False,6,neutral
+REV00400,Running Shoes,clothing,5,"In my opinion, Washes well, no fading or shrinking. Total waste of money.",2026-06-02,True,45,positive
+REV00401,Laptop Pro 15,electronics,5,"<p>EDIT: After more use, Sound quality is excellent, crystal clear audio. Five stars from me!</p>",2026-02-06,False,5,positive
+REV00402,Smartphone X1,electronics,2,"Honestly, Poor build quality, feels cheap and plastic. Disappointed overall. Check my blog: www.reviews.com/mypost Contact me: reviewer@email.com",2026-05-20,False,21,negative
+REV00403,Vacuum Cleaner,home,1,"Honestly, Difficult to clean, parts don't come apart easily. Five stars from me! Check my blog: www.reviews.com/mypost",2026-02-12,True,5,negative
+REV00404,Denim Jeans,clothing,5,"Overall, Perfect fit! Very comfortable to wear all day. Great value for money, highly recommend! One star is too generous. Check my blog: www.reviews.com/mypost",2026-01-25,True,23,positive
+REV00405,Leather Belt,clothing,4,"In my opinion, True to size, the measurements were accurate. Excellent quality fabric, feels soft and durable. Five stars from me!",2025-12-16,True,32,positive
+REV00406,Smartphone X1,electronics,5,"Just received it and The display is absolutely stunning. Colors are vibrant and sharp. Super fast performance, handles multitasking effortlessly. Contact me: reviewer@email.com",2026-05-19,True,23,positive
+REV00407,Blender Pro,home,3,"<p>To be honest, Okay for occasional use. You get what you pay for.</p>",2026-03-19,False,8,neutral
+REV00408,Smart Watch,electronics,2,"<p>I must say, Camera is terrible, blurry photos even in daylight. Difficult to setup, confusing instructions. Total waste of money.</p>",2026-02-14,True,7,negative
+REV00409,Coffee Maker,home,1,"I must say, Way too loud, sounds like a jet engine. Not recommended.",2026-04-26,False,26,negative
+REV00410,Desk Lamp,home,1,"After using it for a month, Flimsy construction, feels like it will break. Perfect for my needs. Contact me: reviewer@email.com",2026-03-05,True,24,negative
+REV00411,Desk Lamp,home,5,"My experience: Energy efficient, saves on electricity. Quiet operation, barely makes any noise. Not recommended.",2026-05-19,True,35,positive
+REV00412,Winter Jacket,clothing,4,"I must say, Great value for money, highly recommend! One star is too generous.",2026-03-12,True,24,positive
+REV00413,Denim Jeans,clothing,2,"Honestly, Poor quality material, started falling apart after one wash. Worth every penny! Check my blog: www.reviews.com/mypost",2025-12-26,True,19,negative
+REV00414,Leather Belt,clothing,3,Just received it and As expected from this brand. Five stars from me!,2026-03-05,True,0,neutral
+REV00415,Smartphone X1,electronics,5,<p>The screen resolution is perfect for watching movies. Not recommended.</p> Contact me: reviewer@email.com,2026-04-08,True,22,positive
+REV00416,Leather Belt,clothing,2,"After using it for a month, Looks cheap and poorly made. Would buy again!",2026-03-18,True,24,negative
+REV00417,Winter Jacket,clothing,4,"<p>EDIT: After more use, Washes well, no fading or shrinking. Perfect fit! Very comfortable to wear all day. You get what you pay for.</p>",2026-04-25,True,45,positive
+REV00418,Running Shoes,clothing,1,"EDIT: After more use, Runs very small, order 2 sizes up! Overpriced for such low quality. Disappointed overall.",2026-03-09,True,14,negative
+REV00419,Leather Belt,clothing,5,"In my opinion, True to size, the measurements were accurate. One star is too generous.",2025-12-27,True,13,positive
+REV00420,Smart Watch,electronics,2,"My experience: Poor build quality, feels cheap and plastic. Perfect for my needs.",2025-12-19,True,13,negative
+REV00421,Blender Pro,home,2,"<p>EDIT: After more use, Difficult to clean, parts don't come apart easily. Difficult to clean, parts don't come apart easily. Not recommended.</p> Check my blog: www.reviews.com/mypost",2026-05-08,True,2,negative
+REV00422,Wireless Headphones,electronics,5,"Great build quality, feels premium and solid. The display is absolutely stunning. Colors are vibrant and sharp. One star is too generous.",2026-03-10,True,35,positive
+REV00423,Smart Watch,electronics,5,"In my opinion, Setup was incredibly easy, connected right away. Camera quality exceeded my expectations, photos are crisp. One star is too generous.",2025-12-25,True,29,positive
+REV00424,Leather Belt,clothing,5,"My experience: Washes well, no fading or shrinking. Not recommended.",2026-04-05,True,12,positive
+REV00425,Smart Watch,electronics,1,"I must say, Camera is terrible, blurry photos even in daylight. Sound quality is awful, tinny and distorted. Disappointed overall.",2026-03-25,False,26,negative
+REV00426,Blender Pro,home,2,"Honestly, Difficult to clean, parts don't come apart easily. Takes up too much space, too bulky. Total waste of money. Check my blog: www.reviews.com/mypost",2026-05-02,True,11,negative
+REV00427,Air Purifier,home,1,"In my opinion, Way too loud, sounds like a jet engine. Difficult to clean, parts don't come apart easily. Would buy again!",2026-04-14,True,29,negative
+REV00428,Cotton T-Shirt,clothing,5,"In my opinion, Washes well, no fading or shrinking. Excellent quality fabric, feels soft and durable. Disappointed overall.",2026-05-02,True,34,positive
+REV00429,Leather Belt,clothing,5,"In my opinion, Perfect fit! Very comfortable to wear all day. Beautiful color, exactly as shown in pictures. Would buy again!",2025-12-20,True,24,positive
+REV00430,Cotton T-Shirt,clothing,1,"<p>My experience: Runs very small, order 2 sizes up! Terrible fit, way too small even though I ordered my size. Highly recommend!</p>",2026-02-20,True,19,negative
+REV00431,Denim Jeans,clothing,5,"After using it for a month, Beautiful color, exactly as shown in pictures. True to size, the measurements were accurate. Would buy again!",2026-05-01,True,35,positive
+REV00432,Denim Jeans,clothing,1,"In my opinion, Color is completely different from the photos. Disappointed overall.",2026-06-05,True,16,negative
+REV00433,Laptop Pro 15,electronics,1,"Poor build quality, feels cheap and plastic. Camera is terrible, blurry photos even in daylight.",2026-01-25,True,17,negative
+REV00434,Tablet Ultra,electronics,2,"<p>EDIT: After more use, Very slow, freezes constantly during use. Poor build quality, feels cheap and plastic. Highly recommend!</p>",2026-02-10,True,3,negative
+REV00435,Coffee Maker,home,4,"<p>Overall, Works like a charm! Makes perfect coffee every morning. Sturdy design, built to last. You get what you pay for.</p>",2026-06-09,True,23,positive
+REV00436,Running Shoes,clothing,3,"EDIT: After more use, Standard quality, nothing remarkable. Disappointed overall.",2026-06-04,True,6,neutral
+REV00437,Wireless Headphones,electronics,1,"After using it for a month, Screen is too small and hard to read. Poor build quality, feels cheap and plastic. Highly recommend!",2026-06-12,True,28,negative
+REV00438,Denim Jeans,clothing,4,"To be honest, Washes well, no fading or shrinking. Excellent quality fabric, feels soft and durable. One star is too generous.",2026-03-01,True,7,positive
+REV00439,Smartphone X1,electronics,1,"Camera is terrible, blurry photos even in daylight. Overheats after just 10 minutes of use. Save your money.",2026-03-27,False,25,negative
+REV00440,Cotton T-Shirt,clothing,2,"Overall, Runs very small, order 2 sizes up! Runs very small, order 2 sizes up! Total waste of money. Check my blog: www.reviews.com/mypost",2026-01-18,False,24,negative
+REV00441,Blender Pro,home,1,"To be honest, Consumes too much power. Save your money.",2026-05-27,True,19,negative
+REV00442,Blender Pro,home,5,"Powerful and efficient, cleans thoroughly. Disappointed overall.",2026-01-18,False,46,positive
+REV00443,Wireless Headphones,electronics,3,"EDIT: After more use, Average product for the price point.",2026-06-07,True,7,neutral
+REV00444,Smartphone X1,electronics,1,"I must say, Sound quality is awful, tinny and distorted. Battery drains too quickly, barely lasts 3 hours. Highly recommend!",2026-03-21,False,27,negative
+REV00445,Blender Pro,home,1,"To be honest, Flimsy construction, feels like it will break. Missing basic features, very disappointed. Not recommended.",2026-03-25,True,7,negative
+REV00446,Denim Jeans,clothing,1,"<p>Color is completely different from the photos. Poor quality material, started falling apart after one wash. You get what you pay for.</p>",2026-02-21,True,24,negative
+REV00447,Cotton T-Shirt,clothing,5,"Just received it and Excellent quality fabric, feels soft and durable. Great value for money, highly recommend! One star is too generous.",2026-01-11,True,1,positive
+REV00448,Cotton T-Shirt,clothing,1,"In my opinion, Terrible fit, way too small even though I ordered my size. Worth every penny!",2026-05-21,True,9,negative
+REV00449,Tablet Ultra,electronics,3,"Overall, Decent performance, not amazing but okay. Five stars from me! Check my blog: www.reviews.com/mypost",2026-03-22,True,9,neutral
+REV00450,Laptop Pro 15,electronics,5,"My experience: Super fast performance, handles multitasking effortlessly. One star is too generous. Contact me: reviewer@email.com",2026-04-18,True,31,positive
+REV00451,Desk Lamp,home,5,Great features for the price. Worth every penny!,2026-02-17,True,4,positive
+REV00452,Tablet Ultra,electronics,2,"In my opinion, Camera is terrible, blurry photos even in daylight. Battery drains too quickly, barely lasts 3 hours. Disappointed overall.",2026-02-28,False,17,negative
+REV00453,Denim Jeans,clothing,3,"Honestly, Standard quality, nothing remarkable. Five stars from me!",2026-05-13,True,3,neutral
+REV00454,Blender Pro,home,1,"Just received it and Way too loud, sounds like a jet engine. Total waste of money. Contact me: reviewer@email.com",2025-12-31,True,6,negative
+REV00455,Vacuum Cleaner,home,5,Great features for the price. Save your money. Check my blog: www.reviews.com/mypost,2026-03-21,True,42,positive
+REV00456,Desk Lamp,home,5,<p>Just received it and Easy to clean and maintain. Five stars from me!</p>,2026-02-27,True,38,positive
+REV00457,Vacuum Cleaner,home,1,"After using it for a month, Takes up too much space, too bulky. Worth every penny!",2026-04-22,True,24,negative
+REV00458,Cotton T-Shirt,clothing,3,"Just received it and Decent for the price, but not great. Perfect for my needs.",2026-03-28,False,0,neutral
+REV00459,Denim Jeans,clothing,2,"My experience: Poor quality material, started falling apart after one wash. Worth every penny!",2026-04-08,True,23,negative
+REV00460,Cotton T-Shirt,clothing,3,"In my opinion, Fits okay, material is average. Perfect for my needs.",2026-05-26,True,0,neutral
+REV00461,Running Shoes,clothing,1,"My experience: Terrible fit, way too small even though I ordered my size. Save your money. Check my blog: www.reviews.com/mypost",2026-01-03,True,28,negative
+REV00462,Blender Pro,home,2,"<p>I must say, Missing basic features, very disappointed. Consumes too much power. One star is too generous.</p> Contact me: reviewer@email.com",2026-04-05,True,26,negative
+REV00463,Cotton T-Shirt,clothing,1,"UPDATE: Runs very small, order 2 sizes up! Five stars from me!",2026-04-30,True,5,negative
+REV00464,Vacuum Cleaner,home,5,"EDIT: After more use, Great features for the price. Compact size, fits perfectly in my space. Not recommended.",2026-05-09,True,33,positive
+REV00465,Desk Lamp,home,3,"I must say, Okay for occasional use. You get what you pay for.",2026-04-10,True,3,neutral
+REV00466,Leather Belt,clothing,1,"I must say, Overpriced for such low quality. Overpriced for such low quality. Total waste of money. Check my blog: www.reviews.com/mypost",2026-03-03,False,6,negative
+REV00467,Leather Belt,clothing,5,"<p>EDIT: After more use, Excellent quality fabric, feels soft and durable. You get what you pay for.</p>",2026-01-30,True,49,positive
+REV00468,Wireless Headphones,electronics,5,"In my opinion, The screen resolution is perfect for watching movies. Setup was incredibly easy, connected right away. One star is too generous.",2026-01-31,True,48,positive
+REV00469,Air Purifier,home,4,"Quiet operation, barely makes any noise. You get what you pay for.",2026-04-28,True,20,positive
+REV00470,Denim Jeans,clothing,5,"I must say, Excellent quality fabric, feels soft and durable. Check my blog: www.reviews.com/mypost",2026-03-22,True,4,positive
+REV00471,Running Shoes,clothing,2,"In my opinion, Runs very small, order 2 sizes up! Save your money.",2026-04-10,False,21,negative
+REV00472,Leather Belt,clothing,2,"Just received it and Runs very small, order 2 sizes up! Faded badly after first wash.",2026-03-27,True,3,negative
+REV00473,Leather Belt,clothing,3,"Standard quality, nothing remarkable. Would buy again!",2026-06-07,True,7,neutral
+REV00474,Desk Lamp,home,5,<p>UPDATE: Easy to clean and maintain. Five stars from me!</p> Check my blog: www.reviews.com/mypost,2026-04-05,True,34,positive
+REV00475,Air Purifier,home,5,"EDIT: After more use, Powerful and efficient, cleans thoroughly. You get what you pay for.",2026-04-14,True,18,positive
+REV00476,Winter Jacket,clothing,2,"EDIT: After more use, Runs very small, order 2 sizes up! Color is completely different from the photos. Not recommended.",2026-01-11,False,7,negative
+REV00477,Running Shoes,clothing,2,"<p>UPDATE: Poor quality material, started falling apart after one wash. Color is completely different from the photos. Worth every penny!</p>",2026-01-02,True,21,negative
+REV00478,Running Shoes,clothing,3,"To be honest, Decent for the price, but not great. Worth every penny! Check my blog: www.reviews.com/mypost",2026-04-21,True,3,neutral
+REV00479,Coffee Maker,home,3,"UPDATE: Average product, meets basic needs. One star is too generous.",2026-05-14,True,9,neutral
+REV00480,Wireless Headphones,electronics,1,"Difficult to setup, confusing instructions. Check my blog: www.reviews.com/mypost",2026-02-22,True,27,negative
+REV00481,Cotton T-Shirt,clothing,1,"Just received it and Terrible fit, way too small even though I ordered my size. Terrible fit, way too small even though I ordered my size. Save your money.",2026-05-13,True,2,negative
+REV00482,Blender Pro,home,2,"In my opinion, Way too loud, sounds like a jet engine. Broke after just 2 weeks of use! Highly recommend!",2026-04-09,True,26,negative
+REV00483,Winter Jacket,clothing,1,"After using it for a month, Runs very small, order 2 sizes up! One star is too generous.",2026-01-28,True,26,negative
+REV00484,Vacuum Cleaner,home,5,"<p>Overall, Powerful and efficient, cleans thoroughly. Compact size, fits perfectly in my space. Total waste of money.</p>",2026-01-09,True,23,positive
+REV00485,Air Purifier,home,3,"<p>Honestly, Okay for occasional use. Worth every penny!</p> Contact me: reviewer@email.com",2026-04-28,True,5,neutral
+REV00486,Laptop Pro 15,electronics,3,"<p>My experience: Standard features, what you would expect. Worth every penny!</p> Check my blog: www.reviews.com/mypost",2026-02-13,True,9,neutral
+REV00487,Cotton T-Shirt,clothing,3,"<p>After using it for a month, Fits okay, material is average. One star is too generous.</p>",2025-12-26,False,6,neutral
+REV00488,Wireless Headphones,electronics,2,"<p>To be honest, Difficult to setup, confusing instructions. Save your money.</p>",2026-01-20,True,16,negative
+REV00489,Blender Pro,home,4,"<p>Overall, Powerful and efficient, cleans thoroughly. Quiet operation, barely makes any noise. One star is too generous.</p>",2026-06-04,True,29,positive
+REV00490,Blender Pro,home,3,<p>Okay for occasional use. Save your money.</p> Contact me: reviewer@email.com,2026-03-02,True,2,neutral
+REV00491,Laptop Pro 15,electronics,1,"In my opinion, Camera is terrible, blurry photos even in daylight.",2026-03-24,True,3,negative
+REV00492,Tablet Ultra,electronics,3,"In my opinion, Standard features, what you would expect. Highly recommend! Check my blog: www.reviews.com/mypost",2026-02-18,True,2,neutral
+REV00493,Tablet Ultra,electronics,4,"<p>EDIT: After more use, Great build quality, feels premium and solid. Perfect for my needs.</p>",2026-04-03,True,34,positive
+REV00494,Winter Jacket,clothing,3,UPDATE: As expected from this brand. Highly recommend!,2026-03-01,True,9,neutral
+REV00495,Smartphone X1,electronics,5,"After using it for a month, The display is absolutely stunning. Colors are vibrant and sharp. Setup was incredibly easy, connected right away.",2026-01-04,True,30,positive
+REV00496,Smartphone X1,electronics,1,"After using it for a month, Difficult to setup, confusing instructions. Screen is too small and hard to read. Save your money.",2025-12-30,True,19,negative
+REV00497,Tablet Ultra,electronics,5,"<p>Overall, Super fast performance, handles multitasking effortlessly. Save your money.</p>",2026-03-28,True,33,positive
+REV00498,Vacuum Cleaner,home,2,"Missing basic features, very disappointed. One star is too generous.",2026-05-04,True,16,negative
+REV00499,Smartphone X1,electronics,5,"In my opinion, The screen resolution is perfect for watching movies. One star is too generous. Check my blog: www.reviews.com/mypost",2026-05-02,False,31,positive
+REV00500,Desk Lamp,home,1,"In my opinion, Difficult to clean, parts don't come apart easily. One star is too generous.",2025-12-17,True,12,negative

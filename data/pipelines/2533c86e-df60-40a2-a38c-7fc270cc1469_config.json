@@ -1,0 +1,75 @@
+{
+  "name": "Chatbot Inteligente",
+  "description": "Pipeline completa de IA conversacional com contexto",
+  "steps": [
+    {
+      "name": "Entrada de Mensagem",
+      "type": "user_input",
+      "enabled": true,
+      "config": {
+        "input_type": "text",
+        "column_name": "message",
+        "prompt_on_run": true
+      }
+    },
+    {
+      "name": "Classificar Intenção",
+      "type": "intent_classification",
+      "enabled": true,
+      "config": {
+        "text_column": "message",
+        "min_confidence": 0.4,
+        "fallback_intent": "unknown"
+      }
+    },
+    {
+      "name": "Extrair Entidades",
+      "type": "entity_extraction",
+      "enabled": true,
+      "config": {
+        "text_column": "message",
+        "entity_types": [
+          "PERSON",
+          "ORG",
+          "GPE",
+          "DATE",
+          "PRODUCT"
+        ]
+      }
+    },
+    {
+      "name": "Busca Semântica",
+      "type": "semantic_search",
+      "enabled": true,
+      "config": {
+        "text_column": "message",
+        "knowledge_base_path": "",
+        "top_k": 3,
+        "min_similarity": 0.5
+      }
+    },
+    {
+      "name": "Gerenciar Contexto",
+      "type": "context_manager",
+      "enabled": true,
+      "config": {
+        "conversation_id_column": "conversation_id",
+        "message_column": "message",
+        "max_history": 10,
+        "include_entities": true
+      }
+    },
+    {
+      "name": "Gerar Resposta",
+      "type": "response_generation",
+      "enabled": true,
+      "config": {
+        "mode": "template",
+        "intent_column": "intent",
+        "context_column": "context",
+        "fallback_response": "Desculpe, não entendi. Pode reformular?"
+      }
+    }
+  ],
+  "solution_id": "d3a7f6d5-9604-444f-b745-b2ad7e28416b"
+}

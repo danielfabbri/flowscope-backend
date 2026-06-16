@@ -1,0 +1,37 @@
+{
+  "name": "Teste Simples - 25 graus",
+  "description": "Apenas temperatura",
+  "steps": [
+    {
+      "name": "User Input",
+      "type": "user_input",
+      "enabled": true,
+      "config": {
+        "temperature_celsius": "25",
+        "default_values": "",
+        "use_defaults": false
+      }
+    },
+    {
+      "name": "Model Loading",
+      "type": "model_loading",
+      "enabled": true,
+      "config": {
+        "model_name": "Habla_Simple",
+        "cache_model": true,
+        "validate_features": true
+      }
+    },
+    {
+      "name": "Model Inference",
+      "type": "model_inference",
+      "enabled": true,
+      "config": {
+        "include_error": false,
+        "prediction_column": "predicted_ice_creams",
+        "include_probabilities": false
+      }
+    }
+  ],
+  "solution_id": "843c81b4-c43e-48f7-a7d4-79a921577647"
+}

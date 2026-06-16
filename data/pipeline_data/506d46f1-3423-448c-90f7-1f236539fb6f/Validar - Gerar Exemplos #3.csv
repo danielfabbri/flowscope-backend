@@ -1,0 +1,6 @@
+sample_id,prompt,generated_text,length,temperature,model_name
+1,This product is,this product is terrible and broke after one day. very disappointed.,11,1.0,review_generator_ngram
+2,This product is,this product is defective and useless.,6,1.0,review_generator_ngram
+3,This product is,this product is durable and well-made.,6,1.0,review_generator_ngram
+4,This product is,this product is well-made and durable. very happy with this purchase. the product works well.,15,1.0,review_generator_ngram
+5,This product is,this product is well-made and durable. very happy with this purchase. the product is terrible and broke after one day. very disappointed.,22,1.0,review_generator_ngram

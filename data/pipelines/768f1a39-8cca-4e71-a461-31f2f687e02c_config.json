@@ -1,0 +1,249 @@
+{
+  "name": "Classification Problem",
+  "description": "Let's test features",
+  "steps": [
+    {
+      "name": "Data Ingestion",
+      "type": "ingestion",
+      "enabled": true,
+      "config": {
+        "ingestion_type": "file_upload",
+        "num_rows": 10000,
+        "start_date": "2024-01-01",
+        "frequency": "1H",
+        "data_template": "sensor",
+        "webhook_token": "",
+        "webhook_validation": false,
+        "http_url": "",
+        "http_method": "GET",
+        "http_auth_type": "none",
+        "http_api_key": "",
+        "http_interval": 60,
+        "file_format": "json",
+        "file_path": "C:\\dev\\flowscope\\data\\customer_churn_dataset.json",
+        "db_type": "postgresql",
+        "db_host": "",
+        "db_port": 5432,
+        "db_name": "",
+        "db_user": "",
+        "db_password": "",
+        "db_query": "",
+        "db_polling_interval": 60,
+        "stream_type": "kafka",
+        "stream_brokers": "",
+        "stream_topic": "",
+        "stream_group_id": ""
+      }
+    },
+    {
+      "name": "Gender + Hot encoding",
+      "type": "feature_engineering",
+      "enabled": true,
+      "config": {
+        "transformation_type": "onehot_encoding",
+        "scaling_columns": "",
+        "scaling_method": "standard",
+        "onehot_columns": "gender,region,acquisition_channel,favorite_category",
+        "label_columns": "",
+        "binning_column": "",
+        "binning_bins": "",
+        "binning_labels": "",
+        "feature_name": "",
+        "feature_formula": "",
+        "selection_method": "variance",
+        "variance_threshold": 0.01,
+        "correlation_threshold": 0.95,
+        "time_column": "",
+        "extract_year": false,
+        "extract_month": false,
+        "extract_day": false,
+        "extract_dayofweek": false,
+        "extract_hour": false,
+        "extract_quarter": false
+      }
+    },
+    {
+      "name": "Loyalty Label Encoding",
+      "type": "feature_engineering",
+      "enabled": true,
+      "config": {
+        "transformation_type": "label_encoding",
+        "scaling_columns": "",
+        "scaling_method": "standard",
+        "onehot_columns": "",
+        "label_columns": "loyalty_tier",
+        "binning_column": "",
+        "binning_bins": "",
+        "binning_labels": "",
+        "feature_name": "",
+        "feature_formula": "",
+        "selection_method": "variance",
+        "variance_threshold": 0.01,
+        "correlation_threshold": 0.95,
+        "time_column": "",
+        "extract_year": false,
+        "extract_month": false,
+        "extract_day": false,
+        "extract_dayofweek": false,
+        "extract_hour": false,
+        "extract_quarter": false
+      }
+    },
+    {
+      "name": "Binning",
+      "type": "feature_engineering",
+      "enabled": true,
+      "config": {
+        "transformation_type": "binning",
+        "scaling_columns": "",
+        "scaling_method": "standard",
+        "onehot_columns": "",
+        "label_columns": "",
+        "binning_column": "age",
+        "binning_bins": "[0,25,35,45,100]",
+        "binning_labels": "Young,Adult,Middle-Aged,Senior",
+        "feature_name": "",
+        "feature_formula": "",
+        "selection_method": "variance",
+        "variance_threshold": 0.01,
+        "correlation_threshold": 0.95,
+        "time_column": "",
+        "extract_year": false,
+        "extract_month": false,
+        "extract_day": false,
+        "extract_dayofweek": false,
+        "extract_hour": false,
+        "extract_quarter": false
+      }
+    },
+    {
+      "name": "Feature Creation",
+      "type": "feature_engineering",
+      "enabled": true,
+      "config": {
+        "transformation_type": "feature_creation",
+        "scaling_columns": "",
+        "scaling_method": "standard",
+        "onehot_columns": "",
+        "label_columns": "",
+        "binning_column": "",
+        "binning_bins": "",
+        "binning_labels": "",
+        "feature_name": "customer_value_per_day",
+        "feature_formula": "total_spent / (days_as_customer + 1)",
+        "selection_method": "variance",
+        "variance_threshold": 0.01,
+        "correlation_threshold": 0.95,
+        "time_column": "",
+        "extract_year": false,
+        "extract_month": false,
+        "extract_day": false,
+        "extract_dayofweek": false,
+        "extract_hour": false,
+        "extract_quarter": false
+      }
+    },
+    {
+      "name": "Normalization",
+      "type": "feature_engineering",
+      "enabled": true,
+      "config": {
+        "transformation_type": "scaling",
+        "scaling_columns": "age,days_as_customer,total_purchases,total_spent,avg_order_value,days_since_last_purchase,satisfaction_score,support_contacts,returns_rate",
+        "scaling_method": "standard",
+        "onehot_columns": "",
+        "label_columns": "",
+        "binning_column": "",
+        "binning_bins": "",
+        "binning_labels": "",
+        "feature_name": "",
+        "feature_formula": "",
+        "selection_method": "variance",
+        "variance_threshold": 0.01,
+        "correlation_threshold": 0.95,
+        "time_column": "",
+        "extract_year": false,
+        "extract_month": false,
+        "extract_day": false,
+        "extract_dayofweek": false,
+        "extract_hour": false,
+        "extract_quarter": false
+      }
+    },
+    {
+      "name": "ML Modeling",
+      "type": "ml_modeling",
+      "enabled": true,
+      "config": {
+        "model_type": "classification",
+        "algorithm": "random_forest",
+        "target_column": "churned",
+        "exclude_features": "",
+        "test_size": 0.3,
+        "random_state": 42,
+        "class_weight": "balanced",
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_split": 2,
+        "n_clusters": 3,
+        "contamination": 0.1
+      }
+    },
+    {
+      "name": "Column Selection",
+      "type": "column_selection",
+      "enabled": true,
+      "config": {
+        "mode": "keep",
+        "columns": [
+          "customer_id",
+          "predicted_class"
+        ]
+      }
+    },
+    {
+      "name": "Row Filtering",
+      "type": "row_filtering",
+      "enabled": true,
+      "config": {
+        "filter_column": "predicted_class",
+        "filter_operator": "=",
+        "filter_value": "1",
+        "keep_matching": true
+      }
+    },
+    {
+      "name": "Data Enrichment",
+      "type": "data_enrichment",
+      "enabled": true,
+      "config": {
+        "source_type": "file",
+        "source_path": "C:\\dev\\flowscope\\data\\customer_contacts.csv",
+        "join_key_left": "customer_id",
+        "join_key_right": "customer_id",
+        "join_type": "left",
+        "columns_to_add": "phone,email"
+      }
+    },
+    {
+      "name": "Column Selection",
+      "type": "column_selection",
+      "enabled": true,
+      "config": {
+        "mode": "drop",
+        "columns": [
+          "predicted_class"
+        ]
+      }
+    },
+    {
+      "name": "Output",
+      "type": "output",
+      "enabled": true,
+      "config": {
+        "include_metadata": false
+      }
+    }
+  ],
+  "solution_id": "843c81b4-c43e-48f7-a7d4-79a921577647"
+}

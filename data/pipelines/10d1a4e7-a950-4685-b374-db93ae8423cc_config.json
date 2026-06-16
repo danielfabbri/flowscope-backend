@@ -1,0 +1,51 @@
+{
+  "name": "Space Explorer - Training",
+  "description": "Treine um chatbot com dados de intenções e conhecimento",
+  "steps": [
+    {
+      "name": "Carregar Intenções de Treinamento",
+      "type": "ingestion",
+      "enabled": true,
+      "config": {
+        "ingestion_type": "file_upload",
+        "file_format": "csv",
+        "file_path": "C:\\dev\\flowscope\\data\\use_cases\\space_chatbot_intent_training.csv",
+        "description": "CSV com colunas: text, intent (exemplo: \"Olá, tudo bem?\" -> \"greeting\")"
+      }
+    },
+    {
+      "name": "Treinar Classificador de Intenção",
+      "type": "intent_training",
+      "enabled": true,
+      "config": {
+        "text_column": "text",
+        "intent_column": "intent",
+        "model_name": "space_explorer",
+        "test_size": 0.2
+      }
+    },
+    {
+      "name": "Carregar Base de Conhecimento",
+      "type": "ingestion",
+      "enabled": true,
+      "config": {
+        "ingestion_type": "file_upload",
+        "file_format": "csv",
+        "file_path": "C:\\dev\\flowscope\\data\\use_cases\\space_chatbot_knowledge_base.csv",
+        "description": "CSV com colunas: text (perguntas e respostas, documentos, FAQs)"
+      }
+    },
+    {
+      "name": "Indexar Conhecimento",
+      "type": "knowledge_indexing",
+      "enabled": true,
+      "config": {
+        "text_column": "text",
+        "id_column": "id",
+        "metadata_columns": [],
+        "index_name": "space_explorer_kb"
+      }
+    }
+  ],
+  "solution_id": "d3a7f6d5-9604-444f-b745-b2ad7e28416b"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "b0c5b0d3-1e1a-477a-bbec-2e69539116f7",
+  "config": {
+    "name": "Test: Model Inference",
+    "description": null,
+    "steps": [
+      {
+        "name": "Load Test Data",
+        "type": "ingestion",
+        "enabled": true,
+        "config": {
+          "ingestion_type": "file_upload",
+          "file_path": "../data/use_cases/classification/customer_churn_dataset.json",
+          "file_format": "json"
+        }
+      },
+      {
+        "name": "Clean Data",
+        "type": "cleaning",
+        "enabled": true,
+        "config": {
+          "remove_nulls": true,
+          "remove_duplicates": true
+        }
+      },
+      {
+        "name": "Load Model",
+        "type": "model_loading",
+        "enabled": true,
+        "config": {
+          "model_name": "test_churn_model",
+          "validate_features": true,
+          "cache_model": true
+        }
+      },
+      {
+        "name": "Make Predictions",
+        "type": "model_inference",
+        "enabled": true,
+        "config": {
+          "prediction_column": "churn_prediction",
+          "include_probabilities": true,
+          "compare_with_actual": true,
+          "actual_column": "churned"
+        }
+      }
+    ]
+  },
+  "status": "completed",
+  "current_step": null,
+  "steps_completed": [
+    "Load Test Data",
+    "Clean Data",
+    "Load Model",
+    "Make Predictions"
+  ],
+  "created_at": "2026-06-11T13:17:43.602576",
+  "started_at": "2026-06-11T13:17:45.636516",
+  "completed_at": "2026-06-11T13:17:53.008104",
+  "error": null
+}

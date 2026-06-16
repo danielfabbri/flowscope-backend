@@ -1,0 +1,27 @@
+{
+  "model_name": "space_explorer_chat",
+  "model_type": "conversational_chatbot",
+  "created_at": "2026-06-13T07:02:31.466527",
+  "description": "Chatbot sobre exploração espacial, astronomia e cosmologia",
+  "components": {
+    "intent_classifier": {
+      "model_name": "space_explorer",
+      "min_confidence": 0.4
+    },
+    "knowledge_base": {
+      "kb_name": "space_explorer_kb",
+      "top_k": 3
+    }
+  },
+  "default_responses": {
+    "black_holes": "Buracos negros são regiões do espaço com gravidade tão intensa que nada pode escapar.",
+    "planets": "Planetas são corpos celestes que orbitam estrelas e não emitem luz própria.",
+    "stars": "Estrelas são esferas de plasma que geram energia através de fusão nuclear.",
+    "galaxies": "Galáxias são sistemas massivos compostos por estrelas, planetas, gás e poeira.",
+    "solar_system": "O Sistema Solar é composto pelo Sol e todos os corpos celestes que orbitam ao seu redor."
+  },
+  "features": [
+    "message"
+  ],
+  "target": "response"
+}

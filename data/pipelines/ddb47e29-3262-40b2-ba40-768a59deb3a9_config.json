@@ -1,0 +1,55 @@
+{
+  "name": "Space Explorer - Conversation",
+  "description": "Use um chatbot já treinado para conversação",
+  "steps": [
+    {
+      "name": "Entrada de Mensagem",
+      "type": "user_input",
+      "enabled": true,
+      "config": {
+        "input_fields": {
+          "message": ""
+        },
+        "use_defaults": false
+      }
+    },
+    {
+      "name": "Classificar Intenção",
+      "type": "intent_classification",
+      "enabled": true,
+      "config": {
+        "text_column": "message",
+        "model_name": "space_explorer",
+        "min_confidence": 0.4,
+        "output_intent_column": "predicted_intent",
+        "output_confidence_column": "intent_confidence",
+        "fallback_intent": "unknown"
+      }
+    },
+    {
+      "name": "Busca Semântica",
+      "type": "semantic_search",
+      "enabled": true,
+      "config": {
+        "kb_name": "space_explorer_kb",
+        "query_column": "message",
+        "top_k": 3,
+        "min_similarity": 0.3,
+        "output_column": "search_results"
+      }
+    },
+    {
+      "name": "Gerar Resposta",
+      "type": "response_generation",
+      "enabled": true,
+      "config": {
+        "intent_column": "predicted_intent",
+        "context_column": "search_results",
+        "query_column": "message",
+        "response_style": "friendly_educational",
+        "output_column": "response"
+      }
+    }
+  ],
+  "solution_id": "d3a7f6d5-9604-444f-b745-b2ad7e28416b"
+}

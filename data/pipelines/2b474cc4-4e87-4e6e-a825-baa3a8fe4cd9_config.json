@@ -1,0 +1,49 @@
+{
+  "name": "Treinar Modelo de Reviews",
+  "description": "Pipeline completo para treinar modelo N-gram de geração de texto",
+  "steps": [
+    {
+      "name": "Carregar Reviews",
+      "type": "ingestion",
+      "enabled": true,
+      "config": {
+        "ingestion_type": "file_upload",
+        "file_path": "data/use_cases/nlp/reviews_for_ngram.csv",
+        "file_format": "csv"
+      }
+    },
+    {
+      "name": "Treinar Modelo N-gram",
+      "type": "ngram_training",
+      "enabled": true,
+      "config": {
+        "text_column": "review_text",
+        "model_name": "review_generator_ngram",
+        "n": 3,
+        "min_text_length": 10
+      }
+    },
+    {
+      "name": "Validar - Gerar Exemplos",
+      "type": "ngram_generation",
+      "enabled": true,
+      "config": {
+        "model_name": "review_generator_ngram",
+        "prompt": "This product is",
+        "max_length": 30,
+        "temperature": 1.0,
+        "top_k": 40,
+        "num_samples": 5
+      }
+    },
+    {
+      "name": "Salvar Resultados",
+      "type": "output",
+      "enabled": true,
+      "config": {
+        "output_name": "modelo_treinado"
+      }
+    }
+  ],
+  "solution_id": "3d916817-896c-4fbd-b75f-e0752bc29487"
+}

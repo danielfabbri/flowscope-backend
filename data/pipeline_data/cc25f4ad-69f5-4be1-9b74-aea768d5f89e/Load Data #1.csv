@@ -1,0 +1,101 @@
+customer_id,age,gender,region,acquisition_channel,days_as_customer,loyalty_tier,total_purchases,total_spent,avg_order_value,days_since_last_purchase,favorite_category,has_loyalty_card,has_app,accepts_marketing,num_complaints,satisfaction_score,support_contacts,returns_rate,churned
+C001,56,M,Midwest,Social Media,112,Platinum,94,8537.46,90.82,128,Sports,True,False,True,5,2.7,2,0.22,1
+C002,41,F,Southeast,Social Media,1371,Bronze,71,4474.5,63.02,221,Fashion,False,True,True,5,3.7,2,0.07,1
+C003,55,F,Midwest,Email,1181,Platinum,96,9663.57,100.66,27,Toys,True,True,False,5,1.9,6,0.01,0
+C004,22,M,Southeast,Email,382,Bronze,79,4872.61,61.68,258,Sports,False,False,True,2,3.0,0,0.09,1
+C005,45,F,Northeast,Direct,94,Silver,82,15762.83,192.23,18,Books,False,True,False,2,2.9,7,0.27,1
+C006,24,M,Midwest,Social Media,499,Platinum,94,6535.17,69.52,310,Fashion,True,False,True,4,3.5,4,0.02,1
+C007,38,M,Southeast,Social Media,379,Platinum,74,19213.12,259.64,227,Home & Garden,True,False,True,5,1.9,2,0.04,1
+C008,73,F,Northeast,Email,918,Bronze,3,9722.93,3240.98,290,Beauty,True,False,True,4,2.1,3,0.07,1
+C009,58,M,Midwest,Social Media,182,Platinum,75,11117.25,148.23,37,Food,False,True,True,4,3.2,7,0.23,1
+C010,49,M,Southeast,Email,538,Platinum,49,8411.58,171.66,77,Home & Garden,False,True,False,0,1.6,10,0.27,0
+C011,52,M,Southwest,Paid Ads,160,Silver,85,2822.41,33.2,259,Fashion,False,False,False,5,2.5,9,0.05,0
+C012,74,F,Northeast,Social Media,1197,Silver,37,11891.93,321.4,276,Food,False,True,False,0,3.4,6,0.27,1
+C013,59,F,Southeast,Email,463,Silver,25,18480.33,739.21,349,Food,True,False,False,3,3.3,8,0.12,1
+C014,41,M,Midwest,Email,74,Bronze,59,11779.32,199.65,292,Books,False,True,True,0,3.0,0,0.06,0
+C015,74,M,Southeast,Paid Ads,734,Silver,86,7126.51,82.87,16,Books,False,True,True,3,2.8,7,0.24,1
+C016,29,M,West,Direct,1128,Platinum,53,9860.37,186.04,164,Electronics,False,True,False,5,2.9,1,0.12,0
+C017,32,M,West,Social Media,916,Gold,96,9241.96,96.27,184,Food,False,False,True,3,1.1,0,0.27,1
+C018,73,M,Southwest,Social Media,979,Silver,86,3417.18,39.73,238,Electronics,True,False,False,1,3.1,9,0.21,0
+C019,45,M,Northeast,Social Media,1357,Silver,8,910.31,113.79,355,Fashion,True,False,False,0,2.5,8,0.15,0
+C020,51,M,Southeast,Organic Search,129,Platinum,4,3304.74,826.18,173,Toys,False,True,False,4,3.4,9,0.12,0
+C021,40,F,Northeast,Direct,548,Platinum,64,16770.47,262.04,134,Food,True,True,False,1,4.7,0,0.04,1
+C022,36,F,West,Social Media,342,Platinum,40,8235.67,205.89,245,Sports,False,True,True,4,4.8,7,0.28,1
+C023,60,F,Southeast,Organic Search,1465,Platinum,15,19707.15,1313.81,163,Fashion,False,True,False,5,2.6,6,0.21,1
+C024,74,M,Southwest,Paid Ads,1047,Gold,51,12255.23,240.3,163,Beauty,True,True,False,3,1.7000000000000002,3,0.02,1
+C025,30,F,Midwest,Paid Ads,1310,Gold,40,7801.72,195.04,124,Fashion,False,True,True,0,1.0,6,0.25,1
+C026,45,M,Southeast,Referral,1097,Silver,25,238.86,9.55,183,Electronics,False,False,False,5,2.6,7,0.05,1
+C027,24,M,West,Direct,741,Gold,59,13421.79,227.49,126,Food,False,False,True,3,2.6,3,0.04,1
+C028,44,F,Southwest,Social Media,275,Gold,42,5813.77,138.42,10,Books,False,False,False,3,2.9,10,0.07,0
+C029,51,F,Southeast,Paid Ads,1451,Silver,2,4959.91,2479.95,158,Beauty,False,True,True,2,1.3,2,0.24,1
+C030,19,M,Northeast,Email,750,Bronze,73,5480.36,75.07,144,Electronics,False,False,True,4,2.6,8,0.02,1
+C031,25,F,Midwest,Organic Search,834,Silver,28,2274.03,81.22,261,Food,True,True,True,4,3.8,6,0.16,1
+C032,57,M,Southwest,Paid Ads,523,Bronze,72,16118.29,223.87,240,Toys,True,True,True,5,3.9,3,0.19,0
+C033,62,F,Northeast,Paid Ads,977,Bronze,64,1431.6,22.37,91,Sports,True,True,True,2,1.4,1,0.14,0
+C034,59,F,Southeast,Social Media,1447,Silver,46,17748.51,385.84,239,Sports,True,False,False,4,1.5,7,0.08,1
+C035,69,M,Southwest,Direct,1009,Silver,11,12225.79,1111.44,341,Toys,True,True,True,1,4.0,10,0.01,0
+C036,33,M,Southeast,Referral,744,Bronze,98,9711.71,99.1,128,Home & Garden,True,False,False,5,2.9,5,0.23,0
+C037,36,F,Southwest,Social Media,927,Bronze,3,9794.65,3264.88,220,Food,False,True,True,1,4.6,6,0.06,0
+C038,30,F,West,Paid Ads,1333,Silver,66,9693.16,146.87,208,Beauty,False,True,True,2,4.9,7,0.25,0
+C039,43,F,Southeast,Referral,429,Gold,93,14367.81,154.49,314,Sports,True,False,True,5,2.7,7,0.13,0
+C040,60,F,Southwest,Paid Ads,851,Silver,83,687.61,8.28,227,Fashion,False,False,True,5,4.6,0,0.28,1
+C041,71,F,Southeast,Social Media,192,Bronze,1,6430.97,6430.97,195,Electronics,False,False,True,1,2.9,9,0.30000000000000004,1
+C042,60,F,West,Organic Search,763,Silver,61,4888.87,80.15,10,Beauty,False,False,False,0,3.6,0,0.23,0
+C043,52,M,Northeast,Organic Search,327,Gold,50,15017.56,300.35,293,Food,False,True,False,5,4.3,6,0.11,1
+C044,75,F,Midwest,Organic Search,1114,Bronze,59,8981.92,152.24,364,Toys,True,False,False,5,2.0,10,0.23,1
+C045,67,M,Midwest,Social Media,1314,Platinum,23,8591.21,373.53,301,Sports,True,True,True,2,4.0,3,0.26,1
+C046,61,M,Southeast,Paid Ads,246,Platinum,49,12887.74,263.02,63,Electronics,False,False,True,2,4.1,1,0.30000000000000004,0
+C047,34,M,Southwest,Direct,1314,Gold,72,17173.88,238.53,290,Home & Garden,False,True,False,0,4.2,1,0.18,0
+C048,63,M,West,Social Media,1194,Gold,91,4647.25,51.07,53,Books,False,False,True,3,4.2,7,0.24,1
+C049,65,F,Midwest,Email,1289,Platinum,37,11100.63,300.02,184,Toys,False,False,False,2,3.5,9,0.25,0
+C050,31,M,Southwest,Email,1289,Bronze,68,2630.95,38.69,89,Beauty,False,True,True,2,3.2,6,0.15,0
+C051,24,M,Northeast,Paid Ads,177,Bronze,63,13522.45,214.64,347,Fashion,True,False,True,3,3.6,1,0.14,1
+C052,48,M,West,Email,138,Silver,79,10244.02,129.67,113,Beauty,False,True,True,4,4.3,5,0.02,1
+C053,72,F,Southwest,Direct,1140,Silver,15,10501.98,700.13,185,Toys,False,False,False,4,3.5,8,0.25,1
+C054,73,F,Midwest,Referral,572,Bronze,99,19910.71,201.12,73,Sports,True,True,True,5,4.0,2,0.04,1
+C055,74,M,Southeast,Direct,366,Gold,79,5874.66,74.36,202,Books,False,True,True,4,4.7,3,0.08,0
+C056,39,F,Southwest,Email,1045,Platinum,43,1510.79,35.13,119,Home & Garden,True,True,False,1,3.5,7,0.05,0
+C057,27,M,Southwest,Email,1147,Bronze,54,3360.8,62.24,4,Fashion,True,False,False,1,1.9,6,0.02,0
+C058,75,M,Southeast,Social Media,380,Gold,87,15300.42,175.87,26,Fashion,True,True,False,4,1.6,10,0.27,1
+C059,22,M,Southeast,Social Media,1226,Gold,5,16365.5,3273.1,201,Home & Garden,True,False,True,5,3.2,10,0.26,1
+C060,50,M,Southeast,Referral,457,Bronze,3,350.71,116.9,350,Home & Garden,True,False,False,4,1.5,1,0.24,1
+C061,32,F,Northeast,Referral,232,Bronze,57,7958.62,139.62,8,Books,False,False,False,3,4.0,8,0.12,0
+C062,75,M,Southeast,Referral,1183,Silver,65,7212.12,110.96,94,Food,False,False,False,1,3.0,0,0.23,1
+C063,31,M,West,Organic Search,574,Silver,57,15703.64,275.5,73,Books,False,False,True,0,3.0,1,0.1,0
+C064,60,F,West,Social Media,1352,Bronze,57,14304.53,250.96,223,Food,True,True,True,3,4.1,1,0.30000000000000004,1
+C065,71,M,Southwest,Direct,534,Bronze,29,1344.06,46.35,195,Food,True,True,True,0,1.2,7,0.2,1
+C066,38,F,Northeast,Organic Search,925,Platinum,84,11557.57,137.59,59,Home & Garden,True,True,False,0,3.6,6,0.23,0
+C067,72,F,Northeast,Social Media,1433,Platinum,68,19047.09,280.1,355,Beauty,True,False,True,2,2.9,1,0.03,1
+C068,55,M,Southwest,Paid Ads,608,Bronze,44,752.82,17.11,221,Toys,True,True,False,5,2.8,2,0.03,1
+C069,74,F,Southeast,Email,1025,Gold,59,4004.39,67.87,5,Beauty,True,True,True,3,4.9,1,0.27,0
+C070,32,F,Southwest,Direct,478,Gold,33,16929.31,513.01,319,Fashion,False,False,True,0,2.7,10,0.1,1
+C071,20,F,West,Social Media,1054,Silver,79,8041.7,101.79,161,Beauty,False,True,True,2,2.3,9,0.29,0
+C072,73,F,Northeast,Referral,961,Silver,22,11467.94,521.27,261,Fashion,False,False,False,2,4.1,6,0.28,1
+C073,55,F,Southwest,Organic Search,1402,Bronze,69,12241.4,177.41,175,Toys,True,True,True,0,2.8,8,0.16,1
+C074,42,M,Southwest,Social Media,628,Bronze,3,17390.66,5796.89,163,Beauty,True,True,False,1,2.2,10,0.08,1
+C075,58,M,West,Paid Ads,198,Silver,99,17310.4,174.85,314,Sports,True,False,True,1,4.7,7,0.23,0
+C076,56,M,Southwest,Email,1391,Platinum,9,15583.22,1731.47,335,Home & Garden,False,True,False,3,1.9,7,0.11,0
+C077,33,M,West,Paid Ads,1038,Platinum,21,1863.98,88.76,181,Fashion,False,False,True,4,2.2,10,0.21,1
+C078,53,F,Southeast,Referral,52,Platinum,89,11252.12,126.43,355,Books,True,True,False,0,3.6,3,0.16,0
+C079,24,F,Midwest,Referral,1494,Silver,16,17910.9,1119.43,102,Toys,True,True,True,1,4.1,3,0.28,0
+C080,68,F,Southeast,Referral,61,Bronze,42,11686.9,278.26,142,Electronics,True,False,True,0,1.8,2,0.02,0
+C081,23,F,Northeast,Direct,790,Platinum,49,3545.61,72.36,180,Sports,False,False,False,2,1.7000000000000002,0,0.30000000000000004,1
+C082,41,M,West,Organic Search,548,Silver,68,3357.08,49.37,88,Electronics,False,True,False,0,4.9,5,0.21,1
+C083,34,F,Northeast,Referral,972,Gold,86,16369.56,190.34,127,Home & Garden,True,False,True,5,2.7,3,0.29,1
+C084,48,F,Southeast,Organic Search,1375,Platinum,55,1100.51,20.01,302,Home & Garden,True,True,False,4,3.5,0,0.07,0
+C085,33,F,Midwest,Direct,922,Bronze,15,15632.52,1042.17,156,Fashion,False,False,False,0,4.6,9,0.19,1
+C086,66,F,Southwest,Paid Ads,773,Platinum,44,5294.57,120.33,26,Sports,False,True,False,0,4.2,1,0.17,1
+C087,39,M,Northeast,Paid Ads,424,Silver,37,3060.63,82.72,237,Books,False,False,False,5,4.2,8,0.25,0
+C088,54,M,Southeast,Organic Search,655,Platinum,34,4341.77,127.7,203,Fashion,False,True,False,5,1.7000000000000002,1,0.1,1
+C089,42,M,Southwest,Email,735,Platinum,67,11759.64,175.52,191,Toys,False,True,False,4,5.0,9,0.12,0
+C090,33,M,West,Social Media,816,Bronze,22,278.77,12.67,225,Books,False,False,False,4,5.0,2,0.07,1
+C091,27,F,Southwest,Organic Search,1424,Bronze,42,9483.75,225.8,264,Electronics,False,True,False,1,2.3,9,0.17,1
+C092,45,M,Southwest,Direct,77,Bronze,7,5408.81,772.69,133,Beauty,False,False,True,0,3.3,7,0.16,0
+C093,37,F,Northeast,Direct,1104,Platinum,66,15448.36,234.07,77,Beauty,True,True,False,4,3.9,9,0.12,1
+C094,19,F,Midwest,Referral,455,Gold,90,9959.2,110.66,122,Books,True,False,False,1,1.0,5,0.2,1
+C095,61,M,Southeast,Direct,462,Platinum,7,17734.68,2533.53,252,Food,True,True,False,1,4.5,0,0.22,0
+C096,72,F,Midwest,Organic Search,615,Silver,53,3558.54,67.14,268,Home & Garden,False,True,False,2,1.3,5,0.07,1
+C097,53,F,Northeast,Direct,1299,Bronze,32,19932.65,622.9,193,Food,True,True,False,2,1.6,1,0.02,0
+C098,33,F,Southeast,Direct,520,Silver,78,2801.68,35.92,339,Toys,False,True,False,1,4.1,2,0.14,1
+C099,68,M,Northeast,Direct,257,Gold,1,11539.79,11539.79,5,Electronics,True,False,False,2,4.3,0,0.12,0
+C100,66,M,Midwest,Direct,920,Platinum,49,8947.14,182.59,354,Beauty,False,True,False,1,1.2,6,0.07,0

@@ -1,0 +1,39 @@
+{
+  "id": "2e930bbf-6559-4f85-8ccd-199a25fae68b",
+  "config": {
+    "name": "Chatbot Futebol - Intent Only",
+    "description": null,
+    "steps": [
+      {
+        "name": "Carregar Dados de Intencoes",
+        "type": "ingestion",
+        "enabled": true,
+        "config": {
+          "ingestion_type": "file_upload",
+          "file_path": "data/solutions/ac49eb00-14b1-400e-a20f-86c5d6e9f8c3/files/football_intent_data.csv"
+        }
+      },
+      {
+        "name": "Treinar Classificador de Intencao",
+        "type": "intent_training",
+        "enabled": true,
+        "config": {
+          "text_column": "text",
+          "intent_column": "intent",
+          "model_name": "football_chatbot_intent",
+          "test_size": 0.2
+        }
+      }
+    ]
+  },
+  "status": "completed",
+  "current_step": null,
+  "steps_completed": [
+    "Carregar Dados de Intencoes",
+    "Treinar Classificador de Intencao"
+  ],
+  "created_at": "2026-06-13T20:13:47.627183",
+  "started_at": "2026-06-13T20:13:49.657996",
+  "completed_at": "2026-06-13T20:13:53.326566",
+  "error": null
+}

@@ -1,0 +1,273 @@
+{
+  "name": "Astrology Inference - Super Intelligent",
+  "description": "Pipeline de inferência com TODOS os 15 steps avançados de IA!",
+  "steps": [
+    {
+      "name": "User Input",
+      "type": "user_input",
+      "enabled": true,
+      "config": {
+        "input_mode": "chat",
+        "default_columns": [
+          "message",
+          "conversation_id",
+          "user_id"
+        ],
+        "num_samples": 1
+      }
+    },
+    {
+      "name": "Security Check",
+      "type": "anomaly_detection",
+      "enabled": true,
+      "config": {
+        "query_column": "message",
+        "model_type": "isolation_forest",
+        "threshold": 0.8,
+        "check_malicious": true
+      }
+    },
+    {
+      "name": "Expand Query",
+      "type": "query_expansion",
+      "enabled": true,
+      "config": {
+        "query_column": "message",
+        "expansion_methods": [
+          "synonyms",
+          "related_terms"
+        ],
+        "max_expansions": 5,
+        "output_expanded_column": "expanded_query"
+      }
+    },
+    {
+      "name": "Classify Intent",
+      "type": "intent_classification",
+      "enabled": true,
+      "config": {
+        "model_name": "astrology_intent_classifier",
+        "text_column": "expanded_query",
+        "output_intent_column": "intent",
+        "output_confidence_column": "intent_confidence",
+        "output_all_intents_column": "all_intents"
+      }
+    },
+    {
+      "name": "Disambiguate Intent",
+      "type": "intent_disambiguation",
+      "enabled": true,
+      "config": {
+        "intent_column": "intent",
+        "confidence_column": "intent_confidence",
+        "all_intents_column": "all_intents",
+        "confidence_gap_threshold": 0.2,
+        "ask_clarification": true,
+        "use_context_history": true
+      }
+    },
+    {
+      "name": "Extract Entities",
+      "type": "entity_extraction",
+      "enabled": true,
+      "config": {
+        "text_column": "message",
+        "entity_types": "DATE,PERSON,GPE,ORG",
+        "extract_keywords": true,
+        "num_keywords": 5
+      }
+    },
+    {
+      "name": "Resolve References",
+      "type": "coreference_resolution",
+      "enabled": true,
+      "config": {
+        "message_column": "message",
+        "entities_column": "entities",
+        "conversation_id_column": "conversation_id",
+        "max_history_mentions": 5,
+        "resolution_strategy": "entity_based"
+      }
+    },
+    {
+      "name": "Extract Relations",
+      "type": "relation_extraction",
+      "enabled": true,
+      "config": {
+        "text_column": "resolved_message",
+        "entities_column": "resolved_entities",
+        "relation_types": [
+          "joga_em",
+          "é_técnico_de",
+          "nasceu_em"
+        ],
+        "model_type": "pattern_based"
+      }
+    },
+    {
+      "name": "Manage Context",
+      "type": "context_manager",
+      "enabled": true,
+      "config": {
+        "message_column": "resolved_message",
+        "conversation_id_column": "conversation_id",
+        "max_history": 10,
+        "include_entities": true,
+        "merge_strategy": "concatenate"
+      }
+    },
+    {
+      "name": "Track Dialogue State",
+      "type": "dialogue_state_tracking",
+      "enabled": true,
+      "config": {
+        "conversation_id_column": "conversation_id",
+        "intent_column": "disambiguated_intent",
+        "entities_column": "resolved_entities",
+        "slots": [
+          "data_nascimento",
+          "signo",
+          "nome"
+        ],
+        "confirmation_required": false
+      }
+    },
+    {
+      "name": "Track Topics",
+      "type": "topic_tracking",
+      "enabled": true,
+      "config": {
+        "message_column": "resolved_message",
+        "conversation_id_column": "conversation_id",
+        "model_type": "lda",
+        "num_topics": 5,
+        "train_model": true
+      }
+    },
+    {
+      "name": "Search Knowledge",
+      "type": "semantic_search",
+      "enabled": true,
+      "config": {
+        "query_column": "expanded_query",
+        "index_name": "astrology_knowledge",
+        "top_k": 5,
+        "min_score": 0.3,
+        "output_results_column": "search_results"
+      }
+    },
+    {
+      "name": "Detect Paraphrases",
+      "type": "paraphrase_detection",
+      "enabled": true,
+      "config": {
+        "text1_column": "message",
+        "similarity_threshold": 0.85,
+        "use_cache": true
+      }
+    },
+    {
+      "name": "Extract Answer",
+      "type": "extractive_qa",
+      "enabled": true,
+      "config": {
+        "question_column": "message",
+        "context_column": "search_results",
+        "max_answer_length": 100,
+        "min_confidence": 0.6
+      }
+    },
+    {
+      "name": "Select Response",
+      "type": "response_selection",
+      "enabled": true,
+      "config": {
+        "query_column": "message",
+        "candidates_column": "search_results",
+        "candidate_sources": [
+          "faq",
+          "previous_answers"
+        ],
+        "selection_model": "tfidf",
+        "min_score": 0.6
+      }
+    },
+    {
+      "name": "Rerank Answers",
+      "type": "answer_reranking",
+      "enabled": true,
+      "config": {
+        "candidates_column": "search_results",
+        "query_column": "message",
+        "ranking_features": [
+          "semantic_similarity",
+          "entity_overlap",
+          "intent_match"
+        ],
+        "top_k": 3
+      }
+    },
+    {
+      "name": "Fuse Answers",
+      "type": "answer_fusion",
+      "enabled": true,
+      "config": {
+        "candidates_column": "reranked_answers",
+        "fusion_strategy": "weighted_voting",
+        "confidence_based": true,
+        "remove_duplicates": true
+      }
+    },
+    {
+      "name": "Generate Response",
+      "type": "response_generation",
+      "enabled": true,
+      "config": {
+        "response_mode": "template",
+        "intent_column": "disambiguated_intent",
+        "entity_column": "resolved_entities",
+        "context_column": "conversation_context",
+        "enable_grammar_postprocessing": true,
+        "templates": "{\"saudacao\": \"Ol\\u00e1! \\u2728 Sou seu guia astrol\\u00f3gico. Como posso iluminar seu caminho hoje?\", \"identificar_signo\": \"Baseado na data {data}, voc\\u00ea \\u00e9 de {signo}! {descricao}\", \"caracteristicas_signo\": \"{signo} \\u00e9 fascinante! {caracteristicas}\", \"compatibilidade\": \"A compatibilidade entre {signo1} e {signo2}: {resultado}\", \"explicar_mapa_astral\": \"O mapa astral \\u00e9 sua carta natal celestial! {explicacao}\", \"agradecimento\": \"De nada! \\ud83c\\udf1f Que os astros guiem voc\\u00ea sempre!\", \"unknown\": \"N\\u00e3o entendi completamente. Pode perguntar sobre signos, compatibilidade ou mapa astral?\"}"
+      }
+    },
+    {
+      "name": "Personalize Response",
+      "type": "personalization",
+      "enabled": true,
+      "config": {
+        "user_id_column": "user_id",
+        "response_column": "response",
+        "adaptation_strategy": "content_based",
+        "personalization_level": "high",
+        "update_profile": true
+      }
+    },
+    {
+      "name": "Active Learning",
+      "type": "active_learning",
+      "enabled": true,
+      "config": {
+        "prediction_column": "disambiguated_intent",
+        "confidence_column": "intent_confidence",
+        "uncertainty_sampling": true,
+        "uncertainty_threshold": 0.6,
+        "retrain_threshold": 100,
+        "collect_feedback": true
+      }
+    },
+    {
+      "name": "Fill Form Slots",
+      "type": "slot_filling",
+      "enabled": true,
+      "config": {
+        "message_column": "message",
+        "entities_column": "resolved_entities",
+        "form_schema": "{\"consulta_signo\": [\"nome\", \"data_nascimento\", \"hora_nascimento\", \"local_nascimento\"]}",
+        "retry_on_invalid": true
+      }
+    }
+  ],
+  "solution_id": "41c7d8bc-a63b-4beb-a981-7c64c18a1758",
+  "updated_at": "2026-06-14T07:55:25.236878"
+}

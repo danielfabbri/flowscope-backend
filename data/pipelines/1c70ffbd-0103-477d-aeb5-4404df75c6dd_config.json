@@ -1,0 +1,52 @@
+{
+  "name": "🧠 Treinar Classificador de Intenções - Astronomia",
+  "description": "Treina modelo Naive Bayes para classificar perguntas sobre astronomia em 5 intenções: buraco negro, cosmos, planetas, estrelas e galáxias (85 exemplos robustos)",
+  "steps": [
+    {
+      "name": "Ingestão de Dados",
+      "type": "ingestion",
+      "enabled": true,
+      "config": {
+        "ingestion_type": "generated",
+        "data_template": "custom",
+        "num_rows": 85,
+        "description": "85 perguntas anotadas com intenções: question_blackhole, question_cosmos, question_planet, question_star, question_galaxy"
+      }
+    },
+    {
+      "name": "Preparação de Dados",
+      "type": "data_preparation",
+      "enabled": true,
+      "config": {
+        "train_test_split": true,
+        "test_size": 0.2,
+        "random_state": 42,
+        "handle_missing": "drop"
+      }
+    },
+    {
+      "name": "Treinamento ML - Intent Classifier",
+      "type": "ml_training",
+      "enabled": true,
+      "config": {
+        "ml_task": "classification",
+        "algorithm": "naive_bayes",
+        "target_column": "intent",
+        "text_column": "text",
+        "use_tfidf": true,
+        "max_features": 5000
+      }
+    },
+    {
+      "name": "Salvar Modelo - astronomy_intent_classifier",
+      "type": "model_persistence",
+      "enabled": true,
+      "config": {
+        "operation": "save",
+        "model_name": "astronomy_intent_classifier",
+        "format": "joblib"
+      }
+    }
+  ],
+  "solution_id": "c01650b1-ff0c-40a4-ac27-3c2433109a09"
+}

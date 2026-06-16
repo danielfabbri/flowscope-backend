@@ -1,0 +1,41 @@
+{
+  "id": "e0f39a5d-4a28-46a3-b887-0eaeed3e7ae5",
+  "config": {
+    "name": "Astrology Training - Simple",
+    "description": "Pipeline simplificado focado em treinar classificador de intents",
+    "steps": [
+      {
+        "name": "Load Intent Data",
+        "type": "ingestion",
+        "enabled": true,
+        "config": {
+          "ingestion_type": "file_upload",
+          "file_path": "data/solutions/41c7d8bc-a63b-4beb-a981-7c64c18a1758/files/astrology_intents.csv",
+          "file_format": "csv"
+        }
+      },
+      {
+        "name": "Train Intent Classifier",
+        "type": "intent_training",
+        "enabled": true,
+        "config": {
+          "model_name": "astrology_intent_classifier",
+          "text_column": "text",
+          "label_column": "intent",
+          "model_type": "logistic_regression",
+          "test_size": 0.2
+        }
+      }
+    ]
+  },
+  "status": "completed",
+  "current_step": null,
+  "steps_completed": [
+    "Load Intent Data",
+    "Train Intent Classifier"
+  ],
+  "created_at": "2026-06-14T08:10:28.177372",
+  "started_at": "2026-06-14T08:10:32.238471",
+  "completed_at": "2026-06-14T08:10:35.912777",
+  "error": null
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Space Chat",
+  "description": "Chatbot espacial",
+  "steps": [
+    {
+      "name": "Entrada",
+      "type": "user_input",
+      "enabled": true,
+      "config": {
+        "input_fields": {
+          "message": ""
+        },
+        "use_defaults": false
+      }
+    },
+    {
+      "name": "Classificar",
+      "type": "intent_classification",
+      "enabled": true,
+      "config": {
+        "text_column": "message",
+        "model_name": "space_explorer",
+        "min_confidence": 0.4,
+        "output_intent_column": "intent",
+        "output_confidence_column": "confidence",
+        "fallback_intent": "unknown"
+      }
+    },
+    {
+      "name": "Buscar",
+      "type": "semantic_search",
+      "enabled": true,
+      "config": {
+        "kb_name": "space_explorer_kb",
+        "query_column": "message",
+        "top_k": 3,
+        "min_similarity": 0.3,
+        "output_column": "context"
+      }
+    },
+    {
+      "name": "Responder",
+      "type": "response_generation",
+      "enabled": true,
+      "config": {
+        "intent_column": "intent",
+        "context_column": "context",
+        "query_column": "message",
+        "response_style": "friendly_educational",
+        "output_column": "response"
+      }
+    }
+  ],
+  "solution_id": "d3a7f6d5-5b68-4b59-9543-2c3e8a1f7b94"
+}

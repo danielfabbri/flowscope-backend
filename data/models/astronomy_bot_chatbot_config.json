@@ -1,0 +1,25 @@
+{
+  "model_name": "astronomy_bot_chatbot",
+  "model_type": "conversational_chatbot",
+  "created_at": "2026-06-13T08:38:50.053514",
+  "description": "",
+  "components": {
+    "intent_classifier": {
+      "model_name": "astronomy_bot",
+      "min_confidence": 0.25
+    },
+    "knowledge_base": {
+      "kb_name": "astronomy_bot_kb",
+      "top_k": 3
+    },
+    "text_generation": {
+      "model_name": "astronomy_bot_gen",
+      "enabled": true
+    }
+  },
+  "default_responses": {},
+  "features": [
+    "message"
+  ],
+  "target": "response"
+}

@@ -1,0 +1,73 @@
+{
+    "name": "Product Review Text Generator Pipeline",
+    "description": "Pipeline completo para treinar um modelo N-gram e gerar novos textos de reviews",
+    "steps": [
+        {
+            "name": "Carregar Reviews",
+            "type": "ingestion",
+            "enabled": true,
+            "config": {
+                "ingestion_type": "csv",
+                "csv_file_path": "data/use_cases/nlp/reviews_for_ngram.csv"
+            }
+        },
+        {
+            "name": "Treinar Modelo N-gram",
+            "type": "ngram_training",
+            "enabled": true,
+            "config": {
+                "text_column": "review_text",
+                "model_name": "review_generator_pipeline",
+                "n": 3,
+                "min_text_length": 10
+            }
+        },
+        {
+            "name": "Gerar Textos - Conservador",
+            "type": "ngram_generation",
+            "enabled": true,
+            "config": {
+                "model_name": "review_generator_pipeline",
+                "prompt": "This product is",
+                "max_length": 30,
+                "temperature": 0.5,
+                "top_k": 40,
+                "num_samples": 3
+            }
+        },
+        {
+            "name": "Gerar Textos - Criativo",
+            "type": "ngram_generation",
+            "enabled": true,
+            "config": {
+                "model_name": "review_generator_pipeline",
+                "prompt": "This product is",
+                "max_length": 30,
+                "temperature": 1.5,
+                "top_k": 40,
+                "num_samples": 3
+            }
+        },
+        {
+            "name": "Gerar Início Aleatório",
+            "type": "ngram_generation",
+            "enabled": true,
+            "config": {
+                "model_name": "review_generator_pipeline",
+                "prompt": "",
+                "max_length": 50,
+                "temperature": 1.0,
+                "top_k": 40,
+                "num_samples": 5
+            }
+        },
+        {
+            "name": "Salvar Resultados",
+            "type": "output",
+            "enabled": true,
+            "config": {
+                "output_name": "generated_reviews"
+            }
+        }
+    ]
+}

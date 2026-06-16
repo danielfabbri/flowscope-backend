@@ -1,0 +1,45 @@
+{
+  "name": "Test: Model Training",
+  "description": null,
+  "steps": [
+    {
+      "name": "Load Data",
+      "type": "ingestion",
+      "enabled": true,
+      "config": {
+        "ingestion_type": "file_upload",
+        "file_path": "data/use_cases/classification/customer_churn_dataset.json"
+      }
+    },
+    {
+      "name": "Clean Data",
+      "type": "cleaning",
+      "enabled": true,
+      "config": {
+        "remove_nulls": true,
+        "remove_duplicates": true
+      }
+    },
+    {
+      "name": "Train Model",
+      "type": "model_training",
+      "enabled": true,
+      "config": {
+        "model_name": "test_churn_model",
+        "model_type": "classification",
+        "algorithm": "random_forest",
+        "target_column": "churned",
+        "exclude_features": "customer_id",
+        "test_size": 0.3,
+        "random_state": 42,
+        "hyperparameters": {
+          "n_estimators": 50,
+          "max_depth": 10
+        },
+        "auto_version": true,
+        "save_predictions": true
+      }
+    }
+  ],
+  "solution_id": "843c81b4-c43e-48f7-a7d4-79a921577647"
+}

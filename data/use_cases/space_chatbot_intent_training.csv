@@ -1,0 +1,67 @@
+text,intent
+"Olá, quer aprender sobre o espaço?",greeting
+"Oi! Me ensine sobre astronomia",greeting
+"Bom dia, tenho curiosidade sobre o universo",greeting
+"E aí, quero saber sobre planetas",greeting
+"Olá, sou fascinado pelo cosmos",greeting
+"O que são planetas?",question_planet
+"Quantos planetas existem no sistema solar?",question_planet
+"Qual é o maior planeta?",question_planet
+"Mercúrio é quente ou frio?",question_planet
+"Por que Marte é vermelho?",question_planet
+"Júpiter tem anéis?",question_planet
+"Saturno tem quantas luas?",question_planet
+"Urano é azul?",question_planet
+"Netuno está longe do Sol?",question_planet
+"Por que Plutão não é mais planeta?",question_planet
+"Qual a temperatura de Vênus?",question_planet
+"Terra é o único planeta com água?",question_planet
+"O que é uma estrela?",question_star
+"Como as estrelas nascem?",question_star
+"Por que as estrelas brilham?",question_star
+"O Sol vai explodir?",question_star
+"Qual é a estrela mais próxima da Terra?",question_star
+"Estrelas podem morrer?",question_star
+"O que é uma supernova?",question_star
+"Estrelas cadentes são realmente estrelas?",question_star
+"Quantas estrelas existem?",question_star
+"Por que as estrelas piscam?",question_star
+"O que são galáxias?",question_galaxy
+"Quantas galáxias existem?",question_galaxy
+"Como se chama nossa galáxia?",question_galaxy
+"A Via Láctea vai colidir com outra galáxia?",question_galaxy
+"O que é no centro da galáxia?",question_galaxy
+"Galáxias podem se mover?",question_galaxy
+"Qual o formato da Via Láctea?",question_galaxy
+"O que é um buraco negro?",question_blackhole
+"Buracos negros engolem tudo?",question_blackhole
+"Como buracos negros são formados?",question_blackhole
+"Existe buraco negro perto da Terra?",question_blackhole
+"O que acontece se cair num buraco negro?",question_blackhole
+"Buracos negros podem morrer?",question_blackhole
+"Já mandaram astronautas para Marte?",question_space_exploration
+"Quando o homem foi à Lua?",question_space_exploration
+"Quem foi o primeiro astronauta?",question_space_exploration
+"Existe vida em outros planetas?",question_space_exploration
+"Quanto tempo leva para chegar em Marte?",question_space_exploration
+"O que é a Estação Espacial Internacional?",question_space_exploration
+"Rovers ainda estão em Marte?",question_space_exploration
+"Vamos colonizar Marte?",question_space_exploration
+"O que é o Big Bang?",question_general
+"O universo está se expandindo?",question_general
+"Qual o tamanho do universo?",question_general
+"O universo tem fim?",question_general
+"O que são asteroides?",question_general
+"Cometas são perigosos?",question_general
+"O que é matéria escura?",question_general
+"O que é um eclipse?",question_general
+"Por que o céu é escuro no espaço?",question_general
+"O que são constelações?",question_general
+"Muito obrigado pela explicação!",thanks
+"Adorei aprender sobre o espaço",thanks
+"Que legal, muito interessante!",thanks
+"Valeu pelas informações",thanks
+"Até logo, vou estudar mais",goodbye
+"Tchau, obrigado!",goodbye
+"Falou, foi ótimo aprender",goodbye
+"Até mais, continue ensinando",goodbye

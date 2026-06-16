@@ -1,0 +1,31 @@
+{
+  "model_name": "astrology_bot_chatbot",
+  "model_type": "conversational_chatbot",
+  "created_at": "2026-06-14T12:00:00",
+  "description": "Chatbot de Astrologia completo com 2000+ entradas de conhecimento - responde sobre signos, horóscopo, compatibilidade, elementos, planetas e muito mais",
+  "components": {
+    "intent_classifier": {
+      "model_name": "astrology_intent_classifier",
+      "min_confidence": 0.25
+    },
+    "knowledge_base": {
+      "kb_name": "astrology_knowledge",
+      "top_k": 5
+    },
+    "text_generation": {
+      "model_name": null,
+      "enabled": false
+    }
+  },
+  "default_responses": {
+    "fallback": [
+      "Desculpe, não entendi sua pergunta sobre astrologia. Você pode perguntar sobre signos, compatibilidade, características ou datas de signos.",
+      "Não consegui identificar sua intenção. Tente perguntar de outra forma sobre signos do zodíaco.",
+      "Hmm, não tenho certeza do que você está perguntando. Posso ajudar com informações sobre signos, horóscopo e compatibilidade astrológica."
+    ]
+  },
+  "features": [
+    "message"
+  ],
+  "target": "response"
+}

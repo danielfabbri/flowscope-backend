@@ -1,0 +1,47 @@
+{
+  "id": "ae05456a-d720-4ab5-ba45-f31acd8f8264",
+  "config": {
+    "name": "Test 35C",
+    "description": "Simple test",
+    "steps": [
+      {
+        "name": "User Input",
+        "type": "user_input",
+        "enabled": true,
+        "config": {
+          "temperature_celsius": "35",
+          "use_defaults": false
+        }
+      },
+      {
+        "name": "Model Loading",
+        "type": "model_loading",
+        "enabled": true,
+        "config": {
+          "model_name": "Habla_Simple",
+          "validate_features": true,
+          "cache_model": true
+        }
+      },
+      {
+        "name": "Model Inference",
+        "type": "model_inference",
+        "enabled": true,
+        "config": {
+          "prediction_column": "predicted_ice_creams"
+        }
+      }
+    ]
+  },
+  "status": "completed",
+  "current_step": null,
+  "steps_completed": [
+    "User Input",
+    "Model Loading",
+    "Model Inference"
+  ],
+  "created_at": "2026-06-11T14:33:25.221575",
+  "started_at": "2026-06-11T14:33:27.253713",
+  "completed_at": "2026-06-11T14:33:32.801495",
+  "error": null
+}

@@ -1,0 +1,38 @@
+{
+  "id": "4d56c0c6-f205-40ec-8051-3bae170be139",
+  "config": {
+    "name": "Astrology Retrain - Expanded Dataset",
+    "description": "Retreinamento com dataset expandido de 2000+ intents",
+    "steps": [
+      {
+        "name": "Load Expanded Intents",
+        "type": "ingestion",
+        "enabled": true,
+        "config": {
+          "ingestion_type": "file_upload",
+          "file_path": "data/solutions/41c7d8bc-a63b-4beb-a981-7c64c18a1758/files/astrology_intents_expanded.csv",
+          "file_format": "csv"
+        }
+      },
+      {
+        "name": "Train Intent Classifier",
+        "type": "intent_training",
+        "enabled": true,
+        "config": {
+          "model_name": "astrology_intent_classifier",
+          "text_column": "text",
+          "label_column": "intent",
+          "model_type": "logistic_regression",
+          "test_size": 0.2
+        }
+      }
+    ]
+  },
+  "status": "failed",
+  "current_step": "Load Expanded Intents",
+  "steps_completed": [],
+  "created_at": "2026-06-14T09:29:48.815259",
+  "started_at": "2026-06-14T09:30:26.201737",
+  "completed_at": "2026-06-14T09:30:27.235399",
+  "error": "File not found: data/solutions/41c7d8bc-a63b-4beb-a981-7c64c18a1758/files/astrology_intents_expanded.csv (resolved to: data\\solutions\\41c7d8bc-a63b-4beb-a981-7c64c18a1758\\files\\astrology_intents_expanded.csv)"
+}

@@ -1,0 +1,174 @@
+{
+    "name": "Customer Review NLP Analysis",
+    "steps": [
+        {
+            "name": "Load Reviews",
+            "type": "ingestion",
+            "enabled": true,
+            "config": {
+                "source_type": "csv",
+                "file_path": "data/use_cases/nlp_reviews.csv"
+            }
+        },
+        {
+            "name": "Profile Data",
+            "type": "profiling",
+            "enabled": true,
+            "config": {
+                "include_dtypes": true,
+                "include_missing": true,
+                "include_stats": true
+            }
+        },
+        {
+            "name": "Normalize Review Text",
+            "type": "text_normalization",
+            "enabled": true,
+            "config": {
+                "text_columns": [
+                    "review_text"
+                ],
+                "lowercase": true,
+                "remove_html": true,
+                "remove_urls": true,
+                "remove_emails": true,
+                "remove_punctuation": false,
+                "remove_numbers": false,
+                "remove_accents": false,
+                "normalize_whitespace": true,
+                "output_suffix": "_normalized",
+                "inplace": false
+            }
+        },
+        {
+            "name": "Tokenize Text",
+            "type": "tokenization",
+            "enabled": true,
+            "config": {
+                "text_columns": [
+                    "review_text_normalized"
+                ],
+                "method": "word",
+                "min_token_length": 2,
+                "max_token_length": 50,
+                "keep_case": false,
+                "output_suffix": "_tokens",
+                "output_as_string": false
+            }
+        },
+        {
+            "name": "Remove Stop Words",
+            "type": "stopwords_removal",
+            "enabled": true,
+            "config": {
+                "text_columns": [
+                    "review_text_normalized_tokens"
+                ],
+                "language": "english",
+                "custom_stopwords": [],
+                "exclude_stopwords": [
+                    "not",
+                    "no",
+                    "never",
+                    "but",
+                    "very"
+                ],
+                "case_sensitive": false,
+                "input_format": "list",
+                "output_format": "list",
+                "output_suffix": "_no_stopwords"
+            }
+        },
+        {
+            "name": "Lemmatize Tokens",
+            "type": "stemming_lemmatization",
+            "enabled": true,
+            "config": {
+                "text_columns": [
+                    "review_text_normalized_tokens_no_stopwords"
+                ],
+                "method": "lemmatize",
+                "language": "english",
+                "pos_tagging": false,
+                "input_format": "list",
+                "output_format": "list",
+                "output_suffix": "_lemmatized"
+            }
+        },
+        {
+            "name": "Generate N-grams",
+            "type": "ngrams",
+            "enabled": true,
+            "config": {
+                "text_columns": [
+                    "review_text_normalized_tokens_no_stopwords_lemmatized"
+                ],
+                "n": [
+                    1,
+                    2
+                ],
+                "separator": "_",
+                "skip_ngrams": false,
+                "min_ngram_freq": 2,
+                "keep_original": false,
+                "input_format": "list",
+                "output_format": "list",
+                "output_suffix": "_ngrams"
+            }
+        },
+        {
+            "name": "TF-IDF Vectorization",
+            "type": "text_vectorization",
+            "enabled": true,
+            "config": {
+                "text_columns": [
+                    "review_text_normalized_tokens_no_stopwords_lemmatized_ngrams"
+                ],
+                "method": "tfidf",
+                "max_features": 50,
+                "min_df": 2,
+                "max_df": 0.8,
+                "ngram_range": [
+                    1,
+                    1
+                ],
+                "use_idf": true,
+                "sublinear_tf": false,
+                "norm": "l2",
+                "input_format": "tokens",
+                "output_format": "dense",
+                "feature_prefix": "tfidf_",
+                "top_n_features": 10
+            }
+        },
+        {
+            "name": "Analyze Sentiment",
+            "type": "sentiment_analysis",
+            "enabled": true,
+            "config": {
+                "text_columns": [
+                    "review_text"
+                ],
+                "metrics": [
+                    "polarity",
+                    "subjectivity",
+                    "sentiment_label"
+                ],
+                "polarity_threshold": 0.1,
+                "input_format": "text",
+                "suffix_polarity": "_polarity",
+                "suffix_subjectivity": "_subjectivity",
+                "suffix_label": "_sentiment"
+            }
+        },
+        {
+            "name": "Export Results",
+            "type": "output",
+            "enabled": true,
+            "config": {
+                "output_format": "csv",
+                "output_path": "data/pipeline_data/nlp_processed_reviews.csv"
+            }
+        }
+    ]
+}

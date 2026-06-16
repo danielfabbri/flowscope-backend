@@ -1,0 +1,8 @@
+{
+  "model_name": "astrology_text_generator",
+  "model_type": "ngram",
+  "n": 3,
+  "vocab_size": 1204,
+  "training_size": 4324,
+  "contexts": 3664
+}

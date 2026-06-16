@@ -1,0 +1,2 @@
+model_name,model_path,n,documents_trained,total_tokens,unique_ngrams,vocabulary_size,text_column,training_status,original_data_rows,original_data_columns
+review_generator_ngram,data\models\review_generator_ngram_ngram.pkl,3,30,307,221,123,review_text,success,30,1

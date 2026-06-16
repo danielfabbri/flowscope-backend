@@ -1,0 +1,45 @@
+{
+  "name": "Habla Simple - Treinamento",
+  "description": "Modelo simples: apenas temperatura -> sorvetes",
+  "steps": [
+    {
+      "name": "Data Ingestion",
+      "type": "ingestion",
+      "enabled": true,
+      "config": {
+        "file_format": "json",
+        "ingestion_type": "file_upload",
+        "file_path": "C:\\dev\\flowscope\\data\\use_cases\\regression\\ice_cream_sales_training.json"
+      }
+    },
+    {
+      "name": "Data Cleaning",
+      "type": "cleaning",
+      "enabled": true,
+      "config": {
+        "remove_duplicates": true,
+        "remove_nulls": true,
+        "outlier_method": "none"
+      }
+    },
+    {
+      "name": "Model Training",
+      "type": "model_training",
+      "enabled": true,
+      "config": {
+        "random_state": 42,
+        "test_size": 0.3,
+        "target_column": "ice_creams_sold",
+        "auto_version": true,
+        "algorithm": "random_forest",
+        "model_name": "Habla_Simple",
+        "exclude_features": "date,day_of_week,day_name,month,is_weekend,is_holiday,peak_hour,weather,has_promotion,store_location,revenue_usd",
+        "n_estimators": 100,
+        "save_predictions": true,
+        "max_depth": 10,
+        "model_type": "regression"
+      }
+    }
+  ],
+  "solution_id": "f32e97e3-3b19-465a-a3f5-9d69db1f7abc"
+}

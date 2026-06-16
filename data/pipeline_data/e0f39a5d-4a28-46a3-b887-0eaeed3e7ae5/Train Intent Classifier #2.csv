@@ -1,0 +1,311 @@
+text,intent
+qual meu signo se nasci em 15/01?,identificar_signo
+qual meu signo se nasci em 05/03?,identificar_signo
+qual meu signo se nasci em 25/04?,identificar_signo
+qual meu signo se nasci em 10/06?,identificar_signo
+qual meu signo se nasci em 30/07?,identificar_signo
+qual meu signo se nasci em 15/08?,identificar_signo
+qual meu signo se nasci em 20/09?,identificar_signo
+qual meu signo se nasci em 31/10?,identificar_signo
+qual meu signo se nasci em 15/11?,identificar_signo
+qual meu signo se nasci em 25/12?,identificar_signo
+qual meu signo se nasci em 14/02?,identificar_signo
+qual meu signo se nasci em 01/05?,identificar_signo
+"nasci em 15/01, qual meu signo?",identificar_signo
+"nasci em 05/03, qual meu signo?",identificar_signo
+"nasci em 25/04, qual meu signo?",identificar_signo
+"nasci em 10/06, qual meu signo?",identificar_signo
+"nasci em 30/07, qual meu signo?",identificar_signo
+"nasci em 15/08, qual meu signo?",identificar_signo
+"nasci em 20/09, qual meu signo?",identificar_signo
+"nasci em 31/10, qual meu signo?",identificar_signo
+"nasci em 15/11, qual meu signo?",identificar_signo
+"nasci em 25/12, qual meu signo?",identificar_signo
+"nasci em 14/02, qual meu signo?",identificar_signo
+"nasci em 01/05, qual meu signo?",identificar_signo
+"meu aniversário é 15/01, qual signo sou?",identificar_signo
+"meu aniversário é 05/03, qual signo sou?",identificar_signo
+"meu aniversário é 25/04, qual signo sou?",identificar_signo
+"meu aniversário é 10/06, qual signo sou?",identificar_signo
+"meu aniversário é 30/07, qual signo sou?",identificar_signo
+"meu aniversário é 15/08, qual signo sou?",identificar_signo
+"meu aniversário é 20/09, qual signo sou?",identificar_signo
+"meu aniversário é 31/10, qual signo sou?",identificar_signo
+"meu aniversário é 15/11, qual signo sou?",identificar_signo
+"meu aniversário é 25/12, qual signo sou?",identificar_signo
+"meu aniversário é 14/02, qual signo sou?",identificar_signo
+"meu aniversário é 01/05, qual signo sou?",identificar_signo
+que signo é 15/01?,identificar_signo
+que signo é 05/03?,identificar_signo
+que signo é 25/04?,identificar_signo
+que signo é 10/06?,identificar_signo
+que signo é 30/07?,identificar_signo
+que signo é 15/08?,identificar_signo
+que signo é 20/09?,identificar_signo
+que signo é 31/10?,identificar_signo
+que signo é 15/11?,identificar_signo
+que signo é 25/12?,identificar_signo
+que signo é 14/02?,identificar_signo
+que signo é 01/05?,identificar_signo
+qual signo corresponde a 15/01?,identificar_signo
+qual signo corresponde a 05/03?,identificar_signo
+qual signo corresponde a 25/04?,identificar_signo
+qual signo corresponde a 10/06?,identificar_signo
+qual signo corresponde a 30/07?,identificar_signo
+qual signo corresponde a 15/08?,identificar_signo
+qual signo corresponde a 20/09?,identificar_signo
+qual signo corresponde a 31/10?,identificar_signo
+qual signo corresponde a 15/11?,identificar_signo
+qual signo corresponde a 25/12?,identificar_signo
+qual signo corresponde a 14/02?,identificar_signo
+qual signo corresponde a 01/05?,identificar_signo
+"sou de 15/01, qual meu signo?",identificar_signo
+"sou de 05/03, qual meu signo?",identificar_signo
+"sou de 25/04, qual meu signo?",identificar_signo
+"sou de 10/06, qual meu signo?",identificar_signo
+"sou de 30/07, qual meu signo?",identificar_signo
+"sou de 15/08, qual meu signo?",identificar_signo
+"sou de 20/09, qual meu signo?",identificar_signo
+"sou de 31/10, qual meu signo?",identificar_signo
+"sou de 15/11, qual meu signo?",identificar_signo
+"sou de 25/12, qual meu signo?",identificar_signo
+"sou de 14/02, qual meu signo?",identificar_signo
+"sou de 01/05, qual meu signo?",identificar_signo
+15/01 é de qual signo?,identificar_signo
+05/03 é de qual signo?,identificar_signo
+25/04 é de qual signo?,identificar_signo
+10/06 é de qual signo?,identificar_signo
+30/07 é de qual signo?,identificar_signo
+15/08 é de qual signo?,identificar_signo
+20/09 é de qual signo?,identificar_signo
+31/10 é de qual signo?,identificar_signo
+15/11 é de qual signo?,identificar_signo
+25/12 é de qual signo?,identificar_signo
+14/02 é de qual signo?,identificar_signo
+01/05 é de qual signo?,identificar_signo
+qual o signo de quem nasceu em 15/01?,identificar_signo
+qual o signo de quem nasceu em 05/03?,identificar_signo
+qual o signo de quem nasceu em 25/04?,identificar_signo
+qual o signo de quem nasceu em 10/06?,identificar_signo
+qual o signo de quem nasceu em 30/07?,identificar_signo
+qual o signo de quem nasceu em 15/08?,identificar_signo
+qual o signo de quem nasceu em 20/09?,identificar_signo
+qual o signo de quem nasceu em 31/10?,identificar_signo
+qual o signo de quem nasceu em 15/11?,identificar_signo
+qual o signo de quem nasceu em 25/12?,identificar_signo
+qual o signo de quem nasceu em 14/02?,identificar_signo
+qual o signo de quem nasceu em 01/05?,identificar_signo
+como é o signo de Áries?,caracteristicas_signo
+como é o signo de Touro?,caracteristicas_signo
+como é o signo de Gêmeos?,caracteristicas_signo
+como é o signo de Câncer?,caracteristicas_signo
+como é o signo de Leão?,caracteristicas_signo
+como é o signo de Virgem?,caracteristicas_signo
+como é o signo de Libra?,caracteristicas_signo
+como é o signo de Escorpião?,caracteristicas_signo
+como é o signo de Sagitário?,caracteristicas_signo
+como é o signo de Capricórnio?,caracteristicas_signo
+como é o signo de Aquário?,caracteristicas_signo
+como é o signo de Peixes?,caracteristicas_signo
+me fala sobre Áries,caracteristicas_signo
+me fala sobre Touro,caracteristicas_signo
+me fala sobre Gêmeos,caracteristicas_signo
+me fala sobre Câncer,caracteristicas_signo
+me fala sobre Leão,caracteristicas_signo
+me fala sobre Virgem,caracteristicas_signo
+me fala sobre Libra,caracteristicas_signo
+me fala sobre Escorpião,caracteristicas_signo
+me fala sobre Sagitário,caracteristicas_signo
+me fala sobre Capricórnio,caracteristicas_signo
+me fala sobre Aquário,caracteristicas_signo
+me fala sobre Peixes,caracteristicas_signo
+quais as características de Áries?,caracteristicas_signo
+quais as características de Touro?,caracteristicas_signo
+quais as características de Gêmeos?,caracteristicas_signo
+quais as características de Câncer?,caracteristicas_signo
+quais as características de Leão?,caracteristicas_signo
+quais as características de Virgem?,caracteristicas_signo
+quais as características de Libra?,caracteristicas_signo
+quais as características de Escorpião?,caracteristicas_signo
+quais as características de Sagitário?,caracteristicas_signo
+quais as características de Capricórnio?,caracteristicas_signo
+quais as características de Aquário?,caracteristicas_signo
+quais as características de Peixes?,caracteristicas_signo
+como é uma pessoa de Áries?,caracteristicas_signo
+como é uma pessoa de Touro?,caracteristicas_signo
+como é uma pessoa de Gêmeos?,caracteristicas_signo
+como é uma pessoa de Câncer?,caracteristicas_signo
+como é uma pessoa de Leão?,caracteristicas_signo
+como é uma pessoa de Virgem?,caracteristicas_signo
+como é uma pessoa de Libra?,caracteristicas_signo
+como é uma pessoa de Escorpião?,caracteristicas_signo
+como é uma pessoa de Sagitário?,caracteristicas_signo
+como é uma pessoa de Capricórnio?,caracteristicas_signo
+como é uma pessoa de Aquário?,caracteristicas_signo
+como é uma pessoa de Peixes?,caracteristicas_signo
+Áries é como?,caracteristicas_signo
+Touro é como?,caracteristicas_signo
+Gêmeos é como?,caracteristicas_signo
+Câncer é como?,caracteristicas_signo
+Leão é como?,caracteristicas_signo
+Virgem é como?,caracteristicas_signo
+Libra é como?,caracteristicas_signo
+Escorpião é como?,caracteristicas_signo
+Sagitário é como?,caracteristicas_signo
+Capricórnio é como?,caracteristicas_signo
+Aquário é como?,caracteristicas_signo
+Peixes é como?,caracteristicas_signo
+descreva Áries,caracteristicas_signo
+descreva Touro,caracteristicas_signo
+descreva Gêmeos,caracteristicas_signo
+descreva Câncer,caracteristicas_signo
+descreva Leão,caracteristicas_signo
+descreva Virgem,caracteristicas_signo
+descreva Libra,caracteristicas_signo
+descreva Escorpião,caracteristicas_signo
+descreva Sagitário,caracteristicas_signo
+descreva Capricórnio,caracteristicas_signo
+descreva Aquário,caracteristicas_signo
+descreva Peixes,caracteristicas_signo
+o que você sabe sobre Áries?,caracteristicas_signo
+o que você sabe sobre Touro?,caracteristicas_signo
+o que você sabe sobre Gêmeos?,caracteristicas_signo
+o que você sabe sobre Câncer?,caracteristicas_signo
+o que você sabe sobre Leão?,caracteristicas_signo
+o que você sabe sobre Virgem?,caracteristicas_signo
+o que você sabe sobre Libra?,caracteristicas_signo
+o que você sabe sobre Escorpião?,caracteristicas_signo
+o que você sabe sobre Sagitário?,caracteristicas_signo
+o que você sabe sobre Capricórnio?,caracteristicas_signo
+o que você sabe sobre Aquário?,caracteristicas_signo
+o que você sabe sobre Peixes?,caracteristicas_signo
+fale sobre o signo Áries,caracteristicas_signo
+fale sobre o signo Touro,caracteristicas_signo
+fale sobre o signo Gêmeos,caracteristicas_signo
+fale sobre o signo Câncer,caracteristicas_signo
+fale sobre o signo Leão,caracteristicas_signo
+fale sobre o signo Virgem,caracteristicas_signo
+fale sobre o signo Libra,caracteristicas_signo
+fale sobre o signo Escorpião,caracteristicas_signo
+fale sobre o signo Sagitário,caracteristicas_signo
+fale sobre o signo Capricórnio,caracteristicas_signo
+fale sobre o signo Aquário,caracteristicas_signo
+fale sobre o signo Peixes,caracteristicas_signo
+explique Áries,caracteristicas_signo
+explique Touro,caracteristicas_signo
+explique Gêmeos,caracteristicas_signo
+explique Câncer,caracteristicas_signo
+explique Leão,caracteristicas_signo
+explique Virgem,caracteristicas_signo
+explique Libra,caracteristicas_signo
+explique Escorpião,caracteristicas_signo
+explique Sagitário,caracteristicas_signo
+explique Capricórnio,caracteristicas_signo
+explique Aquário,caracteristicas_signo
+explique Peixes,caracteristicas_signo
+características de Áries,caracteristicas_signo
+características de Touro,caracteristicas_signo
+características de Gêmeos,caracteristicas_signo
+características de Câncer,caracteristicas_signo
+características de Leão,caracteristicas_signo
+características de Virgem,caracteristicas_signo
+características de Libra,caracteristicas_signo
+características de Escorpião,caracteristicas_signo
+características de Sagitário,caracteristicas_signo
+características de Capricórnio,caracteristicas_signo
+características de Aquário,caracteristicas_signo
+características de Peixes,caracteristicas_signo
+Áries combina com Leão?,compatibilidade
+Touro combina com Virgem?,compatibilidade
+Gêmeos combina com Libra?,compatibilidade
+Câncer combina com Escorpião?,compatibilidade
+Leão combina com Sagitário?,compatibilidade
+Virgem combina com Capricórnio?,compatibilidade
+compatibilidade entre Áries e Leão,compatibilidade
+compatibilidade entre Touro e Virgem,compatibilidade
+compatibilidade entre Gêmeos e Libra,compatibilidade
+compatibilidade entre Câncer e Escorpião,compatibilidade
+compatibilidade entre Leão e Sagitário,compatibilidade
+compatibilidade entre Virgem e Capricórnio,compatibilidade
+Áries e Leão são compatíveis?,compatibilidade
+Touro e Virgem são compatíveis?,compatibilidade
+Gêmeos e Libra são compatíveis?,compatibilidade
+Câncer e Escorpião são compatíveis?,compatibilidade
+Leão e Sagitário são compatíveis?,compatibilidade
+Virgem e Capricórnio são compatíveis?,compatibilidade
+qual a compatibilidade de Áries com Leão?,compatibilidade
+qual a compatibilidade de Touro com Virgem?,compatibilidade
+qual a compatibilidade de Gêmeos com Libra?,compatibilidade
+qual a compatibilidade de Câncer com Escorpião?,compatibilidade
+qual a compatibilidade de Leão com Sagitário?,compatibilidade
+qual a compatibilidade de Virgem com Capricórnio?,compatibilidade
+Áries dá certo com Leão?,compatibilidade
+Touro dá certo com Virgem?,compatibilidade
+Gêmeos dá certo com Libra?,compatibilidade
+Câncer dá certo com Escorpião?,compatibilidade
+Leão dá certo com Sagitário?,compatibilidade
+Virgem dá certo com Capricórnio?,compatibilidade
+relacionamento entre Áries e Leão,compatibilidade
+relacionamento entre Touro e Virgem,compatibilidade
+relacionamento entre Gêmeos e Libra,compatibilidade
+relacionamento entre Câncer e Escorpião,compatibilidade
+relacionamento entre Leão e Sagitário,compatibilidade
+relacionamento entre Virgem e Capricórnio,compatibilidade
+horóscopo de hoje para Áries,horoscopo_hoje
+horóscopo de hoje para Touro,horoscopo_hoje
+horóscopo de hoje para Leão,horoscopo_hoje
+horóscopo de hoje para Virgem,horoscopo_hoje
+previsão de Áries hoje,horoscopo_hoje
+previsão de Touro hoje,horoscopo_hoje
+previsão de Leão hoje,horoscopo_hoje
+previsão de Virgem hoje,horoscopo_hoje
+como está Áries hoje?,horoscopo_hoje
+como está Touro hoje?,horoscopo_hoje
+como está Leão hoje?,horoscopo_hoje
+como está Virgem hoje?,horoscopo_hoje
+o que esperar hoje para Áries?,horoscopo_hoje
+o que esperar hoje para Touro?,horoscopo_hoje
+o que esperar hoje para Leão?,horoscopo_hoje
+o que esperar hoje para Virgem?,horoscopo_hoje
+horóscopo do dia de Áries,horoscopo_hoje
+horóscopo do dia de Touro,horoscopo_hoje
+horóscopo do dia de Leão,horoscopo_hoje
+horóscopo do dia de Virgem,horoscopo_hoje
+previsão diária de Áries,horoscopo_hoje
+previsão diária de Touro,horoscopo_hoje
+previsão diária de Leão,horoscopo_hoje
+previsão diária de Virgem,horoscopo_hoje
+o que é mapa astral?,explicar_mapa_astral
+explica mapa astral,explicar_mapa_astral
+como fazer mapa astral?,explicar_mapa_astral
+mapa astral serve pra quê?,explicar_mapa_astral
+o que significa mapa astral?,explicar_mapa_astral
+qual a importância do mapa astral?,explicar_mapa_astral
+me explique sobre mapa astral,explicar_mapa_astral
+quero entender mapa astral,explicar_mapa_astral
+o que são signos de fogo?,elementos
+signos de água quais são?,elementos
+me fala sobre signos de terra,elementos
+quais os signos de ar?,elementos
+características dos signos de fogo,elementos
+oi,saudacao
+olá,saudacao
+ola,saudacao
+hey,saudacao
+e aí,saudacao
+bom dia,saudacao
+boa tarde,saudacao
+boa noite,saudacao
+tudo bem?,saudacao
+como vai?,saudacao
+"oi, tudo bem?",saudacao
+"olá, como está?",saudacao
+obrigado,agradecimento
+obrigada,agradecimento
+valeu,agradecimento
+thanks,agradecimento
+brigado,agradecimento
+muito obrigado,agradecimento
+agradeço,agradecimento
+grato,agradecimento
+grata,agradecimento

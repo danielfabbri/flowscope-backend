@@ -1,0 +1,24 @@
+# Optional dependencies for different ingestion types
+# Install only the ones you need for your use case
+
+# HTTP Pull (API requests)
+requests>=2.31.0
+
+# Database - SQL
+sqlalchemy>=2.0.0
+psycopg2-binary>=2.9.0  # PostgreSQL
+pymysql>=1.1.0  # MySQL
+pyodbc>=5.0.0  # SQL Server
+
+# Database - NoSQL
+pymongo>=4.6.0  # MongoDB and Cosmos DB (MongoDB API)
+azure-cosmos>=4.5.0  # Cosmos DB (SQL API)
+
+# Streaming
+kafka-python>=2.0.2  # Apache Kafka
+azure-eventhub>=5.11.0  # Azure Event Hub
+boto3>=1.34.0  # AWS Kinesis
+
+# File formats (mostly included in pandas)
+# openpyxl>=3.1.0  # Excel files
+# fastparquet>=2023.0.0  # Parquet files
